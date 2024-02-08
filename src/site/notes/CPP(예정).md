@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cpp/","tags":["CPP","컴퓨터언어"],"created":"2024-02-07T01:12:10.000+09:00","updated":"2024-02-08T15:55:01.001+09:00"}
+{"dg-publish":true,"permalink":"/CPP(예정)/","tags":["CPP","컴퓨터언어"],"created":"2024-02-07T01:12:10.000+09:00","updated":"2024-02-08T15:55:01.001+09:00"}
 ---
 
 
