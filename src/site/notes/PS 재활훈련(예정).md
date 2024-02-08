@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ps/","tags":["PS"],"created":"2024-02-08T15:49:17.906+09:00","updated":"2024-02-08T15:52:01.159+09:00"}
+{"dg-publish":true,"permalink":"/PS 재활훈련(예정)/","tags":["PS"],"created":"2024-02-08T15:49:17.906+09:00","updated":"2024-02-08T15:52:01.159+09:00"}
 ---
 
 
