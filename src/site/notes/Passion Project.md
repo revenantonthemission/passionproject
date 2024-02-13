@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Passion Project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-02-08T16:11:52.097+09:00"}
+{"dg-publish":true,"permalink":"/Passion Project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-02-13T22:16:32.107+09:00"}
 ---
 
 
@@ -9,20 +9,28 @@
 ---
 
 # Projects
+
 ## Food.duck()
+
 [Food.duck-App-Project](https://github.com/JennaEscher/Food.duck-App-Project)
+
 ## GitHub Blog Test (프론트엔드 맛보기)
+
 [revenantonthemission.github.io](https://github.com/revenantonthemission/revenantonthemission.github.io)
+
 ## Flutter — C++ Interface
+
 [flutterwithnative](https://github.com/revenantonthemission/flutterwithnative)
+
 ## iOS Native Application
+
 Coming Soon…
 
 ---
 # Blogs
 + [[내 멋대로 맛보기\|내 멋대로 맛보기]]
-+ [[Essays(예정)\|Essays(예정)]]
-+ [[컴퓨터언어(예정)\|컴퓨터언어(예정)]]
-+ [[자료구조&알고리즘(예정)\|자료구조&알고리즘(예정)]]
-+ [[PS 재활훈련(예정)\|PS 재활훈련(예정)]]
++ [[Essays(예정)\|Essays (예정)]]
++ [[컴퓨터언어(예정)\|컴퓨터언어 (예정)]]
++ [[자료구조&알고리즘(예정)\|자료구조 & 알고리즘 (예정)]]
++ [[PS 재활훈련(예정)\|PS 재활훈련 (예정)]]
 ---
