@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Essays(예정)/","tags":["에세이"],"created":"2024-02-08T15:32:39.848+09:00","updated":"2024-02-13T13:22:10.627+09:00"}
+{"dg-publish":true,"permalink":"/Essays(예정)/","tags":["에세이"],"noteIcon":"","created":"2024-02-08T15:32:39.848+09:00","updated":"2024-02-13T13:22:10.627+09:00"}
 ---
 
 > 그동안 써왔던 글 중 애매한 것들을 모았습니다.
