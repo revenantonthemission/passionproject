@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Passion Project/","tags":["gardenEntry"],"noteIcon":"","created":"2024-02-05T19:54:15.233+09:00","updated":"2024-02-08T16:11:52.097+09:00"}
+{"dg-publish":true,"permalink":"/Passion Project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-02-08T16:11:52.097+09:00"}
 ---
 
 
