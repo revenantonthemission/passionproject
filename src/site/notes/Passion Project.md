@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Passion Project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-02-21T11:12:43.720+09:00"}
+{"dg-publish":true,"permalink":"/Passion Project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-02-21T12:51:47.052+09:00"}
 ---
 
 
@@ -22,9 +22,9 @@
 
 [flutterwithnative](https://github.com/revenantonthemission/flutterwithnative)
 
-## iOS Native Application
+## iOS Native Application (예정)
 
-Coming Soon…
+[SwiftTrial](https://github.com/revenantonthemission/SwiftTrial)
 
 ---
 # Blogs
