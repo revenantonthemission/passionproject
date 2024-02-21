@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Passion Project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-02-15T01:26:42.684+09:00"}
+{"dg-publish":true,"permalink":"/Passion Project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-02-21T11:12:43.720+09:00"}
 ---
 
 
@@ -32,5 +32,4 @@ Coming Soon…
 + [[Essays(예정)\|Essays (예정)]]
 + [[컴퓨터언어(예정)\|컴퓨터언어 (예정)]]
 + [[자료구조&알고리즘(예정)\|자료구조 & 알고리즘 (예정)]]
-+ [[PS 재활훈련\|PS 재활훈련]]
 ---
