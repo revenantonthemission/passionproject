@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Passion Project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-02-24T21:29:48.959+09:00"}
+{"dg-publish":true,"permalink":"/Passion Project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-02-25T23:11:11.984+09:00"}
 ---
 
 
@@ -29,7 +29,7 @@
 ---
 # Blogs
 + [[내 멋대로 맛보기\|내 멋대로 맛보기]]
-+ [[Essays/Essays\|Essays (예정)]]
++ [[Essays/Essays\|Essays]]
 + [[컴퓨터언어(예정)\|컴퓨터언어 (예정)]]
 + [[자료구조&알고리즘(예정)\|자료구조 & 알고리즘 (예정)]]
 ---
