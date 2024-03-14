@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/Passion Project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-03-14T13:33:53.968+09:00"}
+{"dg-publish":true,"permalink":"/Passion Project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-03-14T13:39:12.651+09:00"}
 ---
 
 
->   # Welcome to Passion Project.
->   
+# Welcome to Passion Project.
+
 >   A **passion project** is a personal project that someone undertakes out of a strong interest or curiosity in a particular topic, idea, or skill.  It is usually a self-directed project that is not tied to any specific academic or professional requirement.  **Passion projects** can take many forms, including creative endeavors, community initiatives, research projects, or personal challenges.
+
 ---
 
 # Projects
