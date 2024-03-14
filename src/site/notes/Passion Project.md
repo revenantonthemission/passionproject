@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Passion Project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-03-14T13:30:28.223+09:00"}
+{"dg-publish":true,"permalink":"/Passion Project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-03-14T13:33:53.968+09:00"}
 ---
 
 
@@ -30,6 +30,6 @@
 # Blogs
 + [[서평/내 멋대로 맛보기\|내 멋대로 맛보기]]
 + [[Essays/Essays\|Essays]]
-+ [[프로그래밍언어/프로그래밍 언어\|프로그래밍 언어(예정)]]
++ [[프로그래밍언어/프로그래밍 언어\|프로그래밍 언어]]
 + [[자료구조&알고리즘/자료구조&알고리즘(예정)\|자료구조 & 알고리즘 (예정)]]
 ---
