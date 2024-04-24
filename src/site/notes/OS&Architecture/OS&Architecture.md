@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/OS&Architecture/OS&Architecture/","tags":["OS","컴퓨터아키텍처"],"created":"2024-04-05T17:27:42.912+09:00","updated":"2024-04-18T12:47:11.138+09:00"}
+{"dg-publish":true,"permalink":"/OS&Architecture/OS&Architecture/","tags":["OS","컴퓨터아키텍처"],"created":"2024-04-05T17:27:42.912+09:00","updated":"2024-04-19T17:40:34.338+09:00"}
 ---
-
 
 
 # Operating System & Computer Architecture
