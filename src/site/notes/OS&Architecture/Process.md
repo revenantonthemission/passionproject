@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/OS&Architecture/Process/","tags":["OS","컴퓨터아키텍처"],"created":"2024-04-17T12:49:59.542+09:00","updated":"2024-04-24T14:38:32.515+09:00"}
+{"dg-publish":true,"permalink":"/OS&Architecture/Process/","tags":["OS","컴퓨터아키텍처"],"created":"2024-04-17T12:49:59.542+09:00","updated":"2024-04-24T14:42:59.950+09:00"}
 ---
 
 
@@ -17,7 +17,7 @@
 
 [^1]: [케임브리지 대학 수학 연구소의 컴퓨터 EDSAC에 대한 1951년 영상](https://sms.cam.ac.uk/media/739532)을 통해 초창기 컴퓨터가 어떻게 사용되었는지 엿볼 수 있다. 
 [^2]: 자세한 내용은 [이 링크](https://stackoverflow.com/questions/3073948/job-task-and-process-whats-the-difference)를 통해 확인할 수 있다. 오늘날 Job과 Task는 구분없이 사용되기도 하며 그 정의가 모호하다.
-[^3]: Kamran, A. (2022)에 의하면, 커널 수준에서 프로세스나 스레드에 접근할 때 사용할 때 작업*job* 이라는 용어를 사용하기도 한다.
+[^3]: Kamran, A. (2022)에 의하면, 커널 수준에서 프로세스나 스레드를 다룰 때 작업*job* 이라는 용어를 프로세스나 스레드 대신 사용하기도 한다.
 
 ## Program to Process
 
