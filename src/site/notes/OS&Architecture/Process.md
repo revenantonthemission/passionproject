@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/OS&Architecture/Process/","tags":["OS","컴퓨터아키텍처"],"created":"2024-04-17T12:49:59.542+09:00","updated":"2024-04-24T14:58:43.864+09:00"}
+{"dg-publish":true,"permalink":"/OS&Architecture/Process/","tags":["OS","컴퓨터아키텍처"],"created":"2024-04-17T12:49:59.542+09:00","updated":"2024-04-24T15:39:29.163+09:00"}
 ---
 
 
@@ -60,6 +60,7 @@
 ### Process Layout
 
 운영체제의 관점에서, 일반적인 프로세스의 내부 구조는 다음과 같다.[^5]
+
 ![메모리 내부에 존재하는 프로세스의 레이아웃 예시](/img/user/OS&Architecture/ProcessLayout.png)
 
 프로세스에는 크게 네 개의 구역이 존재하는데, 각각 다음과 같다:
