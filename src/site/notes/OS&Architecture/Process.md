@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/OS&Architecture/Process/","tags":["OS","컴퓨터아키텍처"],"created":"2024-04-17T12:49:59.542+09:00","updated":"2024-04-24T14:50:49.862+09:00"}
+{"dg-publish":true,"permalink":"/OS&Architecture/Process/","tags":["OS","컴퓨터아키텍처"],"created":"2024-04-17T12:49:59.542+09:00","updated":"2024-04-24T14:58:43.864+09:00"}
 ---
 
 
@@ -76,7 +76,7 @@
     - 실행 중에 동적으로 할당된 메모리가 저장되어 있다.
     - 실행 중에 그 크기가 변한다.
 
-[^5]: 이 레이아웃은 운영체제가 소프트웨어를 인식하는 형태이며, 이 형태를 가상 주소 공간_Virtual Address Space_ 이라 부르기도 한다.
+[^5]: 이 레이아웃은 운영체제가 프로세스를 인식하는 형태이며, 이 형태를 가상 주소 공간_Virtual Address Space_ 이라 부르기도 한다.
 
 ### Process Control Block(PCB)
 
@@ -94,7 +94,7 @@ PCB는 프로세스마다 가지고 있는, 프로세스를 통제하기 위한 
 - Accounting Information
 - I/O Status Information
 
-### Process in Memory
+### Process on Memory
 
 ![가상 메모리와 물리 메모리](/img/user/OS&Architecture/MemoryPaging.png)
 
@@ -133,7 +133,7 @@ PCB는 프로세스마다 가지고 있는, 프로세스를 통제하기 위한 
 
 ### 더보기 (추후 변경될 수 있습니다.)
 
-+ [[OS&Architecture/ProcessOnMemory\|Process on Memory (예정)]]: 실제 메모리에 존재하는 프로세스에 대해 더 깊이 다룹니다.
++ [[OS&Architecture/ProcessOnMemory\|Process on Memory (예정)]]: 실제 메모리에 존재하는 프로세스의 메모리 구조에 대해 더 깊이 다룹니다.
 + [[OS&Architecture/PCB\|Process Context Block (예정)]]
 + [[OS&Architecture/IPC\|Interprocess Communication (예정)]]
 + [[OS&Architecture/Scheduler\|Scheduler (예정)]]
