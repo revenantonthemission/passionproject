@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Passion Project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-04-18T11:07:32.020+09:00"}
+{"dg-publish":true,"permalink":"/Passion Project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-04-26T10:27:25.568+09:00"}
 ---
 
 
@@ -28,17 +28,22 @@
 [SwiftTrial](https://github.com/revenantonthemission/SwiftTrial)
 
 ---
+
 # Blogs
+
 + [[서평/서평\|서평]]
 + [[Essays/Essays\|Essays]]
 
 ## 컴퓨터공학
+
 + [[프로그래밍언어/프로그래밍언어\|프로그래밍 언어]]
 + [[자료구조&알고리즘/자료구조&알고리즘\|자료구조 & 알고리즘]]
 + [[OS&Architecture/OS&Architecture\|OS & Architecture]]
 
 ## 언어학
+
 + 언어학 (예정)
 
 ---
+
 추후 업데이트됩니다.
