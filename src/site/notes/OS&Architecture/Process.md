@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/OS&Architecture/Process/","tags":["OS","컴퓨터아키텍처"],"created":"2024-04-17T12:49:59.542+09:00","updated":"2024-04-24T15:39:29.163+09:00"}
+{"dg-publish":true,"permalink":"/OS&Architecture/Process/","tags":["OS","컴퓨터아키텍처"],"created":"2024-04-17T12:49:59.542+09:00","updated":"2024-04-26T10:37:23.905+09:00"}
 ---
 
 
@@ -31,7 +31,8 @@
 
 + 실행 맥락과 실행을 요청한 사용자에 대한 허가를 확인한다.
 + 메인 메모리로부터 새 프로세스에 대한 메모리를 할당한다.
-+ 실행 파일의 이진 파일 내용을 할당된 메모리로 복사한다. 이는 대부분 데이터 및 텍스트 세그먼트를 포함한다.
++ 실행 파일의 이진 파일 내용을 할당된 메모리로 복사한다.
+    + 이는 대부분 데이터 및 텍스트 세그먼트를 포함한다.
 + 스택 세그먼트에 메모리 영역을 할당하고 초기 메모리 매핑을 준비한다.
 + 메인 스레드[^4] 및 스택 메모리 영역이 생성된다.
 + 커맨드 라인 인수를 메인 스레드의 스택 영역 최상단에 스택 프레임으로 복제한다.
@@ -77,14 +78,14 @@
     - 실행 중에 동적으로 할당된 메모리가 저장되어 있다.
     - 실행 중에 그 크기가 변한다.
 
-[^5]: 이 레이아웃은 운영체제가 프로세스를 인식하는 형태이며, 이 형태를 가상 주소 공간_Virtual Address Space_ 이라 부르기도 한다.
+[^5]: 이 레이아웃은 운영체제가 프로세스를 인식하는 형태이며, 이 형태를 가상 주소 공간*Virtual Address Space* 이라 부르기도 한다.
 
 ### Process Control Block(PCB)
 
 ![PCB의 레이아웃](/img/user/OS&Architecture/PCBLayout.png)
 
 운영체제는 프로세스를 추상적으로 취급하는데, 이때 하나의 프로세스를 Process Control Block(PCB)이라는 하나의 객체로 취급된다.
-PCB는 프로세스마다 가지고 있는, 프로세스를 통제하기 위한 모든 정보들의 집합으로, Task Control Block(TCB)라 부르기도 한다. 여기에는 다음의 정보가 포함되어 있다.
+PCB는 프로세스마다 가지고 있는, 프로세스를 통제하기 위한 모든 정보들의 집합으로, Task Control Block라 부르기도 한다. 여기에는 다음의 정보가 포함되어 있다.
 
 - Process State
 - Process Number: Degree of Multiprogramming
@@ -105,9 +106,9 @@ PCB는 프로세스마다 가지고 있는, 프로세스를 통제하기 위한 
 
 > 운영체제가 프로세스를 다루는 방법으로는 스케쥴링을 통한 재배치, 프로세스 간의 소통 방법인 IPC 등이 있는데, 여기서는 그 방법과 프로세스를 다루는 과정에서 발생하게 되는 상황들을 다룹니다.
 
-### Interprocess Communication(IPC)
+### Inter-process Communication(IPC)
 
-오늘날 운영체제 위에서 수많은 프로세스가 작동하고 있다. 효율적인 작업을 위해서는 프로세서 간의 소통이 필요할 때도 있다. 이를테면 프로세스끼리 데이터를 주고 받거나, 한 프로세스가 다른 프로세스의 서브루틴*subroutine* 이 되는 상황이 있다. 이렇게 프로세스끼리 서로 영향을 주고 받기 위해서는 프로세스 간 소통 시스템이 있어야 하는데, 이것이 바로 Interprocess Communication(IPC)이다. 프로세스 간 소통을 하기 위해 오늘날 운영체제에서는 공유 메모리에 프로세스들이 직접 접근하는 방법을 사용하거나, 한 프로세스가 메시지 큐*Message Queue* 의 입구에 메시지를 넣고 다른 프로세스가 큐의 출구에서 메시지를 뽑아오는 방법을 사용한다.
+오늘날 운영체제 위에서 수많은 프로세스가 작동하고 있다. 효율적인 작업을 위해서는 프로세서 간의 소통이 필요할 때도 있다. 이를테면 프로세스끼리 데이터를 주고 받거나, 한 프로세스가 다른 프로세스의 서브루틴*subroutine* 이 되는 상황이 있다. 이렇게 프로세스끼리 서로 영향을 주고 받기 위해서는 프로세스 간 소통 시스템이 있어야 하는데, 이것이 바로 Inter-process Communication(IPC)이다. 프로세스 간 소통을 하기 위해 오늘날 운영체제에서는 공유 메모리에 프로세스들이 직접 접근하는 방법을 사용하거나, 한 프로세스가 메시지 큐*Message Queue* 의 입구에 메시지를 넣고 다른 프로세스가 큐의 출구에서 메시지를 뽑아오는 방법을 사용한다.
 
 ### Scheduling
 
@@ -136,6 +137,6 @@ PCB는 프로세스마다 가지고 있는, 프로세스를 통제하기 위한 
 
 + [[OS&Architecture/ProcessOnMemory\|Process on Memory (예정)]]: 실제 메모리에 존재하는 프로세스의 메모리 구조에 대해 더 깊이 다룹니다.
 + [[OS&Architecture/PCB\|Process Context Block (예정)]]
-+ [[OS&Architecture/IPC\|Interprocess Communication (예정)]]
-+ [[OS&Architecture/Scheduler\|Scheduler (예정)]]
++ [[OS&Architecture/IPC\|Inter-process Communication (예정)]]: IPC에 대해 더 깊이 다룹니다.
++ [[OS&Architecture/Scheduler\|Scheduler (예정)]]: 스케쥴러에 대해 더 깊이 다룹니다.
 + [[OS&Architecture/ProcessInPractice\|Process in Practice (예정)]]: 실제 프로세스를 다루는 구체적인 상황들을 다룹니다.
