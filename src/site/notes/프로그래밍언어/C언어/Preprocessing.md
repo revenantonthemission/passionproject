@@ -26,11 +26,12 @@ C로 작성된 소스 코드*source code* 에서는  `#`이 빠지지 않는다.
 
 #### 1단계
 
-우리가 작성한 소스 코드는 기본적으로 UTF-8이나 EUC-KR처럼 각 문자가 특정한 방법에 따라 인코딩*encoding* 되어 있다. 우선 전처리기에서는 컴파일러가 소화할 수 있도록 이 소스 코드의 각 바이트를 소스 문자 집합*source character set* 에 속하는 문자로 변환한다. 
+우리가 작성한 소스 코드는 기본적으로 UTF-8이나 EUC-KR처럼 각 문자가 특정한 방법에 따라 인코딩*encoding* 되어 있다. 우선 전처리기에서는 컴파일러가 소화할 수 있도록 이 소스 코드의 각 바이트를 소스 문자 집합*source character set* 에 속하는 문자로 변환한다.
 
 ##### Source Character Set
 
-소스 문자 집합은 다음 96개의 문자로 구성된다: 
+소스 문자 집합은 다음 96개의 문자로 구성된다:
+
 + 스페이스, 수평 탭, 수직 탭[^4], 페이지 나누기*form feed*, 줄 바꿈*new-line*[^5]
 + `'0'`부터 `'9'`까지의 숫자 문자들 10개
 + 총 52개의 알파벳 대문자와 소문자 : `'a'`~`'z'`, `'A'`~`'Z'`
@@ -141,7 +142,7 @@ double avg(int* array, int length, average_type_t type) {
 }
 ```
 
-다음과 같이 함수와 자료형을 선언한 파일`ExtremeC_examples_chapter2_1.h`, 함수를 사용하는 main 함수가 있는 파일`ExtremeC_examples_chapter2_1_main.c`, 함수를 정의한 파일`ExtremeC_examples_chapter2_1.c`이 따로 분리되어 있는 프로젝트가 오늘의 실험 대상이다. 전처리기를 직접 사용하는 방법이 있고 컴파일러를 통해 우회적으로 사용하는 방법이 있는데, 두 방법 모두 프로젝트를 빌드하기 전에 우선 전처리의 결과만을 볼 수 있다. 
+다음과 같이 함수와 자료형을 선언한 파일`ExtremeC_examples_chapter2_1.h`, 함수를 사용하는 main 함수가 있는 파일`ExtremeC_examples_chapter2_1_main.c`, 함수를 정의한 파일`ExtremeC_examples_chapter2_1.c`이 따로 분리되어 있는 프로젝트가 오늘의 실험 대상이다. 전처리기를 직접 사용하는 방법이 있고 컴파일러를 통해 우회적으로 사용하는 방법이 있는데, 두 방법 모두 프로젝트를 빌드하기 전에 우선 전처리의 결과만을 볼 수 있다.
 
 #### gcc -E
 
