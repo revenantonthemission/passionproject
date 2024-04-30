@@ -550,7 +550,7 @@ module.exports = function (eleventyConfig) {
     },
     templateFormats: ["njk", "md", "11ty.js"],
     htmlTemplateEngine: "njk",
-    markdownTemplateEngine: "md",
+    markdownTemplateEngine: "njk",
     passthroughFileCopy: true,
   };
 };
