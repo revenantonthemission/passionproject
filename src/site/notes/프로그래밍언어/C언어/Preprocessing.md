@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/프로그래밍언어/C언어/Preprocessing/","tags":["C","프로그래밍언어","기초","전처리"],"created":"2024-03-15T12:32:38.847+09:00","updated":"2024-04-30T16:48:18.866+09:00"}
+{"dg-publish":true,"permalink":"/프로그래밍언어/C언어/Preprocessing/","tags":["C","프로그래밍언어","기초","전처리"],"created":"2024-03-15T12:32:38.847+09:00","updated":"2024-04-30T17:29:42.999+09:00"}
 ---
 
 
@@ -148,6 +148,7 @@ double avg(int* array, int length, average_type_t type) {
 대표적인 컴파일러인 GCC*GNU Compiler Collection* (이하 gcc)는 전처리를 위해 GNU C 전처리기를 사용한다. 여기서는 `ExtremeC_examples_chapter2_1.c`만을 전처리할 예정이다. gcc는 원래 컴파일을 위해 사용하지만, 전처리가 컴파일의 일부분이기 때문에 이를 이용해서 전처리 결과만을 확인할 수 있는데, 이것이 바로 gcc 컴파일러의 `-E` 옵션이다. 이 옵션을 통해 터미널에 gcc 명령을 입력하면 gcc는 전처리 이후 그 결과를 변환 단위로 터미널에 출력한다.
 
 전처리 결과는 다음과 같다.
+
 ```
 revenantonthemission@MacBook-Pro-2 PS % gcc -E ExtremeC_examples_chapter2_1.c
 # 1 "ExtremeC_examples_chapter2_1.c"
@@ -200,6 +201,7 @@ revenantonthemission@MacBook-Pro-2 PS %
 gcc 컴파일러의 `-E` 옵션은 clang 컴파일러에서도 동일한 기능을 수행한다. 이 옵션을 통해 터미널에 clang 명령을 입력하면 clang은 전처리 이후 그 결과를 변환 단위로 터미널에 출력한다.
 
 clang 컴파일러의 실행 환경은 다음과 같다.
+
 ```
 revenantonthemission@MacBook-Pro-2 PS % clang -v
 Homebrew clang version 17.0.6
@@ -208,7 +210,9 @@ Thread model: posix
 InstalledDir: /opt/homebrew/opt/llvm/bin
 revenantonthemission@MacBook-Pro-2 PS % 
 ```
+
 그리고 전처리 결과는 다음과 같다.
+
 ```
 revenantonthemission@MacBook-Pro-2 PS % clang -E ExtremeC_examples_chapter2_1.c
 # 1 "ExtremeC_examples_chapter2_1.c"
