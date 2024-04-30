@@ -1,2 +1,2 @@
 netlify/functions
-netlify/plugins/node_modules
+./.netlify/plugins/node_modules/
