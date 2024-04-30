@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/프로그래밍언어/C언어/Preprocessing/","tags":["C","프로그래밍언어","기초","전처리"],"created":"2024-03-15T12:32:38.847+09:00","updated":"2024-04-30T16:43:12.965+09:00"}
+{"dg-publish":true,"permalink":"/프로그래밍언어/C언어/Preprocessing/","tags":["C","프로그래밍언어","기초","전처리"],"created":"2024-03-15T12:32:38.847+09:00","updated":"2024-04-30T16:48:18.866+09:00"}
 ---
 
 
@@ -38,7 +38,7 @@ C로 작성된 소스 코드*source code* 에서는  `#`이 빠지지 않는다.
 
 이때 추가로 삼중자*trigraph sequence*[^6]를 변환하게 되는데, 이 과정은 C++17부터 C++에서 없어졌으며, C23을 마지막으로 C에서도 없어질 예정이다.
 
-[^4]: https://stackoverflow.com/questions/3380538/what-is-a-vertical-tab 참고. 과거 수직으로 공백을 표시해야 할 때 유용하게 사용했다고 한다.
+[^4]: [이 글](https://stackoverflow.com/questions/3380538/what-is-a-vertical-tab) 참고. 과거 수직으로 공백을 표시해야 할 때 유용하게 사용했다고 한다.
 [^5]: 이들은 모두 공백 문자*whitespace characters* 에 속한다.
 [^6]: 삼중자와 그 변환 결과에 대한 내용은 [이 글](https://en.cppreference.com/w/c/language/operator_alternative)의 Trigraphs 섹션을 참조.
 
