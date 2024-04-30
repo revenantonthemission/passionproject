@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/프로그래밍언어/C언어/Preprocessing/","tags":["C","프로그래밍언어","기초","전처리"],"created":"2024-03-15T12:32:38.847+09:00","updated":"2024-04-30T17:29:42.999+09:00"}
+{"dg-publish":true,"permalink":"/프로그래밍언어/C언어/Preprocessing/","tags":["C","프로그래밍언어","기초","전처리"],"created":"2024-03-15T12:32:38.847+09:00","updated":"2024-04-30T17:33:32.154+09:00"}
 ---
 
 
@@ -71,7 +71,7 @@ C로 작성된 소스 코드*source code* 에서는  `#`이 빠지지 않는다.
 
 ### 전처리 실례
 
-```C
+```
 // File name: ExtremeC_examples_chapter2_1.h
 // Description: Contains the declaration needed for the 'avg' function
 
@@ -90,7 +90,7 @@ double avg(int*, int, average_type_t);
 #endif
 ```
 
-```C
+```
 // File name: ExtremeC_examples_chapter2_1_main.c
 // Description: Contains the 'main' function
 
@@ -119,7 +119,7 @@ int main(int argc, char** argv) {
 }
 ```
 
-```C
+```
 // File name: ExtremeC_examples_chapter2_1.c
 // Description: Contains the definition of the function 'avg'
 
