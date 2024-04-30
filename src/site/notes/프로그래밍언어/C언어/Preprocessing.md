@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/프로그래밍언어/C언어/Preprocessing/","tags":["C","프로그래밍언어","기초","전처리"],"created":"2024-03-15T12:32:38.847+09:00","updated":"2024-04-30T17:33:32.154+09:00"}
+{"dg-publish":true,"permalink":"/프로그래밍언어/C언어/Preprocessing/","tags":["C","프로그래밍언어","기초","전처리"],"created":"2024-03-15T12:32:38.847+09:00","updated":"2024-04-30T17:35:29.170+09:00"}
 ---
 
 
@@ -71,7 +71,7 @@ C로 작성된 소스 코드*source code* 에서는  `#`이 빠지지 않는다.
 
 ### 전처리 실례
 
-```
+```C
 // File name: ExtremeC_examples_chapter2_1.h
 // Description: Contains the declaration needed for the 'avg' function
 
@@ -90,7 +90,7 @@ double avg(int*, int, average_type_t);
 #endif
 ```
 
-```
+```C
 // File name: ExtremeC_examples_chapter2_1_main.c
 // Description: Contains the 'main' function
 
@@ -119,7 +119,7 @@ int main(int argc, char** argv) {
 }
 ```
 
-```
+```C
 // File name: ExtremeC_examples_chapter2_1.c
 // Description: Contains the definition of the function 'avg'
 
@@ -149,7 +149,7 @@ double avg(int* array, int length, average_type_t type) {
 
 전처리 결과는 다음과 같다.
 
-```
+```text
 revenantonthemission@MacBook-Pro-2 PS % gcc -E ExtremeC_examples_chapter2_1.c
 # 1 "ExtremeC_examples_chapter2_1.c"
 # 1 "<built-in>" 1
@@ -202,7 +202,7 @@ gcc 컴파일러의 `-E` 옵션은 clang 컴파일러에서도 동일한 기능�
 
 clang 컴파일러의 실행 환경은 다음과 같다.
 
-```
+```text
 revenantonthemission@MacBook-Pro-2 PS % clang -v
 Homebrew clang version 17.0.6
 Target: arm64-apple-darwin23.4.0
@@ -213,7 +213,7 @@ revenantonthemission@MacBook-Pro-2 PS %
 
 그리고 전처리 결과는 다음과 같다.
 
-```
+```text
 revenantonthemission@MacBook-Pro-2 PS % clang -E ExtremeC_examples_chapter2_1.c
 # 1 "ExtremeC_examples_chapter2_1.c"
 # 1 "<built-in>" 1
@@ -264,7 +264,7 @@ revenantonthemission@MacBook-Pro-2 PS %
 
 대부분의 유닉스 계열 운영체제에는 cpp*C Pre-Processor* 라는 도구가 있는데, 유닉스 계열 운영체제에 포함된 C 개발 번들의 일부이며 C 파일을 전처리할 때 사용할 수 있다. 앞서 살펴본 gcc와 같은 C 컴파일러가 전처리 과정에서 사용하는 도구다. 보통은 컴파일러가 백그라운드에서 사용하지만, 아래와 같이 직접 사용할 수도 있다.
 
-```
+```text
 revenantonthemission@MacBook-Pro-2 PS % cpp ExtremeC_examples_chapter2_1.c
 # 1 "ExtremeC_examples_chapter2_1.c"
 # 1 "<built-in>" 1
@@ -318,7 +318,7 @@ revenantonthemission@MacBook-Pro-2 PS %
 
 전처리의 결과로 만들어진 컴파일 단위(변환 단위)는 `.c` 확장자를 가지는 소스 파일과 달리 `.i` 확장자를 가진다. 따라서 `.i` 확장자를 가진다는 것은 전처리 과정을 이미 마쳤다는 뜻이며, 따라서 곧바로 컴파일 단계로 보내야 한다. 이런 파일을 전처리기로 보낼 경우, 컴파일러가 이미 파일이 전처리되었다는 경고 메시지를 보낸다.
 
-```
+```text
 revenantonthemission@MacBook-Pro-2 PS % clang -E ExtremeC_examples_chapter2_1.c > ex2_1.i
 revenantonthemission@MacBook-Pro-2 PS % clang -E ex2_1.i
 clang: warning: ex2_1.i: previously preprocessed input [-Wunused-command-line-argument]
