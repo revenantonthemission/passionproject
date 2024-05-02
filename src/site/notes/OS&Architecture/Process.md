@@ -139,4 +139,4 @@ PCB는 프로세스마다 가지고 있는, 프로세스를 통제하기 위한 
 + [[OS&Architecture/PCB\|Process Context Block (예정)]]
 + [[OS&Architecture/IPC\|Inter-process Communication (예정)]]: IPC에 대해 더 깊이 다룹니다.
 + [[OS&Architecture/Scheduler\|Scheduler (예정)]]: 스케쥴러에 대해 더 깊이 다룹니다.
-+ [[OS&Architecture/ProcessInPractice\|Process in Practice (예정)]]: 실제 프로세스를 다루는 구체적인 상황들을 다룹니다.
++ [[ProcessInPractice\|Process in Practice (예정)]]: 실제 프로세스를 다루는 구체적인 상황들을 다룹니다.
