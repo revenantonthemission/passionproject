@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/프로그래밍언어/C언어/Preprocessing/","tags":["C","프로그래밍언어","기초","전처리"],"created":"2024-03-15T12:32:38.847+09:00","updated":"2024-05-01T00:42:50.752+09:00"}
+{"dg-publish":true,"permalink":"/프로그래밍언어/C언어/Preprocessing/","tags":["C","프로그래밍언어","기초","전처리"],"created":"2024-03-15T12:32:38.847+09:00","updated":"2024-05-02T23:53:59.292+09:00"}
 ---
 
 
@@ -20,7 +20,7 @@ C로 작성된 소스 코드*source code* 에서는  `#`이 빠지지 않는다.
 
 ### 전처리 과정의 구체적인 단계
 
-그런데 놀랍게도 C 전처리기는 전처리 과정의 모든 영역을 담당하지 않는다. 구체적으로 전처리 과정은 C의 컴파일 파이프라인이라고 할 수 있는 [Phases of Translation](https://en.cppreference.com/w/c/language/translation_phases) 중 1~4단계에 해당하는데, C 전처리기는 그중 4단계를 담당한다.
+구체적으로 전처리 과정은 C의 컴파일 파이프라인이라고 할 수 있는 [Phases of Translation](https://en.cppreference.com/w/c/language/translation_phases) 중 1~4단계에 해당한다.
 
 각 단계는 다음과 같다:
 
@@ -67,9 +67,9 @@ C로 작성된 소스 코드*source code* 에서는  `#`이 빠지지 않는다.
 
 #### 4단계
 
-마지막 단계에서 전처리기가 실행되며, `#include` 지시자와 함께 사용된 파일들 또한 1~4단계를 거친다. 이 과정을 통해 소스 코드 전체에서 전처리기 지시자는 사라지고 컴파일러에 입력되는 하나의 논리 단위가 완성되며 이것을 컴파일 단위*compile unit* 또는 변환 단위*translation unit* 이라 부른다.
+마지막 단계에서 `#include` 지시자와 함께 사용된 파일들 또한 1~4단계를 거친다. 이 과정을 통해 소스 코드 전체에서 전처리기 지시자는 사라지고 컴파일러에 입력되는 하나의 논리 단위가 완성되며 이것을 컴파일 단위*compile unit* 또는 변환 단위*translation unit* 이라 부른다.
 
-### 전처리 실례
+### 실제 전처리 과정 살펴보기
 
 ```C
 // File name: ExtremeC_examples_chapter2_1.h
@@ -333,6 +333,7 @@ revenantonthemission@MacBook-Pro-2 PS %
 
 + Amini, K. (2022). *전문가를 위한 C* (박지윤, Trans.; 1st ed.). 한빛미디어.
 + http://www.chiark.greenend.org.uk/doc/cpp-4.3-doc/cppinternals.html - GNU C Preprocessor의 내부 구조를 설명하는 공식 문서.
++ https://gcc.gnu.org/onlinedocs/gcc-2.95.3/cpp_1.html - GNU C Preprocessor에 대한 개요.
 + https://en.wikipedia.org/wiki/C_preprocessor - C 전처리기에 대한 위키피디아 페이지.
 + https://www.youtube.com/watch?v=6KNdGnUiRBM - The Preprocessor: Everything You Need to Know and More! - Brian Ruth - CppCon 2021
 + https://en.cppreference.com/w/c/language/translation_phases - Phases of translation
