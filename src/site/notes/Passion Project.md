@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Passion Project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-05-09T10:26:02.613+09:00"}
+{"dg-publish":true,"permalink":"/Passion Project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-05-09T15:30:10.387+09:00"}
 ---
 
 
@@ -42,7 +42,7 @@
 
 ## 언어학
 
-+ 언어학 (예정)
++ [[언어학/Linguistics\|언어학(예정)]]
 
 ---
 
