@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/자료구조&알고리즘/Computational Thinking/","tags":["자료구조","알고리즘","기초"],"created":"2024-04-02T16:42:42.068+09:00","updated":"2024-04-02T18:34:31.250+09:00"}
+{"dg-publish":true,"permalink":"/자료구조&알고리즘/Computational Thinking/","tags":["자료구조","알고리즘","기초"],"created":"2024-04-02T16:42:42.068+09:00","updated":"2024-05-09T10:26:14.257+09:00"}
 ---
 
 
@@ -30,4 +30,4 @@
 + https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1
 
 ### 더보기
-+ [[자료구조&알고리즘/자료구조개념\|자료구조의 구현 과정]]
++ [[자료구조&알고리즘/DataStructureIntro\|자료구조의 구현 과정]]
