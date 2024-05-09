@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/OS&Architecture/Process/","tags":["OS","컴퓨터아키텍처"],"created":"2024-04-17T12:49:59.542+09:00","updated":"2024-04-27T17:11:54.000+09:00"}
+{"dg-publish":true,"permalink":"/OS&Architecture/Process/","tags":["OS","컴퓨터아키텍처"],"created":"2024-04-17T12:49:59.542+09:00","updated":"2024-05-03T09:39:17.575+09:00"}
 ---
 
 
@@ -45,11 +45,11 @@
 
 또한 새로운 프로세스를 만들 때는 세 가지 옵션을 설정할 수 있다.
 
-- Resource Sharing Option: 프로세스 간의 자원 공유에 대한 옵션이다.
+- Resource Sharing Option: 프로세스 간의 자원 공유*resource sharing*에 대한 옵션이다.
     - 부모와 자식 프로세스가 모든 자원을 공유.
     - 자식 프로세스가 부모 프로세스의 자원 중 일부만 공유.
     - 부모 와 자식 프로세스가 서로 자원을 공유하지 않는다.
-- Execution Option: 프로세스의 동시 실행에 대한 옵션이다.
+- Execution Option: 프로세스의 동시 실행*execution*에 대한 옵션이다.
     - 부모와 자식 프로세스가 번갈아 가며 동시에 실행될 수 있다.
     - 자식 프로세스가 종료되어야 부모 프로세스가 실행된다.
 - Address Space Option: 프로세스의 주소 공간*Address Space* 에 대한 옵션이다.
