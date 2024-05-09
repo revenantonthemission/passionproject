@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Passion Project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-05-09T16:06:30.783+09:00"}
+{"dg-publish":true,"permalink":"/Passion Project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-05-09T16:10:56.026+09:00"}
 ---
 
 
@@ -31,18 +31,18 @@
 
 # Blogs
 
-+ [[BookReview/BookReview\|서평]]
++ [[BookReview/Home\|서평]]
 + [[Essays/Essays\|Essays]]
 
 ## 컴퓨터공학
 
-+ [[프로그래밍언어/ProgrammingLanguage\|프로그래밍 언어]]
-+ [[자료구조&알고리즘/DataStructureAlgorithm\|자료구조 & 알고리즘]]
-+ [[OS&Architecture/OS&Architecture\|OS & Architecture]]
++ [[프로그래밍언어/Home\|프로그래밍 언어]]
++ [[자료구조&알고리즘/Home\|자료구조 & 알고리즘]]
++ [[OS&Architecture/Home\|OS & Architecture]]
 
 ## 언어학
 
-+ [[언어학/Linguistics\|언어학(예정)]]
++ [[언어학/Home\|언어학(예정)]]
 
 ---
 
