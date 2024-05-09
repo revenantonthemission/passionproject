@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/OS&Architecture/Process/","tags":["OS","컴퓨터아키텍처"],"created":"2024-04-17T12:49:59.542+09:00","updated":"2024-05-03T09:39:17.575+09:00"}
+{"dg-publish":true,"permalink":"/OS&Architecture/Process/","tags":["OS","컴퓨터아키텍처"],"created":"2024-04-17T12:49:59.542+09:00","updated":"2024-05-09T14:47:14.612+09:00"}
 ---
 
 
@@ -139,4 +139,4 @@ PCB는 프로세스마다 가지고 있는, 프로세스를 통제하기 위한 
 + [[OS&Architecture/PCB\|Process Context Block (예정)]]
 + [[OS&Architecture/IPC\|Inter-process Communication (예정)]]: IPC에 대해 더 깊이 다룹니다.
 + [[OS&Architecture/Scheduler\|Scheduler (예정)]]: 스케쥴러에 대해 더 깊이 다룹니다.
-+ [[ProcessInPractice\|Process in Practice (예정)]]: 실제 프로세스를 다루는 구체적인 상황들을 다룹니다.
++ [[ProcessInPractice 1\|Process in Practice (예정)]]: 실제 프로세스를 다루는 구체적인 상황들을 다룹니다.
