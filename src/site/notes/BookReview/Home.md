@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/BookReview/Home/","tags":["내멋대로맛보기"],"created":"2024-02-08T15:27:29.404+09:00","updated":"2024-05-09T16:03:28.040+09:00"}
+{"dg-publish":true,"permalink":"/BookReview/Home/","tags":["내멋대로맛보기"],"created":"2024-02-08T15:27:29.404+09:00","updated":"2024-05-27T14:59:06.304+09:00"}
 ---
 
 
@@ -12,21 +12,9 @@
 
 ## 목록
 
-### <사랑의 기술> 맛보기
-+ [[BookReview/ArtofLoving/0\|<사랑의 기술> 맛보기 - 0]]
-+ [[BookReview/ArtofLoving/1\|<사랑의 기술> 맛보기 - 1]]
-+ [[BookReview/ArtofLoving/2\|<사랑의 기술> 맛보기 - 2]]
-+ [[BookReview/ArtofLoving/3\|<사랑의 기술> 맛보기 - 3]]
-+ [[BookReview/ArtofLoving/4\|<사랑의 기술> 맛보기 - 4]]
-+ [[BookReview/ArtofLoving/5\|<사랑의 기술> 맛보기 - 5]]
-+ [[BookReview/ArtofLoving/6\|<사랑의 기술> 맛보기 - 6]]
++ [[BookReview/ArtofLoving\|『사랑의 기술』 맛보기]]
++ [[BookReview/OnBS\|『개소리에 대하여』 맛보기]]
 
-### <개소리에 대하여> 맛보기
-+ [[BookReview/OnBS/0\|<개소리에 대하여> 맛보기 - 0]]
-+ [[BookReview/OnBS/1\|<개소리에 대하여> 맛보기 - 1]]
-+ [[BookReview/OnBS/2\|<개소리에 대하여> 맛보기 - 2]]
-+ [[BookReview/OnBS/3\|<개소리에 대하여> 맛보기 - 3]]
-+ [[BookReview/OnBS/4\|<개소리에 대하여> 맛보기 - 4]]
 
 ---
 
