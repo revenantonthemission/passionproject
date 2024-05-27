@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Passion Project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-05-21T15:55:02.548+09:00"}
+{"dg-publish":true,"permalink":"/Passion Project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-05-27T16:46:57.568+09:00"}
 ---
 
 
@@ -39,6 +39,7 @@
 + [[프로그래밍언어/Home\|프로그래밍 언어]]
 + [[자료구조&알고리즘/Home\|자료구조 & 알고리즘]]
 + [[OS&Architecture/Home\|OS & Architecture]]
++ [[ProgrammingParadigm/Home\|프로그램 설계방법론]]
 
 ## 언어학
 
