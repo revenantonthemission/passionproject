@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Linguistics/Home/","tags":["언어학"],"created":"2024-04-05T17:39:49.766+09:00","updated":"2024-05-09T15:34:06.995+09:00"}
+{"dg-publish":true,"permalink":"/Linguistics/Home/","tags":["언어학"],"created":"2024-04-05T17:39:49.766+09:00","updated":"2024-05-28T17:10:02.925+09:00"}
 ---
 
 
@@ -11,7 +11,7 @@
 
 ## 목록
 
-+ 언어와 언어학 (예정)
++ [[Linguistics/IPA\|IPA (예정)]]
 
 ---
 추후 업데이트됩니다.
