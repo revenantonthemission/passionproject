@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ProgrammingLanguage/Home/","tags":["프로그래밍언어"],"created":"2024-02-08T15:40:33.742+09:00","updated":"2024-05-28T16:41:26.023+09:00"}
+{"dg-publish":true,"permalink":"/ProgrammingLanguage/Home/","tags":["프로그래밍언어"],"created":"2024-02-08T15:40:33.742+09:00","updated":"2024-05-29T10:43:50.919+09:00"}
 ---
 
 
@@ -20,16 +20,16 @@
 + [[ProgrammingLanguage/CPP\|C++(예정)]]
 
 ## Python 맛보기
-+ [[ProgrammingLanguage/Python\|Python(예정)]]
++ [[ProgrammingLanguage/Python/Home\|Python(예정)]]
 
 ## Java 맛보기
-+ [[ProgrammingLanguage/Java\|Java(예정)]]
++ [[ProgrammingLanguage/Java/Home\|Java(예정)]]
 
 ## Dart 맛보기
-+ [[ProgrammingLanguage/Dart\|Dart(예정)]]
++ [[ProgrammingLanguage/Dart/Home\|Dart(예정)]]
 
 ## Swift 맛보기
-+ [[ProgrammingLanguage/Swift\|Swift(예정)]]
++ [[ProgrammingLanguage/Swift/Home\|Swift(예정)]]
 
 ## Rust 맛보기
 + [[ProgrammingLanguage/Rust/Home\|Home]]
