@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/ProgrammingLanguage/Home/","tags":["프로그래밍언어"],"created":"2024-02-08T15:40:33.742+09:00","updated":"2024-05-29T10:43:50.919+09:00"}
+{"dg-publish":true,"permalink":"/ProgrammingLanguage/Home/","tags":["프로그래밍언어"],"created":"2024-02-08T15:40:33.742+09:00","updated":"2024-05-29T15:23:06.901+09:00"}
 ---
 
 
 # 프로그래밍 언어
 
-> 혹시 처음 코딩을 배웠던 때를 기억하시나요? 저는 프로그래밍 언어를 가장 먼저 배웠습니다. 학원에서 Visual C++ 6.0을 켜고 그 위에 오늘날 코딩 테스트에 나올 법한 문제들을 풀어가며 프로그래밍 언어를 익혔던 그 시절이 아직도 기억에 남아 있습니다.
+> 혹시 처음 코딩을 배웠던 때를 기억하시나요? 학원에서 Visual C++ 6.0을 켜고 그 위에 오늘날 코딩 테스트에 나올 법한 문제들을 풀어가며 프로그래밍 언어를 익혔던 그 시절이 아직도 제 기억에 남아 있습니다.
 >
 > 지금 그 시대가 곧 저물 것처럼 보입니다. 인간의 언어를 전혀 이해하지 못했던 컴퓨터는 생성형 AI가 등장하면서 인간의 언어를 이해할 수 있게 되었고, 덕분에 프로그래밍의 진입장벽은 점점 낮아지고 있으며 프로그래밍 언어를 공부하는 것 자체에 회의를 가지는 사람들도 있습니다. AI의 파도가 다가오는 이 시기에 어쩌면 프로그래밍 언어는 잃어버린 고대의 지식이 될지도 모르겠습니다.
 >
@@ -13,26 +13,14 @@
 
 ---
 
-## C 맛보기
- + [[ProgrammingLanguage/C/Home\|Home]]
+## 목록
 
-## C++ 맛보기
-+ [[ProgrammingLanguage/CPP\|C++(예정)]]
-
-## Python 맛보기
-+ [[ProgrammingLanguage/Python/Home\|Python(예정)]]
-
-## Java 맛보기
++ [[ProgrammingLanguage/C/Home\|C]]
++ [[ProgrammingLanguage/Dart/Home\|Dart]]
++ [[ProgrammingLanguage/Rust/Home\|Rust]]
++ [[ProgrammingLanguage/CPP/Home\|C++(예정)]]
 + [[ProgrammingLanguage/Java/Home\|Java(예정)]]
-
-## Dart 맛보기
-+ [[ProgrammingLanguage/Dart/Home\|Dart(예정)]]
-
-## Swift 맛보기
 + [[ProgrammingLanguage/Swift/Home\|Swift(예정)]]
-
-## Rust 맛보기
-+ [[ProgrammingLanguage/Rust/Home\|Home]]
 
 ---
 
