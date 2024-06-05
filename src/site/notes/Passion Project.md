@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Passion Project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-05-28T17:00:33.940+09:00"}
+{"dg-publish":true,"permalink":"/Passion Project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-05-30T10:35:09.783+09:00"}
 ---
 
 
@@ -46,5 +46,3 @@
 + [[Linguistics/Home\|언어학]]
 
 ---
-
-추후 업데이트됩니다.
