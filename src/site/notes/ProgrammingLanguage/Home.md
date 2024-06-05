@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ProgrammingLanguage/Home/","tags":["프로그래밍언어"],"created":"2024-02-08T15:40:33.742+09:00","updated":"2024-05-29T15:23:06.901+09:00"}
+{"dg-publish":true,"permalink":"/ProgrammingLanguage/Home/","tags":["프로그래밍언어"],"created":"2024-02-08T15:40:33.742+09:00","updated":"2024-05-29T15:45:59.871+09:00"}
 ---
 
 
@@ -20,6 +20,7 @@
 + [[ProgrammingLanguage/Rust/Home\|Rust]]
 + [[ProgrammingLanguage/CPP/Home\|C++(예정)]]
 + [[ProgrammingLanguage/Java/Home\|Java(예정)]]
++ [[ProgrammingLanguage/Python/Home\|Python(예정)]]
 + [[ProgrammingLanguage/Swift/Home\|Swift(예정)]]
 
 ---
