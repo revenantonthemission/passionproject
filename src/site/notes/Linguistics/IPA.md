@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Linguistics/IPA/","tags":["언어학","IPA"],"created":"2024-05-28T17:09:38.717+09:00","updated":"2024-06-11T17:02:35.336+09:00"}
+{"dg-publish":true,"permalink":"/Linguistics/IPA/","tags":["언어학","IPA"],"created":"2024-05-28T17:09:38.717+09:00","updated":"2024-06-11T22:20:59.843+09:00"}
 ---
 
 
@@ -17,7 +17,7 @@ IPA를 구성하는 요소는 크게 기본 문자*Letter*, 기본 문자에 붙
 
 ## 말소리의 구분
 
-말소리는 자음*Consonant*, 모음*Vowel*, 그리고 초분절음소*Suprasegmental*로 구분하는데, 소리의 생성을 기준으로 소리를 구분하며 이에 따라 각각의 소리는 발성 유형*Airstream Mechanism* , 조음 위치*Place of Articulation*, 조음 방법*Manner of Articulation*등을 기준으로 세분화된다.
+말소리는 크게 자음*Consonant*, 모음*Vowel*, 그리고 초분절음소*Suprasegmental*로 구분하고 생성 원리에 따라 발성 유형*Airstream Mechanism* , 조음 위치*Place of Articulation*, 조음 방법*Manner of Articulation*등을 기준으로 세분화된다.
 
 ### 발성 유형
 
@@ -25,9 +25,9 @@ IPA를 구성하는 요소는 크게 기본 문자*Letter*, 기본 문자에 붙
 
 따라서 인간의 말소리는 기류의 세가지 기원(Pulmonic, Glottalic, Velaric)과 두가지 방향(Ingressive, Egressive)에 의해 총 여섯가지로 분류할 수 있다.
 
-|    | Pulmonic | Glottalic | Velaric |
-| :---: | :---: | :---: | :---: |
-| Egressive | 대부분의 말소리 | 방출음*Ejective* | - |
+|            |  Pulmonic   |   Glottalic    |  Velaric   |
+| :--------: | :---------: | :------------: | :--------: |
+| Egressive  |  대부분의 말소리   | 방출음*Ejective*  |     -      |
 | Ingressive | 일부 비음화된 흡착음 | 내파음*Implosive* | 흡착음*Click* |
 
 + 방출음*Ejective*은 성문에서 시작해*Glottalic* 공기를 내보내고*Egressive*, 내파음*Implosive*은 반대로 공기를 흡입한다*Ingressive*.
