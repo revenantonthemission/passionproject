@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Linguistics/IPA/","tags":["언어학","IPA"],"created":"2024-05-28T17:09:38.717+09:00","updated":"2024-06-11T11:49:22.159+09:00"}
+{"dg-publish":true,"permalink":"/Linguistics/IPA/","tags":["언어학","IPA"],"created":"2024-05-28T17:09:38.717+09:00","updated":"2024-06-11T11:51:02.465+09:00"}
 ---
 
 
@@ -38,7 +38,7 @@ IPA를 구성하는 요소는 크게 기본 문자*Letter*, 기본 문자에 붙
 
 이제 본격적으로 표를 살펴볼 때가 됐다. 앞서 살펴본 문자의 구성 요소와 말소리의 구성 요소를 기준으로 전체 표를 나눌 수 있다.
 
-![[IPA_Kiel_2019_full_kor_Korean.pdf]]
+![IPATable.jpg](/img/user/Linguistics/IPATable.jpg)
 
 ### Letters
 
