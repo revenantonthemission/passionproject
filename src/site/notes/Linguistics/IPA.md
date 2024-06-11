@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Linguistics/IPA/","tags":["언어학","IPA"],"created":"2024-05-28T17:09:38.717+09:00","updated":"2024-06-11T16:52:28.165+09:00"}
+{"dg-publish":true,"permalink":"/Linguistics/IPA/","tags":["언어학","IPA"],"created":"2024-05-28T17:09:38.717+09:00","updated":"2024-06-11T16:58:45.667+09:00"}
 ---
 
 
@@ -188,6 +188,6 @@ IPA를 잘 활용하면 외국어의 발음을 은연중에 모국어의 발음�
 ## 참고 자료
 
 + 박종한. 중국어의 비밀. 서울: 궁리, 2012.
-+ [IPA 한국어 번역본](./IPA_Kiel_2019_full_kor_Korean.pdf)
++ <a href="/Linguistics/IPA_Kiel_2019_full_kor_Korean.pdf" target="_blank">IPA 한국어 번역본</a>
 + [International Phonetic Alphabet - Wikipedia](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet)
 + Barrie, M. (2022). *Introduction to Linguistics*.
