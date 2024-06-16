@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ProgrammingLanguage/Rust/BeforeWeGo/","tags":["Rust","프로그래밍언어"],"created":"2024-04-26T11:33:10.588+09:00","updated":"2024-06-05T15:17:55.688+09:00"}
+{"dg-publish":true,"permalink":"/ProgrammingLanguage/Rust/BeforeWeGo/","tags":["Rust","프로그래밍언어"],"created":"2024-04-26T11:33:10.588+09:00","updated":"2024-06-14T14:11:33.848+09:00"}
 ---
 
 
@@ -68,7 +68,7 @@ rustup component add rustfmt
 ```bash
 rustup component add clippy
 ```
-프로젝트에서 사용하기 위해서는 프로젝트의 최상단 디렉토리에서 `cargo clippy`를 실행하면 된다.
+프로젝트에서 사용하기 위해서는 프로젝트의 최상단 디렉토리에서 `cargo clippy`를 실행하면 된다. 이 정도면 러스트를 배울 준비가 됐다고 생각하고 본격적으로 러스트에 대해 알아볼 것이다.
 
 ---
 
