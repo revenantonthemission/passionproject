@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/programming-language/c/preprocessing-directive/","tags":["C","프로그래밍언어","기초","전처리"],"created":"2024-05-10T13:17:19.000+09:00","updated":"2024-06-21T02:31:52.671+09:00"}
+{"dg-publish":true,"permalink":"/programming-language/c/preprocessing-directive/","tags":["C","프로그래밍언어","기초","전처리"],"created":"2024-05-10T13:17:19.000+09:00","updated":"2024-06-21T02:34:01.418+09:00"}
 ---
 
 
@@ -15,19 +15,19 @@ C의 지시자는 모두 `#`으로 시작한다.
 
 + `#`
 + `##`
-+ ` \#define `
-+ ` \#error `
-+ `\#include`
-+ `\#if`
-+ `\#ifdef`
-+ `\#ifndef`
-+ `\#pragma`
-+ `\#undef`
++ `#define`
++ `#error`
++ `#include`
++ `#if`
++ `#ifdef`
++ `#ifndef`
++ `#pragma`
++ `#undef`
 + ...
 
 그 중 전처리기 지시자는 크게 매크로*macro*를 정의할 때 사용하는 전처리기 지시자와 조건부 컴파일*conditional compile*에 사용하는 전처리기 지시자로 나눌 수 있고, 이 외에도 다른 파일의 내용을 가져오는 `#include`나 컴파일 과정에서 사용할 정보를 전달하기 위한 `#error`나 `#pragma` 등이 있다.
 
-### ` #include `
+### `#include`
 
 표준 입출력과 같이 수많은 소스 코드에서 공통적으로 사용하는 코드를 `.h`확장자를 가진 헤더 파일*header file* 안에 모은 다음, 사용하고자 하는 파일에 포함시킬 때 `#include` 지시자를 사용해 헤더 파일의 내용을 불러오는 것이 C/C++로 작성된 모든 프로젝트의 기본 틀이다. 전처리 과정을 거치고 나면 포함하려는 파일의 코드가 그대로 복사된다.
 
