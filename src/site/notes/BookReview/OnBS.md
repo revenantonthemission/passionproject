@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/BookReview/OnBS/","tags":["개소리에대하여","내멋대로맛보기"],"created":"2024-05-27T14:28:07.426+09:00","updated":"2024-05-27T14:30:59.504+09:00"}
+{"dg-publish":true,"permalink":"/book-review/on-bs/","tags":["개소리에대하여","내멋대로맛보기"],"created":"2024-05-27T14:28:07.426+09:00","updated":"2024-05-27T14:30:59.504+09:00"}
 ---
 
 # 『개소리에 대하여』 맛보기

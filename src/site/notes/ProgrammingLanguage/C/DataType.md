@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ProgrammingLanguage/C/DataType/","tags":["C","프로그래밍언어","기초"],"created":"2024-05-03T09:44:29.138+09:00","updated":"2024-05-10T16:49:08.000+09:00"}
+{"dg-publish":true,"permalink":"/programming-language/c/data-type/","tags":["C","프로그래밍언어","기초"],"created":"2024-05-03T09:44:29.138+09:00","updated":"2024-05-10T16:49:08.000+09:00"}
 ---
 
 

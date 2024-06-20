@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ProgrammingLanguage/Rust/Home/","tags":["Rust","프로그래밍언어"],"created":"2024-04-04T18:03:39.747+09:00","updated":"2024-06-14T14:11:43.448+09:00"}
+{"dg-publish":true,"permalink":"/programming-language/rust/home/","tags":["Rust","프로그래밍언어"],"created":"2024-04-04T18:03:39.747+09:00","updated":"2024-06-14T14:11:43.448+09:00"}
 ---
 
 

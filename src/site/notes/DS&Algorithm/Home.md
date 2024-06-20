@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/DS&Algorithm/Home/","tags":["자료구조","알고리즘"],"created":"2024-02-08T15:47:31.113+09:00","updated":"2024-05-28T16:41:08.541+09:00"}
+{"dg-publish":true,"permalink":"/ds-and-algorithm/home/","tags":["자료구조","알고리즘"],"created":"2024-02-08T15:47:31.113+09:00","updated":"2024-05-28T16:41:08.541+09:00"}
 ---
 
 
