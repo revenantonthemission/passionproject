@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ProgrammingLanguage/C/PreprocessingDirective/","tags":["C","프로그래밍언어","기초","전처리"],"created":"2024-05-10T13:17:19.000+09:00","updated":"2024-06-21T01:41:33.608+09:00"}
+{"dg-publish":true,"permalink":"/ProgrammingLanguage/C/PreprocessingDirective/","tags":["C","프로그래밍언어","기초","전처리"],"created":"2024-05-10T13:17:19.000+09:00","updated":"2024-06-21T01:51:55.729+09:00"}
 ---
 
 
@@ -302,11 +302,9 @@ int main() {
 
 [^2]: 보안상 안전하지 않다는 이유로 `printf`나 `scanf`같은 보편적인 입출력 함수를 제대로 사용하지 못하는 상황은 특히 초심자들에게 좋은 상황은 아니다.
 
-출처: 
-
 #### 헤더 가드
 
-간편함과 속도 향상을 이유로 헤더 가드를 위한 코드를 작성할 때 `#ifndef` - `#define` - `#endif` 패턴 대신 `#pragma once`를 사용하는 경우도 적지 않다. `#pragma once`를 사용한 파일은 컴파일 당 오직 한 번만 포함될 수 있기 때문에, 만약 `#include` 지시자를 통해 `#pragma once`가 있는 헤더 파일을 컴파일 과정에서 두 번 부르게 된다면 컴파일 에러가 발생한다. 다만 `#pragma once`를 사용할 때는 이 지시자를 지원하지 않는 컴파일러가 있다는 점[^3]에 유의해야 한다.
+간편함과 속도 향상을 이유로 헤더 가드를 위한 코드를 작성할 때 `#ifndef` - `#define` - `#endif` 패턴 대신 `#pragma once`를 사용하는 경우도 적지 않다. `#pragma once`를 사용한 파일은 컴파일 당 오직 한 번만 포함될 수 있기 때문에, 만약 `#include` 지시자를 통해 `#pragma once`가 있는 헤더 파일을 컴파일 과정에서 두 번 부르게 된다면 컴파일 에러가 발생한다. 다만 `\#pragma once`를 사용할 때는 이 지시자를 지원하지 않는 컴파일러가 있다는 점[^3]에 유의해야 한다.
 
 ```C
 #pragma once
