@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/programming-language/c/data-type/","tags":["C","프로그래밍언어","기초"],"created":"2024-05-03T09:44:29.138+09:00","updated":"2024-05-10T16:49:08.000+09:00"}
+{"dg-publish":true,"permalink":"/programming-language/c/data-type/","tags":["C","프로그래밍언어","기초"],"created":"2024-05-03T09:44:29.138+09:00","updated":"2024-06-27T22:42:11.089+09:00"}
 ---
 
 
@@ -130,6 +130,7 @@ ASCII는 0부터 127까지의 7비트 정수 하나에 문자가 하나씩 대�
 
 `float`는 기본 정밀도를 사용하는 4바이트 실수 자료형이며, `double`은 2배 정밀도를 사용하는 8바이트 실수 자료형이다.
 
+
 [^2]: 가수 부분은 정규화되어 있는데, 언제나 1.0 이상 2.0 이하의 절대값을 가진다.
 [^3]: 부호를 나타내는 비트가 따로 존재하고 지수를 표현하는 비트에는 부호가 없기 때문에, 실제 나타내는 숫자의 지수값에 적절한 숫자*bias*를 더해 지수값이 음수가 되지 않도록 한다. 기본 정밀도에서는 127, 2배 정밀도에서는 1023이다.
 [^4]: 정규화와 지수 편향 외에도 가수를 표현할 때 정수부는 항상 1이기 때문에 따로 표기하지 않거나 실수의 덧셈에서 먼저 지수부를 일치시키는 등 다양한 트릭이 있다.
@@ -142,9 +143,9 @@ ASCII는 0부터 127까지의 7비트 정수 하나에 문자가 하나씩 대�
 
 + 김성엽, 『Do it! C언어 입문』, 이지스퍼블리싱, 2017.
 + Prata, S. (2013). *C Primer plus*. Pearson Education.
-+ http://www.ktword.co.kr/test/view/view.php?no=4886
-+ https://dad-rock.tistory.com/246
-+ https://ko.wikipedia.org/wiki/ASCII
++ [정보통신기술용어해설 - IEEE 754](http://www.ktword.co.kr/test/view/view.php?no=4886)
++ [IEEE 754 부동 소수점수 저장 형식](https://dad-rock.tistory.com/246)
++ [ASCII](https://ko.wikipedia.org/wiki/ASCII)
 
 ### 더보기 (추후 변경될 수 있습니다.)
 

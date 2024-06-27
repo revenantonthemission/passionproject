@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/programming-language/c/preprocessing/","tags":["C","프로그래밍언어","기초","전처리"],"created":"2024-03-15T12:32:38.847+09:00","updated":"2024-05-27T15:41:13.238+09:00"}
+{"dg-publish":true,"permalink":"/programming-language/c/preprocessing/","tags":["C","프로그래밍언어","기초","전처리"],"created":"2024-03-15T12:32:38.847+09:00","updated":"2024-06-27T22:37:49.628+09:00"}
 ---
 
 
@@ -332,16 +332,16 @@ revenantonthemission@MacBook-Pro-2 PS %
 ### 참고 자료
 
 + Amini, K. (2022). *전문가를 위한 C* (박지윤, Trans.; 1st ed.). 한빛미디어.
-+ http://www.chiark.greenend.org.uk/doc/cpp-4.3-doc/cppinternals.html - GNU C Preprocessor의 내부 구조를 설명하는 공식 문서.
-+ https://gcc.gnu.org/onlinedocs/gcc-2.95.3/cpp_1.html - GNU C Preprocessor에 대한 개요.
-+ https://en.wikipedia.org/wiki/C_preprocessor - C 전처리기에 대한 위키피디아 페이지.
-+ https://www.youtube.com/watch?v=6KNdGnUiRBM - The Preprocessor: Everything You Need to Know and More! - Brian Ruth - CppCon 2021
-+ https://en.cppreference.com/w/c/language/translation_phases - Phases of translation
-+ https://en.cppreference.com/w/c/preprocessor - Preprocessor
-+ https://en.cppreference.com/w/c/language/identifier - Identifier
-+ https://stackoverflow.com/questions/3380538/what-is-a-vertical-tab - What is a vertical tab?
-+ https://stackoverflow.com/questions/3091524/what-are-carriage-return-linefeed-and-form-feed - What are carriage return, line feed, and form feed?
++ [GNU C Preprocessor의 내부 구조를 설명하는 공식 문서](http://www.chiark.greenend.org.uk/doc/cpp-4.3-doc/cppinternals.html)
++ [GNU C Preprocessor에 대한 개요](https://gcc.gnu.org/onlinedocs/gcc-2.95.3/cpp_1.html)
++ [C 전처리기에 대한 위키피디아 페이지](https://en.wikipedia.org/wiki/C_preprocessor)
++ [The Preprocessor: Everything You Need to Know and More! - Brian Ruth - CppCon 2021](https://www.youtube.com/watch?v=6KNdGnUiRBM)
++ [C++ Reference - Phases of Translation](https://en.cppreference.com/w/c/language/translation_phases)
++ [C++ Reference - Preprocessor](https://en.cppreference.com/w/c/preprocessor)
++ [C++ Reference - Identifier](https://en.cppreference.com/w/c/language/identifier)
++ [What is a vertical tab?](https://stackoverflow.com/questions/3380538/what-is-a-vertical-tab)
++ [What are carriage return, line feed, and form feed?](https://stackoverflow.com/questions/3091524/what-are-carriage-return-linefeed-and-form-feed)
 
 ### 더보기(추후 변경될 수 있습니다.)
 
-+ [[ProgrammingLanguage/C/PreprocessingDirective\|전처리기 지시자(예정)]]
++ [[ProgrammingLanguage/C/PreprocessingDirective\|전처리기 지시자]]

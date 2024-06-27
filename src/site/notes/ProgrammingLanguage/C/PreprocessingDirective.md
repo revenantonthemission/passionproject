@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/programming-language/c/preprocessing-directive/","tags":["C","프로그래밍언어","기초","전처리"],"created":"2024-05-10T13:17:19.000+09:00","updated":"2024-06-21T02:34:01.418+09:00"}
+{"dg-publish":true,"permalink":"/programming-language/c/preprocessing-directive/","tags":["C","프로그래밍언어","기초","전처리"],"created":"2024-05-10T13:17:19.000+09:00","updated":"2024-06-27T22:42:00.884+09:00"}
 ---
 
 
@@ -329,6 +329,6 @@ int read_age();
 
 ### 더보기
 
-+ [IT 사는이야기 기술 정보 - #pragma 사용법 정리](https://hizstory.tistory.com/45)
++ [\#pragma 사용법 정리](https://hizstory.tistory.com/45)
 + [[ProgrammingLanguage/C/Preprocessing\|전처리]]
 + [[ProgrammingLanguage/C/PhasesofTranslation\|컴파일 과정에 대한 개요]]
