@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/programming-language/rust/before-we-go/","tags":["Rust","프로그래밍언어"],"created":"2024-04-26T11:33:10.588+09:00","updated":"2024-06-14T14:11:33.848+09:00"}
+{"dg-publish":true,"permalink":"/programming-language/rust/before-we-go/","tags":["Rust","프로그래밍언어"],"created":"2024-04-26T11:33:10.588+09:00","updated":"2024-07-10T16:21:37.014+09:00"}
 ---
 
 
@@ -51,9 +51,11 @@ macOS 기준으로 이 명령을 그대로 터미널에 입력하면 `rustup`이
 ### rustfmt
 
 `rustfmt`는 지정한 양식에 맞게 알아서 코드를 정리해주는 프로그램이다. 컴파일을 하는 것은 아니지만, 띄어쓰기나 줄바꿈, 혹은 괄호 위치 등을 조정해 코드를 더욱 보기 좋게 정리해준다.
+
 ```bash
 rustup component add rustfmt
 ```
+
 이 코드를 통해 `rustfmt`와 `cargo-fmt`라는 두 개의 프로그램이 추가되는데, 기능은 동일하지만 사용 방법이 다르다. 특정 파일을 고치려면 `rustfmt [파일 이름]`[^1], 전체 프로젝트를 고치려면 프로젝트의 최상단 디렉토리에서 `cargo fmt`를 실행하면 된다.
 
 [^1] : `[파일 이름]`에 `rustfmt`의 대상이 될 파일의 이름을 넣으면 된다.
@@ -65,9 +67,11 @@ rustup component add rustfmt
 ### clippy
 
 `clippy`는 러스트 코드를 분석하면서 발생하는 일반적이고 사소한 오류들을 알려주는 프로그램이다. 설치를 위해서는 아래와 같이 `rustup`을 이용하면 된다.
+
 ```bash
 rustup component add clippy
 ```
+
 프로젝트에서 사용하기 위해서는 프로젝트의 최상단 디렉토리에서 `cargo clippy`를 실행하면 된다. 이 정도면 러스트를 배울 준비가 됐다고 생각하고 본격적으로 러스트에 대해 알아볼 것이다.
 
 ---

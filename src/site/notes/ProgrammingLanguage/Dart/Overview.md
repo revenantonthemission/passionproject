@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/programming-language/dart/overview/","tags":["Dart","Flutter","프로그래밍언어"],"created":"2024-05-29T10:37:18.456+09:00","updated":"2024-05-29T15:18:23.361+09:00"}
+{"dg-publish":true,"permalink":"/programming-language/dart/overview/","tags":["Dart","Flutter","프로그래밍언어"],"created":"2024-05-29T10:37:18.456+09:00","updated":"2024-06-28T11:30:37.432+09:00"}
 ---
 
 
@@ -155,14 +155,14 @@ import 'package:bloc'
 
 ## 참고자료 & 더보기
 
-+ https://api.dart.dev/stable/3.4.1/index.html
-+ https://dart.dev/language
-+ https://dart.dev/overview
-+ https://dart.dev/tools/analysis
-+ https://dart.dev/tools/pub/pubspec
-+ https://dart.dev/language/functions#the-main-function
-+ https://dart.dev/guides/packages
-+ https://pub.dev
++ [Dart 공식 API 문서](https://api.dart.dev/stable/3.4.1/index.html)
++ [Dart 공식 가이드](https://dart.dev/language)
++ [Dart 개요](https://dart.dev/overview)
++ [Customizing static analysis](https://dart.dev/tools/analysis)
++ [pubspec 파일](https://dart.dev/tools/pub/pubspec)
++ [main 함수](https://dart.dev/language/functions#the-main-function)
++ [패키지 가이드](https://dart.dev/guides/packages)
++ [pub.dev 패키지 홈페이지](https://pub.dev)
 
 [^1]: 몇가지 프로그래밍 언어에 익숙해지고 나면 어지간한 프로그래밍 언어는 쉽게 이해할 수 있다.
 [^2]: 재사용 가능한 코드의 모음으로, 변수, 함수, 클래스 등을 포함할 수 있다. 단일 Dart 파일 또는 여러 파일로 구성될 수 있다. 주로 단일 프로젝트 내에서 코드를 재사용하기 위해 사용된다.

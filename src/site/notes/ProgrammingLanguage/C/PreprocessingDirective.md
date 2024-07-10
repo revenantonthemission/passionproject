@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/programming-language/c/preprocessing-directive/","tags":["C","프로그래밍언어","기초","전처리"],"created":"2024-05-10T13:17:19.000+09:00","updated":"2024-06-27T22:42:00.884+09:00"}
+{"dg-publish":true,"permalink":"/programming-language/c/preprocessing-directive/","tags":["C","프로그래밍언어","기초","전처리"],"created":"2024-05-10T13:17:19.000+09:00","updated":"2024-07-10T16:17:49.867+09:00"}
 ---
 
 
@@ -320,7 +320,6 @@ int read_age();
 ## 참고 자료 & 더보기
 
 ### 참고 자료
-
 + Amini, K. (2022). *전문가를 위한 C* (박지윤, Trans.; 1st ed.). 한빛미디어.
 + [레퍼런스](https://www.cprogramming.com/reference/preprocessor/)
 + [\#pragma once](https://en.wikipedia.org/wiki/Pragma_once)
@@ -328,7 +327,6 @@ int read_age();
 + [C Preprocessor Directives](https://www.geeksforgeeks.org/cpp-preprocessor-directives-set-2/?ref=lbp)
 
 ### 더보기
-
 + [\#pragma 사용법 정리](https://hizstory.tistory.com/45)
 + [[ProgrammingLanguage/C/Preprocessing\|전처리]]
 + [[ProgrammingLanguage/C/PhasesofTranslation\|컴파일 과정에 대한 개요]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/programming-language/c/phasesof-translation/","tags":["C","프로그래밍언어","기초"],"created":"2024-03-05T17:07:11.030+09:00","updated":"2024-05-09T10:24:38.735+09:00"}
+{"dg-publish":true,"permalink":"/programming-language/c/phasesof-translation/","tags":["C","프로그래밍언어","기초"],"created":"2024-03-05T17:07:11.030+09:00","updated":"2024-06-28T11:50:02.156+09:00"}
 ---
 
 
