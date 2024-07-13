@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/programming-language/c/data-type/","tags":["C","프로그래밍언어","기초"],"created":"2024-05-03T09:44:29.138+09:00","updated":"2024-07-10T16:46:55.617+09:00"}
+{"dg-publish":true,"permalink":"/programming-language/c/data-type/","tags":["C","프로그래밍언어","기초"],"created":"2024-05-03T09:44:29.138+09:00","updated":"2024-07-11T10:25:27.679+09:00"}
 ---
 
 
 # 자료형
 
-> C에서 가장 기초적인 문법을 꼽자면 함수*function*와 자료형*data type*이 아닐까 생각합니다. 이 섹션에서는 자료형에 대해 다룹니다.
+> C에서 가장 기초적인 문법을 꼽자면 함수*function*와 자료형*data type*이 아닐까 생각합니다. 여기서는 자료형에 대해 다룹니다.
 
 ---
 

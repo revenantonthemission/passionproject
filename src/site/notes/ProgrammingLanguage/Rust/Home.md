@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/programming-language/rust/home/","tags":["Rust","프로그래밍언어"],"created":"2024-04-04T18:03:39.747+09:00","updated":"2024-07-10T23:53:49.192+09:00"}
+{"dg-publish":true,"permalink":"/programming-language/rust/home/","tags":["Rust","프로그래밍언어"],"created":"2024-04-04T18:03:39.747+09:00","updated":"2024-07-11T10:52:27.323+09:00"}
 ---
 
 
@@ -12,7 +12,8 @@
 ## 목록
 
 + [[ProgrammingLanguage/Rust/BeforeWeGo\|사전 준비]]
-+ [[ProgrammingLanguage/Rust/ProjectTemplateOverview\|크레이트와 프로젝트의 기본 골격 (예정)]]
++ [[ProgrammingLanguage/Rust/ProjectTemplateOverview\|패키지, 크레이트, 모듈, 작업공간]]
++ [[ProgrammingLanguage/Rust/DataType\|러스트의 자료형 (예정]]
 + [[ProgrammingLanguage/Rust/Ownership\|소유권 (예정)]]
 + [[ProgrammingLanguage/Rust/ErrorHandling\|에러를 처리하는 방법 (예정)]]
 + [[ProgrammingLanguage/Rust/FlowControl\|프로그램의 흐름 통제하기 (예정)]]
