@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/passion-project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-06-11T22:36:25.428+09:00"}
+{"dg-publish":true,"permalink":"/passion-project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-07-15T19:33:49.145+09:00"}
 ---
 
 
@@ -31,7 +31,7 @@
 
 # Blogs
 
-+ [[BookReview/Home\|서평]]
++ [[BookReview/Home\|감상]]
 + [[Essays/Essays\|Essays]]
 
 ## 컴퓨터공학
