@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/passion-project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-07-15T19:33:49.145+09:00"}
+{"dg-publish":true,"permalink":"/passion-project/","tags":["gardenEntry"],"created":"2024-02-05T19:54:15.233+09:00","updated":"2024-07-15T20:05:52.437+09:00"}
 ---
 
 
@@ -30,6 +30,8 @@
 ---
 
 # Blogs
+
+모든 글은 지속적으로 갱신됩니다.
 
 + [[BookReview/Home\|감상]]
 + [[Essays/Essays\|Essays]]
