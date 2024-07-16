@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/programming-language/rust/data-type/","dgPassFrontmatter":true,"created":"2024-06-17T10:34:47.323+09:00","updated":"2024-07-16T16:26:36.125+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/programming-language/rust/data-type/","dgPassFrontmatter":true,"created":"2024-06-17T10:34:47.323+09:00","updated":"2024-07-16T16:29:37.488+09:00"}
 ---
 
 
@@ -92,7 +92,7 @@ const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
 러스트에서 기본 타입이 되는 자료형들을 분류하면 아래와 같다. 크게 하나의 값을 다루는 스칼라 타입과 여러 값을 하나의 타입으로 묶을 수 있는 복합 타입이 있으며, 기본적인 복합 타입에는 [[ProgrammingLanguage/Rust/Tuple\|튜플]]*tuple*과 [[ProgrammingLanguage/Rust/Array\|배열]]*array*가 있다.
 
 ```mermaid
-graph TD
+graph LR
     A[Rust Data Types] --> B[Scalar Types]
     A --> C[Compound Types]
     
