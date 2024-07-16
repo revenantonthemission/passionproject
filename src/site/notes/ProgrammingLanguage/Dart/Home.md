@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/programming-language/dart/home/","tags":["Dart","Flutter","프로그래밍언어"],"created":"2024-02-06T20:35:19.173+09:00","updated":"2024-07-10T16:28:50.274+09:00"}
+{"dg-publish":true,"tags":["Dart","Flutter","프로그래밍언어"],"permalink":"/programming-language/dart/home/","dgPassFrontmatter":true,"created":"2024-02-06T20:35:19.173+09:00","updated":"2024-07-16T16:25:31.819+09:00"}
 ---
 
 
@@ -11,7 +11,4 @@
 
 ## 목록
 
-+ [[ProgrammingLanguage/Dart/Overview\|기본 구조]]
-+ Null Safety
-+ The Dart Type System
-+ Dart & Flutter
++ [[ProgrammingLanguage/Dart/Overview\|첫 만남]]

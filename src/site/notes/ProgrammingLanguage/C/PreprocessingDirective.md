@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/programming-language/c/preprocessing-directive/","tags":["C","프로그래밍언어","기초","전처리"],"created":"2024-05-10T13:17:19.000+09:00","updated":"2024-07-10T16:17:49.867+09:00"}
+{"dg-publish":true,"tags":["C","프로그래밍언어","기초","전처리"],"permalink":"/programming-language/c/preprocessing-directive/","dgPassFrontmatter":true,"created":"2024-05-10T13:17:19.000+09:00","updated":"2024-07-10T16:17:49.867+09:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/linguistics/home/","tags":["언어학"],"created":"2024-04-05T17:39:49.766+09:00","updated":"2024-06-11T16:46:15.764+09:00"}
+{"dg-publish":true,"tags":["언어학"],"permalink":"/linguistics/home/","dgPassFrontmatter":true,"created":"2024-04-05T17:39:49.766+09:00","updated":"2024-06-11T16:46:15.764+09:00"}
 ---
 
 

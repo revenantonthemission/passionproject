@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/programming-language/home/","tags":["프로그래밍언어"],"created":"2024-02-08T15:40:33.742+09:00","updated":"2024-06-11T22:36:39.290+09:00"}
+{"dg-publish":true,"tags":["프로그래밍언어"],"permalink":"/programming-language/home/","dgPassFrontmatter":true,"created":"2024-02-08T15:40:33.742+09:00","updated":"2024-06-11T22:36:39.290+09:00"}
 ---
 
 
