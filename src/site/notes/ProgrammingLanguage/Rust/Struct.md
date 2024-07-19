@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/programming-language/rust/struct/","dgPassFrontmatter":true,"created":"2024-07-16T15:54:17.566+09:00","updated":"2024-07-19T10:52:23.731+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/programming-language/rust/struct/","dgPassFrontmatter":true,"created":"2024-07-16T15:54:17.566+09:00","updated":"2024-07-19T14:22:43.637+09:00"}
 ---
 
 
@@ -148,8 +148,10 @@ fn build_user(email: String, username: String) -> User {
 ```
 
 ## 메서드
+{ #eed5bb}
 
-러스트의 구조체는 메서드*method*라는 자체 함수를 가진다. 엄밀히 따지자면 메서드는 함수와 유사하지만 다른 개념이지만, 함수와 여러 공통점을 가지고 있기 때문에 실제로 코드를 작성하고 보는 입장에서는 구조체에 딸린 함수라고 봐도 무방하다.
+
+러스트의 구조체는 메서드*method*라는 자체 함수를 가진다. 엄밀히 따지자면 메서드는 함수와 유사하되 다른 개념이지만, 함수와 여러 공통점을 가지고 있기 때문에 실제로 코드를 작성하고 보는 입장에서는 구조체에 딸린 함수라고 봐도 무방하다.
 
 ### 메서드 정의
 

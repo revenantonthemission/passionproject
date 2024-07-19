@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/programming-language/rust/before-we-go/","dgPassFrontmatter":true,"created":"2024-04-26T11:33:10.588+09:00","updated":"2024-07-11T10:56:27.452+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/programming-language/rust/before-we-go/","dgPassFrontmatter":true,"created":"2024-04-26T11:33:10.588+09:00","updated":"2024-07-19T17:47:18.091+09:00"}
 ---
 
 
@@ -83,7 +83,7 @@ rustup component add clippy
 ## 참고 자료 & 더보기
 
 ### 참고 자료
-+ [The Rust Programming Language(한국어판), 1장](https://doc.rust-kr.org/ch01-00-getting-started.html)
++ [The Rust Programming Language(한국어판), 1. 시작해봅시다](https://doc.rust-kr.org/ch01-00-getting-started.html)
 + [The Rust Programming Language(한국어판), 부록 D - 유용한 개발 도구](https://doc.rust-kr.org/appendix-04-useful-development-tools.html)
 
 ### 더보기

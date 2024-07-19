@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/programming-language/rust/project-template-overview/","dgPassFrontmatter":true,"created":"2024-07-10T17:04:49.387+09:00","updated":"2024-07-15T19:46:41.739+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/programming-language/rust/project-template-overview/","dgPassFrontmatter":true,"created":"2024-07-10T17:04:49.387+09:00","updated":"2024-07-19T17:47:59.097+09:00"}
 ---
 
 
@@ -287,5 +287,5 @@ add_one = { path = "../add_one" }
 
 ## 참고 자료
 
-+ [The Rust Programming Language(한국어판), 7장](https://doc.rust-kr.org/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html)
++ [The Rust Programming Language(한국어판), 7. 커져 가는 프로젝트를 패키지, 크레이트, 모듈로 관리하기](https://doc.rust-kr.org/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html)
 + [The Rust Programming Language(한국어판), 14.3. 카고 작업공간](https://doc.rust-kr.org/ch14-03-cargo-workspaces.html)

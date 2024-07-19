@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/programming-language/rust/data-type/","dgPassFrontmatter":true,"created":"2024-06-17T10:34:47.323+09:00","updated":"2024-07-18T10:33:28.635+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/programming-language/rust/data-type/","dgPassFrontmatter":true,"created":"2024-06-17T10:34:47.323+09:00","updated":"2024-07-19T17:47:03.094+09:00"}
 ---
 
 
@@ -168,7 +168,7 @@ int *ptr = nullptr;
 
 ## 참고 자료 & 더보기
 
-+ [The Rust Programming Language(한국어판), 3장](https://doc.rust-kr.org/ch03-00-common-programming-concepts.html)
-+ [The Rust Programming Language(한국어판), 6.1. 거형 정의하기](https://doc.rust-kr.org/ch06-01-defining-an-enum.html#option-열거형이-널-값보다-좋은-점들)
++ [The Rust Programming Language(한국어판), 3. 일반적인 프로그래밍 개념](https://doc.rust-kr.org/ch03-00-common-programming-concepts.html)
++ [The Rust Programming Language(한국어판), 6.1. 열거형 정의하기](https://doc.rust-kr.org/ch06-01-defining-an-enum.html#option-열거형이-널-값보다-좋은-점들)
 + [tuple - Rust](https://doc.rust-lang.org/std/primitive.tuple.html)
 + [array - Rust](https://doc.rust-lang.org/std/primitive.array.html)
