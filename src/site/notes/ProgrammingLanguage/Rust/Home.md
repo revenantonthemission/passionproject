@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/programming-language/rust/home/","dgPassFrontmatter":true,"created":"2024-04-04T18:03:39.747+09:00","updated":"2024-07-19T17:46:20.140+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/programming-language/rust/home/","dgPassFrontmatter":true,"created":"2024-04-04T18:03:39.747+09:00","updated":"2024-07-19T17:49:34.348+09:00"}
 ---
 
 
@@ -13,7 +13,7 @@
 
 + [[ProgrammingLanguage/Rust/BeforeWeGo\|사전 준비]]
 + [[ProgrammingLanguage/Rust/ProjectTemplateOverview\|패키지, 크레이트, 모듈, 작업공간]]
-+ [[ProgrammingLanguage/Rust/Function\|Function]]
++ [[ProgrammingLanguage/Rust/Function\|함수]]
 + [[ProgrammingLanguage/Rust/DataType\|러스트의 자료형]]
 + [[ProgrammingLanguage/Rust/Struct\|구조체]]
 + [[ProgrammingLanguage/Rust/Ownership\|소유권 (예정)]]
