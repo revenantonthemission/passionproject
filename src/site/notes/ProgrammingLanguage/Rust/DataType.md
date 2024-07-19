@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/programming-language/rust/data-type/","dgPassFrontmatter":true,"created":"2024-06-17T10:34:47.323+09:00","updated":"2024-07-16T16:29:37.488+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/programming-language/rust/data-type/","dgPassFrontmatter":true,"created":"2024-06-17T10:34:47.323+09:00","updated":"2024-07-18T10:33:28.635+09:00"}
 ---
 
 
@@ -89,7 +89,7 @@ const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
 
 ## 몇 가지 기본 자료형들
 
-러스트에서 기본 타입이 되는 자료형들을 분류하면 아래와 같다. 크게 하나의 값을 다루는 스칼라 타입과 여러 값을 하나의 타입으로 묶을 수 있는 복합 타입이 있으며, 기본적인 복합 타입에는 [[ProgrammingLanguage/Rust/Tuple\|튜플]]*tuple*과 [[ProgrammingLanguage/Rust/Array\|배열]]*array*가 있다.
+러스트에서 기본 타입이 되는 자료형들을 분류하면 아래와 같다. 하나의 값을 다루는 스칼라 타입과 여러 값을 하나의 타입으로 묶을 수 있는 복합 타입이 있으며, 기본적인 복합 타입에는 [튜플](https://doc.rust-lang.org/std/primitive.tuple.html)*tuple*과 [배열](https://doc.rust-lang.org/std/primitive.array.html)*array*가 있다.
 
 ```mermaid
 graph LR
@@ -149,7 +149,7 @@ fn main() {
 }
 ```
 
-러스트의 `char` 타입은 4바이트의 크기를 가지며 유니코드*Unicode* 스칼라 값[^2]을 표현한다. 그래서 러스트의 `char` 타입 변수에는 부호가 있는 문자나 한글/한자/가나 등 다른 언어의 `char` 타입에서는 다루기 어려웠던 문자들을 다룰 수 있지만, 그런 만큼 [[ProgrammingLanguage/Rust/String\|기존 언어와는 다른 방식으로 문자나 문자열에 접근해야 한다.]]
+러스트의 `char` 타입은 4바이트의 크기를 가지며 유니코드*Unicode* 스칼라 값[^2]을 표현한다. 그래서 러스트의 `char` 타입 변수에는 부호가 있는 문자나 한글/한자/가나 등 다른 언어의 `char` 타입에서는 다루기 어려웠던 문자들을 다룰 수 있지만, 그런 만큼 [[DS&Algorithm/String\|기존 언어와는 다른 방식으로 문자나 문자열에 접근해야 한다.]]
 
 [^2]: 유니코드 스칼라 값의 범위는 `U+0000`~`U+D7FF`, `U+E000`~`U+10FFFF`이다.
 
@@ -158,6 +158,7 @@ fn main() {
 자료형과 관련된 러스트의 독특한 특징 중 하나는 널*null*이 없다는 것이다. 널은 여러 컴퓨터 언어에서 사용하고 있는 개념 중 하나로, "값이 없음"을 나타내기 위한 값이다. 이런 널 개념이 존재하는 언어에서 변수의 상태는 널이거나 널이 아니다.
 
 ```CPP
+//C++
 int *ptr = nullptr;
 ```
 
@@ -168,4 +169,6 @@ int *ptr = nullptr;
 ## 참고 자료 & 더보기
 
 + [The Rust Programming Language(한국어판), 3장](https://doc.rust-kr.org/ch03-00-common-programming-concepts.html)
-+ [The Rust Programming Language(한국어판), 6.1. 열거형 정의하기](https://doc.rust-kr.org/ch06-01-defining-an-enum.html#option-열거형이-널-값보다-좋은-점들)
++ [The Rust Programming Language(한국어판), 6.1. 거형 정의하기](https://doc.rust-kr.org/ch06-01-defining-an-enum.html#option-열거형이-널-값보다-좋은-점들)
++ [tuple - Rust](https://doc.rust-lang.org/std/primitive.tuple.html)
++ [array - Rust](https://doc.rust-lang.org/std/primitive.array.html)
