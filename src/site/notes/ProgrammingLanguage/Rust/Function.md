@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/programming-language/rust/function/","dgPassFrontmatter":true,"created":"2024-07-15T22:58:45.159+09:00","updated":"2024-07-19T17:47:38.364+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/programming-language/rust/function/","dgPassFrontmatter":true,"created":"2024-07-15T22:58:45.159+09:00","updated":"2024-07-22T15:23:54.419+09:00"}
 ---
 
 
@@ -47,6 +47,8 @@ fn main() {
 ```
 
 ## 구문 ≠ 표현식
+{ #a14250}
+
 
 앞서 살펴본 함수들은 모두 반환값이 없는 함수다. 하지만 그렇다고 해서 러스트에서 함수가 값을 반환하지 않는다는 것은 아니며, 러스트도 다른 언어처럼 함수가 값을 반환할 수 있다. 다만 다른 언어와 차이를 보이는 지점은 바로 값을 반환하는 방식이다. `five`라는 함수를 보면 값을 반환하는 함수가 어떻게 작성되는지 한 눈에 파악할 수 있다. 
 
