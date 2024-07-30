@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["자료구조","알고리즘"],"permalink":"/ds-and-algorithm/home/","dgPassFrontmatter":true,"created":"2024-02-08T15:47:31.113+09:00","updated":"2024-05-28T16:41:08.541+09:00"}
+{"dg-publish":true,"tags":["자료구조","알고리즘"],"permalink":"/ds-and-algorithm/home/","dgPassFrontmatter":true,"created":"2024-02-08T15:47:31.113+09:00","updated":"2024-07-22T23:26:43.112+09:00"}
 ---
 
 
@@ -11,8 +11,8 @@
 
 ## 목록
 
-+ [[DS&Algorithm/Computational Thinking\|Computational Thinking]]
-+ [[DS&Algorithm/DataStructureIntro\|자료구조의 개념]]
++ [[DS&Algorithm/Computational_Thinking\|Computational_Thinking]]
++ [[DS&Algorithm/Data_Structure_Intro\|자료구조의 개념]]
 + 알고리즘의 개념 (예정)
 ---
 
