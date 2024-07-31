@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/programming-language/rust/error-handling/","dgPassFrontmatter":true,"created":"2024-07-10T17:05:18.198+09:00","updated":"2024-07-30T17:22:44.137+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/programming-language/rust/error-handling/","dgPassFrontmatter":true,"created":"2024-07-10T17:05:18.198+09:00","updated":"2024-07-31T14:58:19.563+09:00"}
 ---
 
 
@@ -42,7 +42,7 @@ enum Option<T> {
 ```
 
 
-[^1]: 여기서 `<T>`는 이 타입이 [[ProgrammingLanguage/Rust/Generic\|제네릭]]*generic* 타입이라는 것을 의미한다. `T`에는 어떤 타입이든 들어갈 수 있다.
+[^1]: 여기서 `<T>`는 이 타입이 제네릭*generic* 타입이라는 것을 의미한다. `T`에는 어떤 타입이든 들어갈 수 있다.
 
 어떤 값이 있거나 없을 수 있는 상태를 하나의 열거형 타입으로 정해놓은 덕분에 `Option<T>`타입은 **어떤 방법을 쓰더라도 유효한 값으로 사용할 수 없다.** 대신 `Option<T>`를 유효한 타입으로 바꾸는 과정이 반드시 코드에 존재해야 하는데, 이 과정은 명시적으로 `Option<T>`가 가질 수 있는 모든 케이스, 즉 값이 있거나 없는 상황을 모두 다루어야 하기 때문에 어떤 값이 없을 수 있는 상황에 대한 완벽한 대처가 보장되며, `Option<T>`가 아닌 모든 값은 널이 아니라고 확신할 수 있다.
 
