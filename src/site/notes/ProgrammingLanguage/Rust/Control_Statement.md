@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/programming-language/rust/control-statement/","dgPassFrontmatter":true,"created":"2024-07-10T17:04:34.946+09:00","updated":"2024-07-30T17:05:39.394+09:00"}
+{"dg-publish":true,"permalink":"/programming-language/rust/control-statement/","tags":["Rust","프로그래밍언어"],"created":"2024-07-10T17:04:34.946+09:00","updated":"2024-08-01T16:47:06.499+09:00"}
 ---
 
 
@@ -232,8 +232,6 @@ fn main() {
 실제로 사용할 때는 위와 같이 반복할 구간 안*in*에 대하여*for* 코드를 수행한다는 의미로 `for`와 함께 `in`이라는 키워드를 사용한다.
 
 ## `match`
-{ #37e07f}
-
 
 러스트에서 다양한 케이스를 제어하는 방법에는 `if`,  `else if`, `else`도 있지만, `match`를 사용하면 보다 더 많은 경우의 수를 포괄할 수 있다. `if`와 달리 `b ool` 이외의 타입도 조건으로 사용할 수 있고, 코드 자체도 더욱 잘 보인다. 이런 특성을 가지기 때문에 `match` 구문은 [[ProgrammingLanguage/Rust/Enumerations\|열거형]]*enumeration*과 함께 사용하는 것이 일반적이다.
 
@@ -301,8 +299,7 @@ match config_max {
 }
 ```
 
-### `if let` : 더욱 간결하게!{ #9f459b}
-
+### `if let` : 더욱 간결하게!
 
 `if let`은 `match`를 사용하는 특정 케이스를 요약해주는 일종의 부가적인 문법*syntax sugar*인데, 위와 같이 하나의 케이스만 특별히 다루고 나머지 케이스를 한꺼번에 다루는 상황에서 코드의 길이를 줄여주는 역할을 한다.
 
