@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/programming-language/rust/enumerations/","tags":["Rust","프로그래밍언어"],"created":"2024-07-16T15:53:50.423+09:00","updated":"2024-07-22T23:27:43.839+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/programming-language/rust/enumerations/","dgPassFrontmatter":true,"created":"2024-07-16T15:53:50.423+09:00","updated":"2024-07-22T23:27:43.839+09:00"}
 ---
 
 
