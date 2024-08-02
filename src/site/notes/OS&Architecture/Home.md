@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["OS","컴퓨터아키텍처"],"permalink":"/os-and-architecture/home/","dgPassFrontmatter":true,"created":"2024-04-05T17:27:42.912+09:00","updated":"2024-05-28T16:41:16.488+09:00"}
+{"dg-publish":true,"tags":["OS","컴퓨터아키텍처"],"permalink":"/OS&Architecture/Home/","dgPassFrontmatter":true,"created":"2024-04-05T17:27:42.912+09:00","updated":"2024-05-28T16:41:16.488+09:00"}
 ---
 
 

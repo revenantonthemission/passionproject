@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/programming-language/rust/error-handling/","dgPassFrontmatter":true,"created":"2024-07-10T17:05:18.198+09:00","updated":"2024-08-01T16:46:52.582+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Error_Handling/","dgPassFrontmatter":true,"created":"2024-07-10T17:05:18.198+09:00","updated":"2024-08-01T17:35:52.373+09:00"}
 ---
 
 
@@ -46,7 +46,7 @@ enum Option<T> {
 
 어떤 값이 있거나 없을 수 있는 상태를 하나의 열거형 타입으로 정해놓은 덕분에 `Option<T>`타입은 **어떤 방법을 쓰더라도 유효한 값으로 사용할 수 없다.** 대신 `Option<T>`를 유효한 타입으로 바꾸는 과정이 반드시 코드에 존재해야 하는데, 이 과정은 명시적으로 `Option<T>`가 가질 수 있는 모든 케이스, 즉 값이 있거나 없는 상황을 모두 다루어야 하기 때문에 어떤 값이 없을 수 있는 상황에 대한 완벽한 대처가 보장되며, `Option<T>`가 아닌 모든 값은 널이 아니라고 확신할 수 있다.
 
-열거형을 다루기에 좋은 표현식은 단연 `match` [[Control_Statement#`match`|표현식]]이다. `match`표현식을 통해서 `Option<T>`를 다루는 코드는 다음과 같은 형식을 지니고 있다.
+열거형을 다루기에 좋은 표현식은 단연 `match` [표현식](#)이다. `match`표현식을 통해서 `Option<T>`를 다루는 코드는 다음과 같은 형식을 지니고 있다.
 
 ```rust
 fn plus_one(x: Option<i32>) -> Option<i32> {

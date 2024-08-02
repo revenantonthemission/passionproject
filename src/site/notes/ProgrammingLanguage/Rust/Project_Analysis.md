@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/programming-language/rust/project-analysis/","dgPassFrontmatter":true,"created":"2024-07-10T17:04:49.387+09:00","updated":"2024-07-22T23:26:05.698+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Project_Analysis/","dgPassFrontmatter":true,"created":"2024-07-10T17:04:49.387+09:00","updated":"2024-07-22T23:26:05.698+09:00"}
 ---
 
 

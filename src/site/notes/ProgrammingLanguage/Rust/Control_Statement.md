@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/programming-language/rust/control-statement/","dgPassFrontmatter":true,"created":"2024-07-10T17:04:34.946+09:00","updated":"2024-08-01T16:47:06.499+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Control_Statement/","dgPassFrontmatter":true,"created":"2024-07-10T17:04:34.946+09:00","updated":"2024-08-01T17:36:39.334+09:00"}
 ---
 
 

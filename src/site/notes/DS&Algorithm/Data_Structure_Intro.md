@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["자료구조","기초"],"permalink":"/ds-and-algorithm/data-structure-intro/","dgPassFrontmatter":true,"created":"2024-01-15T10:00:05.000+09:00","updated":"2024-06-28T17:19:47.191+09:00"}
+{"dg-publish":true,"tags":["자료구조","기초"],"permalink":"/DS&Algorithm/Data_Structure_Intro/","dgPassFrontmatter":true,"created":"2024-01-15T10:00:05.000+09:00","updated":"2024-06-28T17:19:47.191+09:00"}
 ---
 
 
