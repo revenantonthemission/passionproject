@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Data_Type/","dgPassFrontmatter":true,"created":"2024-06-17T10:34:47.323+09:00","updated":"2024-08-02T16:25:03.463+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Data_Type/","dgPassFrontmatter":true,"created":"2024-06-17T10:34:47.323+09:00","updated":"2024-08-02T16:34:07.454+09:00"}
 ---
 
 
@@ -149,7 +149,7 @@ fn main() {
 }
 ```
 
-러스트의 `char` 타입은 4바이트의 크기를 가지며 유니코드*Unicode* 스칼라 값[^2]을 표현한다. 그래서 러스트의 `char` 타입 변수에는 부호가 있는 문자나 한글/한자/가나 등 다른 언어의 `char` 타입에서는 다루기 어려웠던 문자들을 다룰 수 있지만, 그런 만큼 [기존 언어와는 다른 방식으로 문자나 문자열에 접근해야 한다.](String.md)
+러스트의 `char` 타입은 4바이트의 크기를 가지며 유니코드*Unicode* 스칼라 값[^2](DS&Algorithm/String.md)
 
 [^2]: 유니코드 스칼라 값의 범위는 `U+0000`~`U+D7FF`, `U+E000`~`U+10FFFF`이다.
 
@@ -162,13 +162,13 @@ fn main() {
 int *ptr = nullptr;
 ```
 
-널 개념이 있으면 값이 없는 상태를 구현하기 쉽지만, 널 값을 널이 아닌 값처럼 사용하려고 할 때나 그 반대 상황에 생기는 여러 종류의 에러에 대처해야 한다. 러스트에도 [값의 유무를 표현할 수 있는 방법은 있지만](Error_Handling.md), C++의 `NULL` 혹은 `nullptr`이나 Java의 `null`처럼 널 개념을 직접적으로 나타내는 키워드는 없다.
+널 개념이 있으면 값이 없는 상태를 구현하기 쉽지만, 널 값을 널이 아닌 값처럼 사용하려고 할 때나 그 반대 상황에 생기는 여러 종류의 에러에 대처해야 한다. 러스트에도 [값의 유무를 표현할 수 있는 방법은 있지만](ProgrammingLanguage/Rust/Error_Handling.md), C++의 `NULL` 혹은 `nullptr`이나 Java의 `null`처럼 널 개념을 직접적으로 나타내는 키워드는 없다.
 
 ---
 
 ## 참고 자료 & 더보기
 
-+ [The Rust Programming Language(한국어판), 3. 일반적인 프로그래밍 개념](https://doc.rust-kr.org/ch03-00-common-programming-concepts.html)
-+ [The Rust Programming Language(한국어판), 6.1. 열거형 정의하기](https://doc.rust-kr.org/ch06-01-defining-an-enum.html#option-열거형이-널-값보다-좋은-점들)
++ [The Rust Programming Language(한국어판), 3. 일반적인 프로그래밍 개념](한국어판),%203.%20일반적인%20프로그래밍%20개념)
++ [](https://doc.rust-kr.org/ch06-01-defining-an-enum.html#option-열거형이-널-값보다-좋은-점들)
 + [tuple - Rust](https://doc.rust-lang.org/std/primitive.tuple.html)
 + [array - Rust](https://doc.rust-lang.org/std/primitive.array.html)

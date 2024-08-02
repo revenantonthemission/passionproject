@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["언어학","IPA"],"permalink":"/Linguistics/IPA/","dgPassFrontmatter":true,"created":"2024-05-28T17:09:38.717+09:00","updated":"2024-08-02T16:25:03.386+09:00"}
+{"dg-publish":true,"tags":["언어학","IPA"],"permalink":"/Linguistics/IPA/","dgPassFrontmatter":true,"created":"2024-05-28T17:09:38.717+09:00","updated":"2024-08-02T16:34:07.338+09:00"}
 ---
 
 
@@ -149,7 +149,7 @@ Pulmonic 이외의 자음은 조음 방식에 따라 흡착음, 유성 내파음
 
 입술을 동그랗게 만들고 발음해야 하는 원순음*Rounded Vowel*은 그렇지 않은 다른 모음과 위치가 겹치는데, 표에서는 겹치는 모음을 짝으로 묶고[^1] 원순음을 오른쪽에 두고 있다.
 
-[^1]: ![RVPair](/img/user/Linguistics/RVPair.png)
+[^1](Linguistics/RVPair.png)
 
 ### Diacritics
 

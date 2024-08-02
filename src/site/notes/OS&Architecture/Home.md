@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["OS","컴퓨터아키텍처"],"permalink":"/OS&Architecture/Home/","dgPassFrontmatter":true,"created":"2024-04-05T17:27:42.912+09:00","updated":"2024-08-02T16:25:03.393+09:00"}
+{"dg-publish":true,"tags":["OS","컴퓨터아키텍처"],"permalink":"/OS&Architecture/Home/","dgPassFrontmatter":true,"created":"2024-04-05T17:27:42.912+09:00","updated":"2024-08-02T16:34:07.358+09:00"}
 ---
 
 
@@ -16,9 +16,9 @@
 ## 목록
 
 + 컴퓨터의 구조(예정)
-+ [Process](Process.md)
-+ [Thread(예정)](Thread.md)
-+ [Interrupt(예정)](Interrupt.md)
++ [Process](OS&Architecture/Process.md)
++ [Thread(예정)](예정))
++ [Interrupt(예정)](예정))
 
 ---
 추후 업데이트됩니다.

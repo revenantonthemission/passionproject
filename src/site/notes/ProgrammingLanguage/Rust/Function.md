@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Function/","dgPassFrontmatter":true,"created":"2024-07-15T22:58:45.159+09:00","updated":"2024-08-02T16:25:03.449+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Function/","dgPassFrontmatter":true,"created":"2024-07-15T22:58:45.159+09:00","updated":"2024-08-02T16:34:07.444+09:00"}
 ---
 
 
@@ -174,7 +174,7 @@ fn main() {
 
 ## 참고 자료 & 더보기
 
-+ [The Rust Programming Language(한국어판), 1.2. Hello World!](https://doc.rust-kr.org/ch01-02-hello-world.html)
-+ [The Rust Programming Language(한국어판), 3.3. 함수](https://doc.rust-kr.org/ch03-03-how-functions-work.html)
-+ [The Rust Programming Language(한국어판), 13.1 클로저: 자신의 환경을 캡처하는 익명 함수](https://doc.rust-kr.org/ch13-01-closures.html)
-+ [The Rust Programming Language(한국어판), 19.4. 고급 함수와 클로저](https://doc.rust-kr.org/ch19-05-advanced-functions-and-closures.html)
++ [The Rust Programming Language(한국어판), 1.2. Hello World!](한국어판),%201.2.%20Hello%20World!)
++ [The Rust Programming Language(한국어판), 3.3. 함수](한국어판),%203.3.%20함수)
++ [The Rust Programming Language(한국어판), 13.1 클로저: 자신의 환경을 캡처하는 익명 함수](한국어판),%2013.1%20클로저:%20자신의%20환경을%20캡처하는%20익명%20함수)
++ [The Rust Programming Language(한국어판), 19.4. 고급 함수와 클로저](한국어판),%2019.4.%20고급%20함수와%20클로저)

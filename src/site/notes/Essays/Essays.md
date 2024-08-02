@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["에세이"],"permalink":"/Essays/Essays/","dgPassFrontmatter":true,"created":"2024-02-08T15:32:39.848+09:00","updated":"2024-08-02T16:25:03.372+09:00"}
+{"dg-publish":true,"tags":["에세이"],"permalink":"/Essays/Essays/","dgPassFrontmatter":true,"created":"2024-02-08T15:32:39.848+09:00","updated":"2024-08-02T16:34:07.322+09:00"}
 ---
 
 
@@ -8,8 +8,8 @@
 > 그동안 써왔던 글 중 애매한 것들을 모았습니다.
 ---
 
-+ [한중 청년의 상호 혐오를 어떻게 해결할 것인가?](2023-06-10.md)
-+ [낭설을 대하는 태도](2024-05-24.md)
++ [한중 청년의 상호 혐오를 어떻게 해결할 것인가?](Essays/2023-06-10.md)
++ [낭설을 대하는 태도](Essays/2024-05-24.md)
 
 ---
 

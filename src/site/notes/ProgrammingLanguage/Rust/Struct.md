@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Struct/","dgPassFrontmatter":true,"created":"2024-07-16T15:54:17.566+09:00","updated":"2024-08-02T16:25:03.469+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Struct/","dgPassFrontmatter":true,"created":"2024-07-16T15:54:17.566+09:00","updated":"2024-08-02T16:34:07.469+09:00"}
 ---
 
 
@@ -173,7 +173,7 @@ impl Rectangle {
 
 메서드를 정의하는 방법은 함수와 동일하다. 다만 차이점이 있다면 첫번째 매개변수가 항상 `self`라는 점인데, 여기서 `self`는 메서드를 호출하고 있는 구조체 인스턴스를 나타낸다. 일반적으로 `self`는 `Self`타입의 매개변수[^1]며, `Self`는 `impl` 블록의 대상이 되는 타입의 별칭이다. 함수의 매개변수에 대하여 언제나 타입을 명시해야 하지만, 상황에 따라 위와 같은 축약을 허용하기도 한다.
 
-[^1]: 정확히는 `Self`타입을 참조하는 참조자 타입이다. 이에 대한 내용은 [소유권](Ownership.md)을 참조.
+[^1](ProgrammingLanguage/Rust/Ownership.md)을 참조.
 
 ### 메서드 사용하기
 
@@ -212,6 +212,6 @@ impl Rectangle {
 
 ## 참고 자료 & 더보기
 
-+ [The Rust Programming Language(한국어판), 5. 구조체로 연관된 데이터를 구조화하기](https://doc.rust-kr.org/ch05-00-structs.html)
++ [The Rust Programming Language(한국어판), 5. 구조체로 연관된 데이터를 구조화하기](한국어판),%205.%20구조체로%20연관된%20데이터를%20구조화하기)
 + [함수](ProgrammingLanguage/Rust/Function.md)
-+ [소유권](Ownership.md)
++ [소유권](ProgrammingLanguage/Rust/Ownership.md)

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Dart","Flutter","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Dart/Overview/","dgPassFrontmatter":true,"created":"2024-05-29T10:37:18.456+09:00","updated":"2024-08-02T16:25:03.435+09:00"}
+{"dg-publish":true,"tags":["Dart","Flutter","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Dart/Overview/","dgPassFrontmatter":true,"created":"2024-05-29T10:37:18.456+09:00","updated":"2024-08-02T16:34:07.406+09:00"}
 ---
 
 
@@ -160,7 +160,7 @@ import 'package:bloc'
 + [Dart 개요](https://dart.dev/overview)
 + [Customizing static analysis](https://dart.dev/tools/analysis)
 + [pubspec 파일](https://dart.dev/tools/pub/pubspec)
-+ [main 함수](https://dart.dev/language/functions#the-main-function)
++ [](https://dart.dev/language/functions#the-main-function)
 + [패키지 가이드](https://dart.dev/guides/packages)
 + [pub.dev 패키지 홈페이지](https://pub.dev)
 

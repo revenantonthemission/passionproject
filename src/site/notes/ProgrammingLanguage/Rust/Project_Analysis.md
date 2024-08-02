@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Project_Analysis/","dgPassFrontmatter":true,"created":"2024-07-10T17:04:49.387+09:00","updated":"2024-08-02T16:31:23.285+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Project_Analysis/","dgPassFrontmatter":true,"created":"2024-07-10T17:04:49.387+09:00","updated":"2024-08-02T16:34:07.453+09:00"}
 ---
 
 
@@ -11,7 +11,7 @@
 
 ## 크레이트
 
-크레이트는 러스트의 프로그램이 될 수 있는 가장 단순한 단위다. 굳이 [카고](Env_Setting.md#^24d4cc)가 없더라도, 하나의 소스 파일로 구성된 프로그램 또한 하나의 크레이트다. C나 C++에서 단일 소스 파일로 프로그램을 만들 수 있는 것과 동일하다. 마찬가지로, C나 C++의 실행 파일이나 라이브러리처럼 크레이트도 실행 가능한 크레이트와 라이브러리로 활용되는 크레이트가 있으며, 컴파일 과정 또한 유사하다.
+크레이트는 러스트의 프로그램이 될 수 있는 가장 단순한 단위다. 굳이 [](ProgrammingLanguage/Rust/Env_Setting.md#^24d4cc)가 없더라도, 하나의 소스 파일로 구성된 프로그램 또한 하나의 크레이트다. C나 C++에서 단일 소스 파일로 프로그램을 만들 수 있는 것과 동일하다. 마찬가지로, C나 C++의 실행 파일이나 라이브러리처럼 크레이트도 실행 가능한 크레이트와 라이브러리로 활용되는 크레이트가 있으며, 컴파일 과정 또한 유사하다.
 
 ### 바이너리 크레이트
 
@@ -227,7 +227,7 @@ use std::collections::*;
 
 ## 패키지
 
-러스트에서 패키지*package*는 보통 하나의 프로젝트에 해당하는 번들이다. 러스트에서 규모가 크지 않은 프로그램을 작성할 때 패키지로 작성하는 것이 일반적이며, [개발 환경을 준비하면서](Env_Setting.md#^dbe51c) 만났던 `rustfmt`나 `clippy`도 모두 패키지다. 패키지의 가장 기본적인 구성 요소는 아래와 같다.
+러스트에서 패키지*package*는 보통 하나의 프로젝트에 해당하는 번들이다. 러스트에서 규모가 크지 않은 프로그램을 작성할 때 패키지로 작성하는 것이 일반적이며, [](ProgrammingLanguage/Rust/Env_Setting.md#^dbe51c) 만났던 `rustfmt`나 `clippy`도 모두 패키지다. 패키지의 가장 기본적인 구성 요소는 아래와 같다.
 
 + [크레이트](#크레이트)
 + `Cargo.toml` : 패키지에 대한 정보를 설정할 수 있는 곳이다. 이를테면 이름이나 패키지의 버전, 그리고 패키지가 정상적인 작동을 위해 필요로 하는 외부 패키지/의존성*dependencies*과 같은 정보를 여기서 작성한다.
@@ -287,5 +287,5 @@ add_one = { path = "../add_one" }
 
 ## 참고 자료
 
-+ [The Rust Programming Language(한국어판), 7. 커져 가는 프로젝트를 패키지, 크레이트, 모듈로 관리하기](https://doc.rust-kr.org/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html)
-+ [The Rust Programming Language(한국어판), 14.3. 카고 작업공간](https://doc.rust-kr.org/ch14-03-cargo-workspaces.html)
++ [The Rust Programming Language(한국어판), 7. 커져 가는 프로젝트를 패키지, 크레이트, 모듈로 관리하기](한국어판),%207.%20커져%20가는%20프로젝트를%20패키지,%20크레이트,%20모듈로%20관리하기)
++ [The Rust Programming Language(한국어판), 14.3. 카고 작업공간](한국어판),%2014.3.%20카고%20작업공간)

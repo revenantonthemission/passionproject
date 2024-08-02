@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Home/","dgPassFrontmatter":true,"created":"2024-04-04T18:03:39.747+09:00","updated":"2024-08-02T16:25:03.449+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Home/","dgPassFrontmatter":true,"created":"2024-04-04T18:03:39.747+09:00","updated":"2024-08-02T16:34:07.447+09:00"}
 ---
 
 
@@ -11,20 +11,20 @@
 
 ## 목록
 
-+ [사전 준비](Env_Setting.md)
-+ [패키지, 크레이트, 모듈, 작업공간](Project_Analysis.md)
++ [사전 준비](ProgrammingLanguage/Rust/Env_Setting.md)
++ [패키지, 크레이트, 모듈, 작업공간](ProgrammingLanguage/Rust/Project_Analysis.md)
 + [함수](ProgrammingLanguage/Rust/Function.md)
 + [러스트의 자료형](ProgrammingLanguage/Rust/Data_Type.md)
 + [구조체](ProgrammingLanguage/Rust/Struct.md)
-+ [열거형](Enumerations.md)
-+ [프로그램의 흐름을 통제하기](Control_Statement.md)
-+ [오류를 처리하는 방법](Error_Handling.md)
-+ [소유권 (예정)](Ownership.md)
-+ [트레이트 (예정)](Trait.md)
-+ [테스트 (예정)](Test.md)
-+ [제네릭 (예정)](ProgrammingLanguage/Rust/Generic.md)
-+ [클로저 (예정)](Closure.md)
-+ [반복자 (예정)](Iterator.md)
++ [열거형](ProgrammingLanguage/Rust/Enumerations.md)
++ [프로그램의 흐름을 통제하기](ProgrammingLanguage/Rust/Control_Statement.md)
++ [오류를 처리하는 방법](ProgrammingLanguage/Rust/Error_Handling.md)
++ [소유권 (예정)](예정))
++ [트레이트 (예정)](예정))
++ [테스트 (예정)](예정))
++ [제네릭 (예정)](예정))
++ [클로저 (예정)](예정))
++ [반복자 (예정)](예정))
 ---
 
 추후 업데이트됩니다.

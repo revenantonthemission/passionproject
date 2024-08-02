@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["C","프로그래밍언어"],"permalink":"/ProgrammingLanguage/C/Home/","dgPassFrontmatter":true,"created":"2024-02-06T20:25:23.214+09:00","updated":"2024-08-02T16:25:03.405+09:00"}
+{"dg-publish":true,"tags":["C","프로그래밍언어"],"permalink":"/ProgrammingLanguage/C/Home/","dgPassFrontmatter":true,"created":"2024-02-06T20:25:23.214+09:00","updated":"2024-08-02T16:34:07.380+09:00"}
 ---
 
 
@@ -11,15 +11,15 @@
 
 ## 목록
 
-+ [C 프로그램을 만드는 과정](Phases_of_Translation.md)
-+ [전처리](Preprocessing.md)
++ [C 프로그램을 만드는 과정](ProgrammingLanguage/C/Phases_of_Translation.md)
++ [전처리](ProgrammingLanguage/C/Preprocessing.md)
 + [자료형](ProgrammingLanguage/C/Data_Type.md)
-+ [전처리기 지사자](Preprocessing_Directive.md)
-+ [빌드 시스템 (예정)](Build_System.md)
-+ [제네릭 매크로 (예정)](ProgrammingLanguage/C/Generic.md)
-+ [함수 (예정)](ProgrammingLanguage/C/Function.md)
-+ [포인터 (예정)](Pointer.md)
-+ [구조체 (예정)](ProgrammingLanguage/C/Struct.md)
++ [전처리기 지사자](ProgrammingLanguage/C/Preprocessing_Directive.md)
++ [빌드 시스템 (예정)](예정))
++ [제네릭 매크로 (예정)](예정))
++ [함수 (예정)](예정))
++ [포인터 (예정)](예정))
++ [구조체 (예정)](예정))
 
 ---
 추후 업데이트됩니다.
