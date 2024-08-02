@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Env_Setting/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-01T01:32:10.000+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Env_Setting/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-02T16:58:50.131+09:00"}
 ---
 
 
@@ -63,7 +63,7 @@ rustup component add rustfmt
 
 이 코드를 통해 `rustfmt`와 `cargo-fmt`라는 두 개의 프로그램이 추가되는데, 기능은 동일하지만 사용 방법이 다르다. 특정 파일을 고치려면 `rustfmt [파일 이름]`[^1], 전체 프로젝트를 고치려면 프로젝트의 최상단 디렉토리에서 `cargo fmt`를 실행하면 된다.
 
-[^1] : `[파일 이름]`에 `rustfmt`의 대상이 될 파일의 이름을 넣으면 된다.
+[^1]: `[파일 이름]`에 `rustfmt`의 대상이 될 파일의 이름을 넣으면 된다.
 
 ### rustfix
 
