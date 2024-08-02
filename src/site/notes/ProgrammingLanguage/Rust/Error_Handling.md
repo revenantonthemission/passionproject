@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Error_Handling/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-02T20:15:02.727+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Error_Handling/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-02T20:15:15.048+09:00"}
 ---
 
 
@@ -29,7 +29,7 @@ int *ptr = nullptr;
 
 널 개념이 있으면 위와 같이 값이 없는 상태를 구현하기 쉽지만, 널 값을 널이 아닌 값처럼 사용하려고 할 때나 그 반대 상황에 생기는 여러 종류의 에러에 대처해야 한다. 러스트에도 값의 유무를 표현할 수 있는 방법은 있지만, C++의 `NULL` 혹은 `nullptr`이나 Java의 `null`처럼 널 개념을 직접적으로 나타내는 키워드는 없다.
 
-### `Option : 자료형을 통한 에러 방지
+### `Option` : 자료형을 통한 에러 방지
 
 대신 러스트에서 사용하는 대표적인 타입 중 하나는 `Option<T>`다[^1].  이 타입은 널 개념을 대신하여 값이 있거나 없을 수 있는 상황 전체를 포괄하는 타입이다. 이 타입이 다음과 같이 [[ProgrammingLanguage/Rust/Enumerations\|열거형]]으로 정의되어 있다.
 
