@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Error_Handling/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-02T19:22:22.738+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Error_Handling/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-02T20:15:02.727+09:00"}
 ---
 
 
@@ -29,7 +29,7 @@ int *ptr = nullptr;
 
 널 개념이 있으면 위와 같이 값이 없는 상태를 구현하기 쉽지만, 널 값을 널이 아닌 값처럼 사용하려고 할 때나 그 반대 상황에 생기는 여러 종류의 에러에 대처해야 한다. 러스트에도 값의 유무를 표현할 수 있는 방법은 있지만, C++의 `NULL` 혹은 `nullptr`이나 Java의 `null`처럼 널 개념을 직접적으로 나타내는 키워드는 없다.
 
-### `Option<T>` : 자료형을 통한 에러 방지
+### `Option : 자료형을 통한 에러 방지
 
 대신 러스트에서 사용하는 대표적인 타입 중 하나는 `Option<T>`다[^1].  이 타입은 널 개념을 대신하여 값이 있거나 없을 수 있는 상황 전체를 포괄하는 타입이다. 이 타입이 다음과 같이 [[ProgrammingLanguage/Rust/Enumerations\|열거형]]으로 정의되어 있다.
 
@@ -47,7 +47,7 @@ enum Option<T> {
 
 어떤 값이 있거나 없을 수 있는 상태를 하나의 열거형 타입으로 정해놓은 덕분에 `Option<T>`타입은 **어떤 방법을 쓰더라도 유효한 값으로 사용할 수 없다.** 대신 `Option<T>`를 유효한 타입으로 바꾸는 과정이 반드시 코드에 존재해야 하는데, 이 과정은 명시적으로 `Option<T>`가 가질 수 있는 모든 케이스, 즉 값이 있거나 없는 상황을 모두 다루어야 하기 때문에 어떤 값이 없을 수 있는 상황에 대한 완벽한 대처가 보장되며, `Option<T>`가 아닌 모든 값은 널이 아니라고 확신할 수 있다.
 
-열거형을 다루기에 좋은 표현식은 단연 `match` [표현식](Control_Statement.md#code-match-code)이다. `match`표현식을 통해서 `Option<T>`를 다루는 코드는 다음과 같은 형식을 지니고 있다.
+열거형을 다루기에 좋은 표현식은 단연 `match` [[ProgrammingLanguage/Rust/Control_Statement#^7756f5\|표현식]]이다. `match` 표현식을 통해서 `Option<T>`를 다루는 코드는 다음과 같은 형식을 지니고 있다.
 
 ```rust
 fn plus_one(x: Option<i32>) -> Option<i32> {
@@ -64,7 +64,7 @@ let none = plus_one(None);
 
 `match`표현식을 통해 가능한 모든 상황을 다루어야 하기 때문에 러스트로 프로그램을 작성할 때는 널 개념이 있는 다른 프로그래밍 언어로 작성된 프로그램에서 발생할 수 있는 오류를 안전하게 예방할 수 있다.
 
-### `Result<T, E>` : 복구 가능한 에러 처리하기
+### `Result` : 복구 가능한 에러 처리하기
 
 앞서 살펴봤던 `Option<T>`는 **값이 있어야 하는데 없는 상황**에서 발생하는 오류를 예방한다. 값이 없다고 해서 그것이 곧 오류는 아니기 때문에, 러스트에서는 오류가 발생할 수 있는 상황 자체를 나타내는 또다른 열거형 타입인 `Result<T, E>`를 사용한다. 어떤 함수의 성공과 실패를 나타내는 두 개의 배리언트 `Ok`와 `Err`는 각자 맡은 상황에서 반환할 값[^2]의 타입인  `T`와 `E`를 내부에 지니고 있다.
 
@@ -206,7 +206,7 @@ fn read_username_from_file() -> Result<String, io::Error> {
 
 에러를 더 쉽게 전파하기 위해 러스트에서는 `?`라는 연산자를 제공한다. `Result` 값 뒤에 붙어 `Result`값이 `Ok`라면 `Ok` 안의 값을 돌려주고 `Err`라면 `Err`의 값을 반환한다. 이때 `?`연산자는 에러를 원하는 타입의 에러로 바꿔 준다.
 
-`?` 연산자는 `if let`처럼 [특정 패턴](Control_Statement.md#code-if-let-code)의 `match` 표현식을 줄인 것이기 때문에 `Result`나 `Option`처럼 연산자와 호환되는 타입을 반환하는 함수에서만 사용할 수 있다.
+`?` 연산자는 `if let`처럼 [[ProgrammingLanguage/Rust/Control_Statement#^d9e007\|특정 패턴]]의 `match` 표현식을 줄인 것이기 때문에 `Result`나 `Option`처럼 연산자와 호환되는 타입을 반환하는 함수에서만 사용할 수 있다.
 
 ---
 
