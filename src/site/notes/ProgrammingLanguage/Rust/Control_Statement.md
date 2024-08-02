@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Control_Statement/","dgPassFrontmatter":true,"created":"2024-07-10T17:04:34.946+09:00","updated":"2024-08-01T17:36:39.334+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Control_Statement/","dgPassFrontmatter":true,"created":"2024-07-10T17:04:34.946+09:00","updated":"2024-08-02T16:19:50.889+09:00"}
 ---
 
 
@@ -71,7 +71,7 @@ fn main() {
 
 ### `if`는 표현식이다
 
-한편 `if`는 [[ProgrammingLanguage/Rust/Function#^a14250\|표현식]]에 해당하기 때문에 값을 반환한다. 이를 활용해 변수를 생성하는 `let` 구문의 우변에 사용할 수 있다.
+한편 `if`는 [](ProgrammingLanguage/Rust/Function.md#^a14250|표현식)에 해당하기 때문에 값을 반환한다. 이를 활용해 변수를 생성하는 `let` 구문의 우변에 사용할 수 있다.
 
 ```rust
 fn main() {
@@ -233,7 +233,7 @@ fn main() {
 
 ## `match`
 
-러스트에서 다양한 케이스를 제어하는 방법에는 `if`,  `else if`, `else`도 있지만, `match`를 사용하면 보다 더 많은 경우의 수를 포괄할 수 있다. `if`와 달리 `b ool` 이외의 타입도 조건으로 사용할 수 있고, 코드 자체도 더욱 잘 보인다. 이런 특성을 가지기 때문에 `match` 구문은 [[ProgrammingLanguage/Rust/Enumerations\|열거형]]*enumeration*과 함께 사용하는 것이 일반적이다.
+러스트에서 다양한 케이스를 제어하는 방법에는 `if`,  `else if`, `else`도 있지만, `match`를 사용하면 보다 더 많은 경우의 수를 포괄할 수 있다. `if`와 달리 `b ool` 이외의 타입도 조건으로 사용할 수 있고, 코드 자체도 더욱 잘 보인다. 이런 특성을 가지기 때문에 `match` 구문은 [열거형](Enumerations.md)*enumeration*과 함께 사용하는 것이 일반적이다.
 
 ### `match`와 열거형
 

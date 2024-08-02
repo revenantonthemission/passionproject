@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Data_Type/","dgPassFrontmatter":true,"created":"2024-06-17T10:34:47.323+09:00","updated":"2024-07-22T23:27:27.640+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Data_Type/","dgPassFrontmatter":true,"created":"2024-06-17T10:34:47.323+09:00","updated":"2024-08-02T16:19:50.945+09:00"}
 ---
 
 
@@ -21,7 +21,7 @@ let x = 2.0; // 무슨 타입?
 
 다행히 `rust-analyzer`처럼 각각의 변수가 어떤 타입을 가지게 되는지 표시해주는 프로그램들이 많기 때문에, 컴파일러가 자동으로 배정해주는 타입을 우리가 알아서 추론해야 한다거나 그럴 일은 없다. 회색으로 나타나는 코드는 실제 코드가 아니다.
 
-![typeautodisplay.png](/img/user/ProgrammingLanguage/Rust/typeautodisplay.png)
+![typeautodisplay](/img/user/ProgrammingLanguage/Rust/typeautodisplay.png)
 
 ### 수동으로 자료형 지정하기
 
@@ -131,7 +131,7 @@ graph LR
 
 ### 실수형 타입
 
-부동 소수점*Floating-point* 숫자를 다루는 기본 타입은 `f32`와 `f64` 두 개로, 각각 32비트와 64비트의 크기를 가진다. 이 중 `f64`는 컴파일러가 부동 소수점 숫자를 담은 변수에 부여하는 기본 타입이며, [[ProgrammingLanguage/C/Data_Type#^eff12c\|2배 정밀도]]다. 반면 `f32`는 [[ProgrammingLanguage/C/Data_Type#^d427d3\|기본 정밀도]]다.
+부동 소수점*Floating-point* 숫자를 다루는 기본 타입은 `f32`와 `f64` 두 개로, 각각 32비트와 64비트의 크기를 가진다. 이 중 `f64`는 컴파일러가 부동 소수점 숫자를 담은 변수에 부여하는 기본 타입이며, [](ProgrammingLanguage/C/Data_Type.md#^eff12c|2배%20정밀도)다. 반면 `f32`는 [](ProgrammingLanguage/C/Data_Type.md#^d427d3|기본%20정밀도)다.
 
 ### 불리언 타입
 
@@ -149,7 +149,7 @@ fn main() {
 }
 ```
 
-러스트의 `char` 타입은 4바이트의 크기를 가지며 유니코드*Unicode* 스칼라 값[^2]을 표현한다. 그래서 러스트의 `char` 타입 변수에는 부호가 있는 문자나 한글/한자/가나 등 다른 언어의 `char` 타입에서는 다루기 어려웠던 문자들을 다룰 수 있지만, 그런 만큼 [[DS&Algorithm/String\|기존 언어와는 다른 방식으로 문자나 문자열에 접근해야 한다.]]
+러스트의 `char` 타입은 4바이트의 크기를 가지며 유니코드*Unicode* 스칼라 값[^2]을 표현한다. 그래서 러스트의 `char` 타입 변수에는 부호가 있는 문자나 한글/한자/가나 등 다른 언어의 `char` 타입에서는 다루기 어려웠던 문자들을 다룰 수 있지만, 그런 만큼 [기존 언어와는 다른 방식으로 문자나 문자열에 접근해야 한다.](String.md)
 
 [^2]: 유니코드 스칼라 값의 범위는 `U+0000`~`U+D7FF`, `U+E000`~`U+10FFFF`이다.
 
@@ -162,7 +162,7 @@ fn main() {
 int *ptr = nullptr;
 ```
 
-널 개념이 있으면 값이 없는 상태를 구현하기 쉽지만, 널 값을 널이 아닌 값처럼 사용하려고 할 때나 그 반대 상황에 생기는 여러 종류의 에러에 대처해야 한다. 러스트에도 [[ProgrammingLanguage/Rust/Error_Handling\|값의 유무를 표현할 수 있는 방법은 있지만]], C++의 `NULL` 혹은 `nullptr`이나 Java의 `null`처럼 널 개념을 직접적으로 나타내는 키워드는 없다.
+널 개념이 있으면 값이 없는 상태를 구현하기 쉽지만, 널 값을 널이 아닌 값처럼 사용하려고 할 때나 그 반대 상황에 생기는 여러 종류의 에러에 대처해야 한다. 러스트에도 [값의 유무를 표현할 수 있는 방법은 있지만](Error_Handling.md), C++의 `NULL` 혹은 `nullptr`이나 Java의 `null`처럼 널 개념을 직접적으로 나타내는 키워드는 없다.
 
 ---
 

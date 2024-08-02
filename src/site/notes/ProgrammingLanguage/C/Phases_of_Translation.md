@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["C","프로그래밍언어","기초"],"permalink":"/ProgrammingLanguage/C/Phases_of_Translation/","dgPassFrontmatter":true,"created":"2024-03-05T17:07:11.030+09:00","updated":"2024-07-16T16:15:52.717+09:00"}
+{"dg-publish":true,"tags":["C","프로그래밍언어","기초"],"permalink":"/ProgrammingLanguage/C/Phases_of_Translation/","dgPassFrontmatter":true,"created":"2024-03-05T17:07:11.030+09:00","updated":"2024-08-02T16:19:50.868+09:00"}
 ---
 
 
@@ -27,7 +27,7 @@
 
 ## Level
 
-![classification-of-programming-language.png](/img/user/ProgrammingLanguage/classification-of-programming-language.png)
+![classification-of-programming-language](/img/user/ProgrammingLanguage/classification-of-programming-language.png)
 
 프로그래밍에서 말하는 수준*level* 은 주로 언어에 적용되는 개념이다. 프로그래밍 언어는 키보드, 디스플레이, CPU와 같은 컴퓨터의 물리적 구성요소인 하드웨어*Hardware* 를 다루기 위해 제작되었다. 하드웨어를 어떻게 다룰 것인지에 맞게 다양한 프로그래밍 언어가 존재하고, 사람과 하드웨어 중 어느 쪽에 더 맞춰져 있는지에 따라 이들을 하나의 스펙트럼으로 묶을 수 있다. 어떤 프로그래밍 언어가 사람에 더 맞춰져 있다면, 사람의 언어와 소통 방식에 가깝게 구성되어 있을 것이고, 하드웨어에 더 맞춰져 있다면, 하드웨어의 언어와 소통 방식에 더 가깝게 구성되어 있을 것이다. 이때, 하드웨어 쪽에 더 가까운 언어를 저수준 언어*low-level language* 라 부르고, 인간 쪽에 더 가까운 언어를 고수준 언어*high-level language* 라 부른다.
 
@@ -55,19 +55,19 @@
 
 ### 전처리
 
-[[ProgrammingLanguage/C/Preprocessing\|전처리]]*Preprocessing* 는 C의 강력한 구성요소이며, C를 다른 프로그래밍 언어와 구분시키는 수많은 특징 중 하나다. C로 작성된 소스 코드에서 전처리기 지시자*Preprocessor Directive* 가 바로 전처리 과정에서 다루는 부분이다. 전처리는 전처리기*Preprocessor* 가 담당하고, 전처리 과정을 거치면 소스 코드에서 `#`으로 시작하는 코드들이 전부 처리되어 컴파일러가 직접 컴파일할 수 있는 컴파일 단위*Compilation Unit* / 변환 단위*Translation Unit* 가 만들어진다.
+[전처리](Preprocessing.md)*Preprocessing* 는 C의 강력한 구성요소이며, C를 다른 프로그래밍 언어와 구분시키는 수많은 특징 중 하나다. C로 작성된 소스 코드에서 전처리기 지시자*Preprocessor Directive* 가 바로 전처리 과정에서 다루는 부분이다. 전처리는 전처리기*Preprocessor* 가 담당하고, 전처리 과정을 거치면 소스 코드에서 `#`으로 시작하는 코드들이 전부 처리되어 컴파일러가 직접 컴파일할 수 있는 컴파일 단위*Compilation Unit* / 변환 단위*Translation Unit* 가 만들어진다.
 
 ### 컴파일
 
-[[ProgrammingLanguage/C/Compile\|컴파일]]*Compile* 의 의미는 세 가지 범위를 가지고 있다. 넓게는 소스 코드를 통해 최종 결과물을 만들어내는 과정 전체를 빌드*Building* 대신 컴파일이라 부르거나, 링킹을 제외한 나머지 과정 전체를 컴파일이라 부르기도 하고, 좁게는 컴파일 단위/변환 단위를 어셈블리 코드로 변환하는 과정을 컴파일이라 한다. 이 단계는 좁은 의미의 컴파일로, 컴파일러*Compiler* 가 이 단계를 맡아 컴파일 단위 / 변환 단위를 구문 분석하고 이를 코드가 실행될 하드웨어나 CPU에 맞는 어셈블리 코드로 변환한다.
+[컴파일](Compile.md)*Compile* 의 의미는 세 가지 범위를 가지고 있다. 넓게는 소스 코드를 통해 최종 결과물을 만들어내는 과정 전체를 빌드*Building* 대신 컴파일이라 부르거나, 링킹을 제외한 나머지 과정 전체를 컴파일이라 부르기도 하고, 좁게는 컴파일 단위/변환 단위를 어셈블리 코드로 변환하는 과정을 컴파일이라 한다. 이 단계는 좁은 의미의 컴파일로, 컴파일러*Compiler* 가 이 단계를 맡아 컴파일 단위 / 변환 단위를 구문 분석하고 이를 코드가 실행될 하드웨어나 CPU에 맞는 어셈블리 코드로 변환한다.
 
 ### 어셈블리
 
-[[ProgrammingLanguage/C/Assembly\|어셈블리]]*Assembly* 단계에서는 어셈블리 코드를 기계어 코드/기계 수준 명령으로 변환한다. 이때부터는 코드 자체가 하드웨어에 의존적이기 때문에 각 아키텍처에 맞는 고유의 어셈블러*Assembler* 가 존재하고, 이 어셈블러가 아키텍처에 맞는 어셈블리 코드를 해당 아키텍처의 기계어로 변환하는 과정을 담당한다. 이렇게 기계어로 변환된 파일을 재배치 가능한 목적 파일*Relocatable Object File* 혹은 중간 목적 파일*Intermediate Object File* 이라고 한다.
+[어셈블리](Assembly.md)*Assembly* 단계에서는 어셈블리 코드를 기계어 코드/기계 수준 명령으로 변환한다. 이때부터는 코드 자체가 하드웨어에 의존적이기 때문에 각 아키텍처에 맞는 고유의 어셈블러*Assembler* 가 존재하고, 이 어셈블러가 아키텍처에 맞는 어셈블리 코드를 해당 아키텍처의 기계어로 변환하는 과정을 담당한다. 이렇게 기계어로 변환된 파일을 재배치 가능한 목적 파일*Relocatable Object File* 혹은 중간 목적 파일*Intermediate Object File* 이라고 한다.
 
 ### 링크
 
-기계어로 된 파일이 나왔지만, 아직 이 파일은 실행 가능한 파일이 아니다. 최종 결과물을 얻으려면, 실행을 위해 필요한 목적 파일들을 연결해서 실행 가능한 목적 파일*Executable Object File* 을 만들어야 한다. 이 단계를 [[ProgrammingLanguage/C/Linking\|링크]]*Linking* 단계 라고 한다. 어셈블리 단계를 통해 만들어진 목적 파일 이외에 이 단계에서 필요한 목적 파일들은 자주 사용하기 때문에 이미 만들어져 있는 목적 파일들인 경우가 대부분이며, 만약 파일이 여러 개인 프로젝트를 빌드한다면 각 파일의 소스 코드에서 산출된 목적 파일들 또한 이 단계에서 연결한다.
+기계어로 된 파일이 나왔지만, 아직 이 파일은 실행 가능한 파일이 아니다. 최종 결과물을 얻으려면, 실행을 위해 필요한 목적 파일들을 연결해서 실행 가능한 목적 파일*Executable Object File* 을 만들어야 한다. 이 단계를 [링크](Linking.md)*Linking* 단계 라고 한다. 어셈블리 단계를 통해 만들어진 목적 파일 이외에 이 단계에서 필요한 목적 파일들은 자주 사용하기 때문에 이미 만들어져 있는 목적 파일들인 경우가 대부분이며, 만약 파일이 여러 개인 프로젝트를 빌드한다면 각 파일의 소스 코드에서 산출된 목적 파일들 또한 이 단계에서 연결한다.
 
 ---
 

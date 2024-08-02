@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["자료구조","알고리즘","기초"],"permalink":"/DS&Algorithm/Computational_Thinking/","dgPassFrontmatter":true,"created":"2024-04-02T16:42:42.068+09:00","updated":"2024-07-22T23:26:43.117+09:00"}
+{"dg-publish":true,"tags":["자료구조","알고리즘","기초"],"permalink":"/DS&Algorithm/Computational_Thinking/","dgPassFrontmatter":true,"created":"2024-04-02T16:42:42.068+09:00","updated":"2024-08-02T16:19:50.741+09:00"}
 ---
 
 
@@ -30,4 +30,4 @@
 + https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1
 
 ### 더보기
-+ [[DS&Algorithm/Data_Structure_Intro\|자료구조의 구현 과정]]
++ [자료구조의 구현 과정](Data_Structure_Intro.md)

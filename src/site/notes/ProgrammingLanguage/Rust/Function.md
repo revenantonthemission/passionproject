@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Function/","dgPassFrontmatter":true,"created":"2024-07-15T22:58:45.159+09:00","updated":"2024-07-22T23:27:43.845+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Function/","dgPassFrontmatter":true,"created":"2024-07-15T22:58:45.159+09:00","updated":"2024-08-02T16:19:50.922+09:00"}
 ---
 
 
@@ -83,7 +83,7 @@ fn main() {
 
 ## 메서드
 
-러스트에서 함수를 사용하는 대표적인 상황 중 하나는 [[ProgrammingLanguage/Rust/Struct#^eed5bb\|메서드]]*method*라 불리는 구조체의 기능을 구현하는 상황이다. 엄밀히 따지자면 메서드는 함수와 유사하되 다른 개념이지만, 함수와 여러 공통점을 가지고 있기 때문에 실제로 코드를 작성하고 보는 입장에서는 구조체에 딸린 함수라고 봐도 무방하다.
+러스트에서 함수를 사용하는 대표적인 상황 중 하나는 [](ProgrammingLanguage/Rust/Struct.md#^eed5bb|메서드)*method*라 불리는 구조체의 기능을 구현하는 상황이다. 엄밀히 따지자면 메서드는 함수와 유사하되 다른 개념이지만, 함수와 여러 공통점을 가지고 있기 때문에 실제로 코드를 작성하고 보는 입장에서는 구조체에 딸린 함수라고 봐도 무방하다.
 
 ## 클로저
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Env_Setting/","dgPassFrontmatter":true,"created":"2024-04-26T11:33:10.588+09:00","updated":"2024-07-19T17:47:18.091+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Env_Setting/","dgPassFrontmatter":true,"created":"2024-04-26T11:33:10.588+09:00","updated":"2024-08-02T16:19:50.947+09:00"}
 ---
 
 
@@ -19,15 +19,15 @@ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 
 macOS 기준으로 이 명령을 그대로 터미널에 입력하면 `rustup`이 설치된다. 다음과 같은 화면이 나오면 설치에 성공한 것이다.
 
-![rustupInstall.png](/img/user/ProgrammingLanguage/Rust/rustupInstall.png)
+![rustupInstall](/img/user/ProgrammingLanguage/Rust/rustupInstall.png)
 
 러스트를 최신 버전으로 업데이트하려면 터미널에 `rustup update`를 입력하면 된다.
 
-![rustUpdate.png](/img/user/ProgrammingLanguage/Rust/rustUpdate.png)
+![rustUpdate](/img/user/ProgrammingLanguage/Rust/rustUpdate.png)
 
 러스트를 삭제하고 싶다면 터미널에 `rustup self uninstall`을 입력하면 된다. 
 
-![rustupUninstall.png](/img/user/ProgrammingLanguage/Rust/rustupUninstall.png)
+![rustupUninstall](/img/user/ProgrammingLanguage/Rust/rustupUninstall.png)
 
 ## cargo
 { #24d4cc}
@@ -39,11 +39,11 @@ macOS 기준으로 이 명령을 그대로 터미널에 입력하면 `rustup`이
 
 터미널에서 커맨드 라인만으로 러스트 개발을 할 수 있지만, 효율적인 개발을 위해 언어를 불문하고 통합 개발 환경(IDE)을 사용하는 것이 일반적이다. 러스트에는 코드 자동 완성, 간편한 레퍼런스, 코드 분석 등을 지원하는 공식적인 유틸리티 플러그인 `rust-analyzer`가 있고, 여기서는 내가 사용하고 있는 Visual Studio Code(이하 VSC)를 기준으로 `rust-analyzer`를 설치하고 사용할 것이다.
 
-![rustAnalyzerMarket.png](/img/user/ProgrammingLanguage/Rust/rustAnalyzerMarket.png)
+![rustAnalyzerMarket](/img/user/ProgrammingLanguage/Rust/rustAnalyzerMarket.png)
 
 설치하고 나서 카고로 만든 프로젝트를 열면 기본적인 개발 환경이 완성된다.
 
-![rust-analyzer.png](/img/user/ProgrammingLanguage/Rust/rust-analyzer.png)
+![rust-analyzer](/img/user/ProgrammingLanguage/Rust/rust-analyzer.png)
 
 
 ## 추가 도구들

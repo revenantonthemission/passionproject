@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["프로그래밍언어"],"permalink":"/ProgrammingLanguage/Home/","dgPassFrontmatter":true,"created":"2024-02-08T15:40:33.742+09:00","updated":"2024-06-11T22:36:39.290+09:00"}
+{"dg-publish":true,"tags":["프로그래밍언어"],"permalink":"/ProgrammingLanguage/Home/","dgPassFrontmatter":true,"created":"2024-02-08T15:40:33.742+09:00","updated":"2024-08-02T16:19:50.878+09:00"}
 ---
 
 
@@ -15,13 +15,13 @@
 
 ## 목록
 
-+ [[ProgrammingLanguage/C/Home\|C]]
-+ [[ProgrammingLanguage/Dart/Home\|Dart]]
-+ [[ProgrammingLanguage/Rust/Home\|Rust]]
-+ [[ProgrammingLanguage/CPP/Home\|C++(예정)]]
-+ [[ProgrammingLanguage/Java/Home\|Java(예정)]]
-+ [[ProgrammingLanguage/Python/Home\|Python(예정)]]
-+ [[ProgrammingLanguage/Swift/Home\|Swift(예정)]]
++ [C](ProgrammingLanguage/C/Home.md)
++ [Dart](ProgrammingLanguage/Dart/Home.md)
++ [Rust](ProgrammingLanguage/Rust/Home.md)
++ [C++(예정)](ProgrammingLanguage/CPP/Home.md)
++ [Java(예정)](ProgrammingLanguage/Java/Home.md)
++ [Python(예정)](ProgrammingLanguage/Python/Home.md)
++ [Swift(예정)](ProgrammingLanguage/Swift/Home.md)
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Dart","Flutter","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Dart/Home/","dgPassFrontmatter":true,"created":"2024-02-06T20:35:19.173+09:00","updated":"2024-07-16T16:25:31.819+09:00"}
+{"dg-publish":true,"tags":["Dart","Flutter","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Dart/Home/","dgPassFrontmatter":true,"created":"2024-02-06T20:35:19.173+09:00","updated":"2024-08-02T16:19:50.874+09:00"}
 ---
 
 
@@ -11,4 +11,4 @@
 
 ## 목록
 
-+ [[ProgrammingLanguage/Dart/Overview\|첫 만남]]
++ [첫 만남](ProgrammingLanguage/Dart/Overview.md)

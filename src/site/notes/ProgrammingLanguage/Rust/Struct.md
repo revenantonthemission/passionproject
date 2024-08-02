@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Struct/","dgPassFrontmatter":true,"created":"2024-07-16T15:54:17.566+09:00","updated":"2024-07-19T14:22:43.637+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Struct/","dgPassFrontmatter":true,"created":"2024-07-16T15:54:17.566+09:00","updated":"2024-08-02T16:19:50.952+09:00"}
 ---
 
 
@@ -120,7 +120,7 @@ fn main() {
 
 ### 필드 초기화 축약법
 
-인스턴스를 만들 때 사용하는 또 한가지 방법은 [[ProgrammingLanguage/Rust/Function\|함수]]를 이용하는 것이다. 전달하고자 하는 필드를 매개변수로 하고 구조체를 반환하는 함수를 이용해 호출하는 쪽에서 인스턴스 생성을 함수 호출로 해결하는 방식이다. 
+인스턴스를 만들 때 사용하는 또 한가지 방법은 [함수](ProgrammingLanguage/Rust/Function.md)를 이용하는 것이다. 전달하고자 하는 필드를 매개변수로 하고 구조체를 반환하는 함수를 이용해 호출하는 쪽에서 인스턴스 생성을 함수 호출로 해결하는 방식이다. 
 
 ```rust
 fn build_user(email: String, username: String) -> User {
@@ -173,7 +173,7 @@ impl Rectangle {
 
 메서드를 정의하는 방법은 함수와 동일하다. 다만 차이점이 있다면 첫번째 매개변수가 항상 `self`라는 점인데, 여기서 `self`는 메서드를 호출하고 있는 구조체 인스턴스를 나타낸다. 일반적으로 `self`는 `Self`타입의 매개변수[^1]며, `Self`는 `impl` 블록의 대상이 되는 타입의 별칭이다. 함수의 매개변수에 대하여 언제나 타입을 명시해야 하지만, 상황에 따라 위와 같은 축약을 허용하기도 한다.
 
-[^1]: 정확히는 `Self`타입을 참조하는 참조자 타입이다. 이에 대한 내용은 [[ProgrammingLanguage/Rust/Ownership\|소유권]]을 참조.
+[^1]: 정확히는 `Self`타입을 참조하는 참조자 타입이다. 이에 대한 내용은 [소유권](Ownership.md)을 참조.
 
 ### 메서드 사용하기
 
@@ -213,5 +213,5 @@ impl Rectangle {
 ## 참고 자료 & 더보기
 
 + [The Rust Programming Language(한국어판), 5. 구조체로 연관된 데이터를 구조화하기](https://doc.rust-kr.org/ch05-00-structs.html)
-+ [[ProgrammingLanguage/Rust/Function\|함수]]
-+ [[ProgrammingLanguage/Rust/Ownership\|소유권]]
++ [함수](ProgrammingLanguage/Rust/Function.md)
++ [소유권](Ownership.md)

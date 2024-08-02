@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["언어학","IPA"],"permalink":"/Linguistics/IPA/","dgPassFrontmatter":true,"created":"2024-05-28T17:09:38.717+09:00","updated":"2024-06-16T14:24:53.047+09:00"}
+{"dg-publish":true,"tags":["언어학","IPA"],"permalink":"/Linguistics/IPA/","dgPassFrontmatter":true,"created":"2024-05-28T17:09:38.717+09:00","updated":"2024-08-02T16:19:50.767+09:00"}
 ---
 
 
@@ -38,7 +38,7 @@ IPA를 구성하는 요소는 크게 기본 문자*Letter*, 기본 문자에 붙
 
 이제 본격적으로 표를 살펴볼 때가 됐다. 앞서 살펴본 문자의 구성 요소와 말소리의 구성 요소를 기준으로 전체 표를 나눌 수 있다.
 
-![IPATable.jpg](/img/user/Linguistics/IPATable.jpg)
+![IPATable](/img/user/Linguistics/IPATable.jpg)
 
 ### Letters
 
@@ -149,7 +149,7 @@ Pulmonic 이외의 자음은 조음 방식에 따라 흡착음, 유성 내파음
 
 입술을 동그랗게 만들고 발음해야 하는 원순음*Rounded Vowel*은 그렇지 않은 다른 모음과 위치가 겹치는데, 표에서는 겹치는 모음을 짝으로 묶고[^1] 원순음을 오른쪽에 두고 있다.
 
-[^1]: ![RVPair.png](/img/user/Linguistics/RVPair.png)
+[^1]: ![RVPair](/img/user/Linguistics/RVPair.png)
 
 ### Diacritics
 

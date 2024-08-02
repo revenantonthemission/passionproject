@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Dart","Flutter","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Dart/Overview/","dgPassFrontmatter":true,"created":"2024-05-29T10:37:18.456+09:00","updated":"2024-07-11T10:26:52.164+09:00"}
+{"dg-publish":true,"tags":["Dart","Flutter","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Dart/Overview/","dgPassFrontmatter":true,"created":"2024-05-29T10:37:18.456+09:00","updated":"2024-08-02T16:19:50.878+09:00"}
 ---
 
 
@@ -16,38 +16,38 @@ Dart로 프로그램을 작성하기 위해서는 우선 개발 환경을 만들
 ### DartPad
 
 [DartPad](https://dartpad.dev)는 Dart 코딩을 시작하기 위한 가장 간편한 방법이다. 링크를 누르면 이런 화면이 나타난다. 왼쪽에는 프로그램의 코드가 있고, 오른쪽에는 왼쪽 코드의 실행 결과가 나타난다.
-![DartPad1.png](/img/user/ProgrammingLanguage/Dart/DartPad1.png)
+![DartPad1](/img/user/ProgrammingLanguage/Dart/DartPad1.png)
 왼쪽 코드의 `Run`버튼을 누르면 코드가 실행되고, 오른쪽에 실행 결과가 출력된다. 그 외에 `New`버튼은 새로운 프로젝트를 만들어주고, `Samples`버튼을 통해 여러가지 예시 코드를 확인할 수 있다.
-![DartPad2.png](/img/user/ProgrammingLanguage/Dart/DartPad2.png)
+![DartPad2](/img/user/ProgrammingLanguage/Dart/DartPad2.png)
 
 ### SDK 설치
 
 코딩의 차원을 넘어서 Dart를 조금 더 깊게 다루고 싶다면 [SDK를 설치](https://dart.dev/get-dart)해야 한다. 여러가지 옵션 중 개인적으로는 Dart를 배우는 이유라고 할 수 있는 [Flutter의 설치](https://docs.flutter.dev/get-started/install)를 추천한다. Dart SDK가 Flutter에 포함되어 있다.
-![SDK1.png](/img/user/ProgrammingLanguage/Dart/SDK1.png)
+![SDK1](/img/user/ProgrammingLanguage/Dart/SDK1.png)
 
 이렇게 터미널을 통해 버전을 확인할 수 있다면 설치가 완료된 것이다.
-![SDK2.png](/img/user/ProgrammingLanguage/Dart/SDK2.png)
+![SDK2](/img/user/ProgrammingLanguage/Dart/SDK2.png)
 
 #### Visual Studio Code 확장 설치
 
 하지만 SDK를 설치하는 경우 보통 여기서 끝나지 않는다. 개발 환경을 설정하기 위해 기존의 개발환경과 연계하는 것이 일반적이다. 여기서는 내가 사용하고 있는 Visual Studio Code(이하 VSC)의 확장을 통해 개발 환경을 설정할 것이다.
-![Extension.png](/img/user/ProgrammingLanguage/Dart/Extension.png)
+![Extension](/img/user/ProgrammingLanguage/Dart/Extension.png)
 마켓플레이스에서 Dart나 Flutter를 검색하면 바로 만날 수 있고, SDK와 마찬가지로 Flutter 확장이 Dart 확장을 포함하고 있기 때문에 Flutter 확장의 설치를 추천한다.
 
 확장을 설치하고 나면 `> dart`를 통해 간단하게 명령을 실행할 수 있는데, 아래 스크린샷처럼 Dart: New Project를 실행하면 새로운 프로젝트를 만들 수 있다.
-![Start1.png](/img/user/ProgrammingLanguage/Dart/Start1.png)
+![Start1](/img/user/ProgrammingLanguage/Dart/Start1.png)
 
 여러가지 템플릿이 존재하는데, 여기서는 콘솔 애플리케이션을 선택한다.
-![Start2.png](/img/user/ProgrammingLanguage/Dart/Start2.png)
+![Start2](/img/user/ProgrammingLanguage/Dart/Start2.png)
 
 로컬에 생성하기 때문에 어떤 폴더에 프로젝트를 만들 것인지 정해야 한다.
-![Start3.png](/img/user/ProgrammingLanguage/Dart/Start3.png)
+![Start3](/img/user/ProgrammingLanguage/Dart/Start3.png)
 폴더를 정하고 프로젝트의 이름을 설정하고 나면 새롭게 생성된 Dart 프로젝트를 확인할 수 있다.
 
-![Start4.png](/img/user/ProgrammingLanguage/Dart/Start4.png)
-![Welcome1.png](/img/user/ProgrammingLanguage/Dart/Welcome1.png)
+![Start4](/img/user/ProgrammingLanguage/Dart/Start4.png)
+![Welcome1](/img/user/ProgrammingLanguage/Dart/Welcome1.png)
 조금 더 확대해보면 이렇게 되어 있다.
-![Welcome2.png](/img/user/ProgrammingLanguage/Dart/Welcome2.png)
+![Welcome2](/img/user/ProgrammingLanguage/Dart/Welcome2.png)
 이제 가장 기본적인 Dart 프로그램을 분석하기 위한 모든 사전 작업이 끝났다.
 
 ## 프로젝트 분석하기
