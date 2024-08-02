@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["C","프로그래밍언어","기초","전처리"],"permalink":"/ProgrammingLanguage/C/Preprocessing/","dgPassFrontmatter":true,"created":"2024-03-15T12:32:38.847+09:00","updated":"2024-08-02T16:22:25.304+09:00"}
+{"dg-publish":true,"tags":["C","프로그래밍언어","기초","전처리"],"permalink":"/ProgrammingLanguage/C/Preprocessing/","dgPassFrontmatter":true,"created":"2024-03-15T12:32:38.847+09:00","updated":"2024-08-02T16:25:03.416+09:00"}
 ---
 
 

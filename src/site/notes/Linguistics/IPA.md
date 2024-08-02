@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["언어학","IPA"],"permalink":"/Linguistics/IPA/","dgPassFrontmatter":true,"created":"2024-05-28T17:09:38.717+09:00","updated":"2024-08-02T16:22:25.258+09:00"}
+{"dg-publish":true,"tags":["언어학","IPA"],"permalink":"/Linguistics/IPA/","dgPassFrontmatter":true,"created":"2024-05-28T17:09:38.717+09:00","updated":"2024-08-02T16:25:03.386+09:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Dart","Flutter","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Dart/Overview/","dgPassFrontmatter":true,"created":"2024-05-29T10:37:18.456+09:00","updated":"2024-08-02T16:22:25.322+09:00"}
+{"dg-publish":true,"tags":["Dart","Flutter","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Dart/Overview/","dgPassFrontmatter":true,"created":"2024-05-29T10:37:18.456+09:00","updated":"2024-08-02T16:25:03.435+09:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Enumerations/","dgPassFrontmatter":true,"created":"2024-07-16T15:53:50.423+09:00","updated":"2024-08-02T16:22:25.339+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Enumerations/","dgPassFrontmatter":true,"created":"2024-07-16T15:53:50.423+09:00","updated":"2024-08-02T16:27:43.887+09:00"}
 ---
 
 
@@ -75,6 +75,6 @@ m.call();
 + [The Rust Programming Language(한국어판), 6. 열거형과 패턴 매칭](https://doc.rust-kr.org/ch06-00-enums.html)
 
 ### 더보기
-+ [](Control_Statement.md#^37e07f|match)
-+ [](Control_Statement.md#^9f459b|if%20let)
++ [match](Control_Statement.md#`match`)
++ [if let](Control_Statement.md#`if%20let`%20:%20더욱%20간결하게!)
 + [구조체](ProgrammingLanguage/Rust/Struct.md)
