@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"tags":["C","프로그래밍언어","기초","전처리"],"permalink":"/ProgrammingLanguage/C/Preprocessing/","dgPassFrontmatter":true,"created":"2024-03-15T12:32:38.847+09:00","updated":"2024-08-02T16:34:07.387+09:00"}
+{"dg-publish":true,"tags":["C","프로그래밍언어","기초","전처리"],"permalink":"/ProgrammingLanguage/C/Preprocessing/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-01T01:32:10.000+09:00"}
 ---
+
 
 
 # 전처리
@@ -344,4 +345,4 @@ revenantonthemission@MacBook-Pro-2 PS %
 
 ### 더보기(추후 변경될 수 있습니다.)
 
-+ [전처리기 지시자](ProgrammingLanguage/C/Preprocessing_Directive.md)
++ [[ProgrammingLanguage/C/Preprocessing_Directive\|전처리기 지시자]]

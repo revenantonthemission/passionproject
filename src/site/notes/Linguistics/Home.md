@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"tags":["언어학"],"permalink":"/Linguistics/Home/","dgPassFrontmatter":true,"created":"2024-04-05T17:39:49.766+09:00","updated":"2024-08-02T16:41:21.379+09:00"}
+{"dg-publish":true,"tags":["언어학"],"permalink":"/Linguistics/Home/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-01T01:32:10.000+09:00"}
 ---
+
 
 
 # 언어학
@@ -11,7 +12,7 @@
 
 ## 목록
 
-+ [IPA](/Linguistics/IPA.md)
++ [[Linguistics/IPA\|IPA]]
 
 ---
 추후 업데이트됩니다.

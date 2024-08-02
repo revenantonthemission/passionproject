@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"tags":["C","프로그래밍언어","기초","전처리"],"permalink":"/ProgrammingLanguage/C/Preprocessing_Directive/","dgPassFrontmatter":true,"created":"2024-05-10T13:17:19.000+09:00","updated":"2024-08-02T16:34:07.390+09:00"}
+{"dg-publish":true,"tags":["C","프로그래밍언어","기초","전처리"],"permalink":"/ProgrammingLanguage/C/Preprocessing_Directive/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-01T01:32:10.000+09:00"}
 ---
+
 
 
 # 전처리기 지시자
@@ -328,5 +329,5 @@ int read_age();
 
 ### 더보기
 + [\#pragma 사용법 정리](https://hizstory.tistory.com/45)
-+ [전처리](ProgrammingLanguage/C/Preprocessing.md)
-+ [컴파일 과정에 대한 개요](ProgrammingLanguage/C/Phases_of_Translation.md)
++ [[ProgrammingLanguage/C/Preprocessing\|전처리]]
++ [[ProgrammingLanguage/C/Phases_of_Translation\|컴파일 과정에 대한 개요]]

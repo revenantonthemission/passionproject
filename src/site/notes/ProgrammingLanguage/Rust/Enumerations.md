@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Enumerations/","dgPassFrontmatter":true,"created":"2024-07-16T15:53:50.423+09:00","updated":"2024-08-02T16:34:07.443+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Enumerations/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-01T01:32:10.000+09:00"}
 ---
+
 
 
 # 열거형
@@ -65,16 +66,16 @@ let m = Message::Write(String::from("hello"));
 m.call();
 ```
 
-열거형에 대한 메서드를 사용하는 방법은 구조체에 대한 메서드를 사용하는 방법과 같다. `match`나 `if let` 등 열거형과 궁합이 좋은 제어 흐름 연산자는 이 글에서 다루는 범위를 넘어서며 자세한 내용은 [이 글](ProgrammingLanguage/Rust/Control_Statement.md)에서 확인할 수 있다.
+열거형에 대한 메서드를 사용하는 방법은 구조체에 대한 메서드를 사용하는 방법과 같다. `match`나 `if let` 등 열거형과 궁합이 좋은 제어 흐름 연산자는 이 글에서 다루는 범위를 넘어서며 자세한 내용은 [[ProgrammingLanguage/Rust/Control_Statement\|이 글]]에서 확인할 수 있다.
 
 ---
 
 ## 참고 자료 & 더보기
 
 ### 참고 자료
-+ [The Rust Programming Language(한국어판), 6. 열거형과 패턴 매칭](한국어판),%206.%20열거형과%20패턴%20매칭)
++ [The Rust Programming Language(한국어판), 6. 열거형과 패턴 매칭](https://doc.rust-kr.org/ch06-00-enums.html)
 
 ### 더보기
-+ [](ProgrammingLanguage/Rust/Control_Statement.md#`match`)
-+ [](ProgrammingLanguage/Rust/Control_Statement.md#`if%20let`%20:%20더욱%20간결하게!)
-+ [구조체](ProgrammingLanguage/Rust/Struct.md)
++ [[ProgrammingLanguage/Rust/Control_Statement#^37e07f\|match]]
++ [[ProgrammingLanguage/Rust/Control_Statement#^9f459b\|if let]]
++ [[ProgrammingLanguage/Rust/Struct\|구조체]]

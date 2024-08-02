@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"tags":["에리히프롬","사랑의기술","내멋대로맛보기"],"permalink":"/BookReview/Art_of_Loving/","dgPassFrontmatter":true,"created":"2024-05-27T14:32:57.305+09:00","updated":"2024-08-02T16:34:07.303+09:00"}
+{"dg-publish":true,"tags":["에리히프롬","사랑의기술","내멋대로맛보기"],"permalink":"/BookReview/Art_of_Loving/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-01T01:32:10.000+09:00"}
 ---
+
 
 
 # 『사랑의 기술』 맛보기

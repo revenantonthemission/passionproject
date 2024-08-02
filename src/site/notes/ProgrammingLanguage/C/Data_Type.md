@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"tags":["C","프로그래밍언어","기초"],"permalink":"/ProgrammingLanguage/C/Data_Type/","dgPassFrontmatter":true,"created":"2024-05-03T09:44:29.138+09:00","updated":"2024-08-02T16:34:07.383+09:00"}
+{"dg-publish":true,"tags":["C","프로그래밍언어","기초"],"permalink":"/ProgrammingLanguage/C/Data_Type/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-01T01:32:10.000+09:00"}
 ---
+
 
 
 # 자료형
@@ -50,7 +51,7 @@ mindmap
 
 정수 자료형의 가장 큰 특징은 다음의 형식으로 비트 패턴을 읽는다는 것이다.
 
-![binaryinteger](/img/user/ProgrammingLanguage/C/binaryinteger.png)
+![binaryinteger.png](/img/user/ProgrammingLanguage/C/binaryinteger.png)
 
 자료형의 크기에 따라 `char`,  `short`, `int`, `long`, `long long`으로 나뉘며 부호의 유무에 따라 `unsigned`와 `signed`가 앞에 추가된다. 다만 `signed`는 일반적으로 생략한다.
 
@@ -121,7 +122,7 @@ ASCII는 0부터 127까지의 7비트 정수 하나에 문자가 하나씩 대�
 
 실수 자료형의 형식은 이렇게 부호*sign*, 가수*fraction*, 지수*exponent*로 이루어져 있는데, 이 형식을 부동소수점*floating-point* 표기법이라 부른다.
 
-![signmantissaexp](/img/user/ProgrammingLanguage/C/signmantissaexp.png)
+![signmantissaexp.png](/img/user/ProgrammingLanguage/C/signmantissaexp.png)
 
 현재 표준은 IEEE754라는 표준이며, 실수를 잘 표현하고 쉽게 계산할 수 있도록 정규화[^2]나 지수 편향[^3]과 같은 여러 트릭[^4]을 사용한다. 이 표준안 안에서 실수가표현되는 방식은 기본 정밀도 방식과 2배 정밀도 방식이다.
 

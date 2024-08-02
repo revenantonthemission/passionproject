@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"tags":["자료구조","기초"],"permalink":"/DS&Algorithm/Data_Structure_Intro/","dgPassFrontmatter":true,"created":"2024-01-15T10:00:05.000+09:00","updated":"2024-08-02T16:34:07.316+09:00"}
+{"dg-publish":true,"tags":["자료구조","기초"],"permalink":"/DS&Algorithm/Data_Structure_Intro/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-01T01:32:10.000+09:00"}
 ---
+
 
 
 # 자료구조의 개념
@@ -31,8 +32,8 @@ ADT는 주로 **추상 자료형**이라 부르며, 프로그래밍 언어와 �
 
 ### 참고 자료
 + Kamran, A. (2022). _전문가를 위한 C_ (박지윤, Trans.; 1st ed.). 한빛미디어.
-+ [자료구조(Data Structure)란?](Data%20Structure)란?)
-+ [ADT(abstract data type) 과 자료구조의 차이](abstract%20data%20type)%20과%20자료구조의%20차이)
++ [자료구조(Data Structure)란?](https://okeybox.tistory.com/176)
++ [ADT(abstract data type) 과 자료구조의 차이](https://velog.io/@lky9303/ADTabstract-data-type-과-자료구조의-차이-feat.배열-리스트)
 
 ### 더보기
 + 추후 업데이트됩니다.
