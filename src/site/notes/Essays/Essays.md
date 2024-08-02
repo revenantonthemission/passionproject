@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["에세이"],"permalink":"/Essays/Essays/","dgPassFrontmatter":true,"created":"2024-02-08T15:32:39.848+09:00","updated":"2024-08-02T16:19:50.748+09:00"}
+{"dg-publish":true,"tags":["에세이"],"permalink":"/Essays/Essays/","dgPassFrontmatter":true,"created":"2024-02-08T15:32:39.848+09:00","updated":"2024-08-02T16:22:25.245+09:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Struct/","dgPassFrontmatter":true,"created":"2024-07-16T15:54:17.566+09:00","updated":"2024-08-02T16:19:50.952+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Struct/","dgPassFrontmatter":true,"created":"2024-07-16T15:54:17.566+09:00","updated":"2024-08-02T16:22:25.367+09:00"}
 ---
 
 

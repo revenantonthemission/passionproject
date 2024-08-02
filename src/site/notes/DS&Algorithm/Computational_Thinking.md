@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["자료구조","알고리즘","기초"],"permalink":"/DS&Algorithm/Computational_Thinking/","dgPassFrontmatter":true,"created":"2024-04-02T16:42:42.068+09:00","updated":"2024-08-02T16:19:50.741+09:00"}
+{"dg-publish":true,"tags":["자료구조","알고리즘","기초"],"permalink":"/DS&Algorithm/Computational_Thinking/","dgPassFrontmatter":true,"created":"2024-04-02T16:42:42.068+09:00","updated":"2024-08-02T16:22:25.241+09:00"}
 ---
 
 

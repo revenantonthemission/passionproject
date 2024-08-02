@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Error_Handling/","dgPassFrontmatter":true,"created":"2024-07-10T17:05:18.198+09:00","updated":"2024-08-02T16:19:50.895+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Error_Handling/","dgPassFrontmatter":true,"created":"2024-07-10T17:05:18.198+09:00","updated":"2024-08-02T16:22:25.337+09:00"}
 ---
 
 
