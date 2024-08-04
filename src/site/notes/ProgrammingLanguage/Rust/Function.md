@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Function/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-02T18:58:48.662+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Function/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-04T16:22:23.343+09:00"}
 ---
 
 
@@ -50,7 +50,6 @@ fn main() {
 ## 구문 ≠ 표현식
 { #a14250}
 
-
 앞서 살펴본 함수들은 모두 반환값이 없는 함수다. 하지만 그렇다고 해서 러스트에서 함수가 값을 반환하지 않는다는 것은 아니며, 러스트도 다른 언어처럼 함수가 값을 반환할 수 있다. 다만 다른 언어와 차이를 보이는 지점은 바로 값을 반환하는 방식이다. `five`라는 함수를 보면 값을 반환하는 함수가 어떻게 작성되는지 한 눈에 파악할 수 있다. 
 
 ```rust
@@ -88,66 +87,7 @@ fn main() {
 
 ## 클로저
 
-메서드는 일반 함수와 형태 상 많은 공통점을 가지고 있지만, 러스트는 클로저*closure*라는 전혀 다른 형태의 함수도 사용하고 있다. 클로저란, 변수에 저장하거나 다른 함수에 인수로 전달할 수 있는 익명 함수다.
-
-```rust
-//unwrap_or_else를 사용하면 Result가 Ok일 때 Ok 안의 값을 반환하고, Err일 때 클로저 안의 코드를 호출한다.
-
-let config = Config::build(&args).unwrap_or_else(|err| {
-
-	//표준 에러 출력을 위한 eprintln! 매크로
-	eprintln!("Problem parsing arguments: {err}");
-	
-	process::exit(1);
-	
-});
-```
-
-위에 주어진 예시 코드에서 `unwrap_or_else` 메서드 안에 클로저 표현식이 사용되었는데, 이 메서드를 호출한 인스턴스가 의도된 타입이 아닐 때 인자로 주어진 클로저를 실행하게 된다.
-
-사실 클로저 표현식은 함수와 유사한데, `fn`과 소괄호`()`를 쓰지 않는 대신. `||` 사이에 매개변수가 들어가고 중괄호를 통해 함수 본문을 정의하면 된다. 그럼에도 불구하고 클로저가 함수와 동떨어져 보이는 것은 일반적으로 클로저를 작성할 때 매개변수와 반환 값의 타입을 명시하지 않고 때에 따라서는 중괄호`{}`도 생략하기 때문인데, 생략된 코드를 추가하면 다음과 같다.
-
-```rust
-let config = Config::build(&args).unwrap_or_else(|err: &str| {
-
-	//표준 에러 출력을 위한 eprintln! 매크로
-	eprintln!("Problem parsing arguments: {err}");
-	process::exit(1);
-	
-});
-```
-
-이렇듯 클로저에서 사용되는 매개변수와 반환 값의 타입은 컴파일러가 알아서 추론하기 때문에, 같은 클로저를 여러 번 사용할 때 처음과 다른 타입의 인자를 넣으면 에러가 발생한다.
-
-```rust
-// closure-example/main.rs
-let example_closure = |x| x;
-let s = example_closure(String::from("hello"));
-let n = example_closure(5);
-```
-```bash
-$ cargo run
-   Compiling closure-example v0.1.0 (file:///projects/closure-example)
-error[E0308]: mismatched types
- --> src/main.rs:5:29
-  |
-5 |     let n = example_closure(5);
-  |             --------------- ^- help: try using a conversion method: `.to_string()`
-  |             |               |
-  |             |               expected struct `String`, found integer
-  |             arguments to this function are incorrect
-  |
-note: closure parameter defined here
- --> src/main.rs:2:28
-  |
-2 |     let example_closure = |x| x;
-  |                            ^
-
-For more information about this error, try `rustc --explain E0308`.
-error: could not compile `closure-example` due to previous error
-
-```
-
+메서드는 일반 함수와 형태 상 많은 공통점을 가지고 있지만, 러스트는 [[ProgrammingLanguage/Rust/Closure\|클로저]]*closure*라는 전혀 다른 형태의 함수도 사용하고 있다. 클로저란, 변수에 저장하거나 다른 함수에 인수로 전달할 수 있는 익명 함수다.
 
 ## 함수 포인터
 
