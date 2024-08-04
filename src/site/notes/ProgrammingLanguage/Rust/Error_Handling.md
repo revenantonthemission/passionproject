@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Error_Handling/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-04T12:23:15.780+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Error_Handling/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-04T15:58:53.147+09:00"}
 ---
 
 
@@ -126,6 +126,8 @@ fn main() {
 ### `panic!` 매크로
 
 #### 패닉
+{ #37a557}
+
 
 러스트 프로그램에서 복구할 수 없는 오류가 발생하면, 패닉*panic*이 발생한다. 패닉이 발생하면 우선 프로그램은 패닉이 발생한 각 함수에서 시작해 호출 과정을 거꾸로 거슬러 올라가면서 데이터를 청소하는 되감기*unwinding* 작업을 시작한다[^3]. 이후 실패 메시지가 출력되고, 프로그램이 사용하고 있던 메모리를 정리하는 작업은 운영체제가 담당한다. 이러한 패닉을 명시적으로 호출하는 매크로가 바로 `panic!` 매크로인데, 실제로 사용할 때는 출력문과 패닉을 연이어 수행한다는 느낌으로 사용한다.
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Project_Analysis/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-02T18:59:02.315+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Project_Analysis/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-04T16:16:15.616+09:00"}
 ---
 
 
@@ -230,7 +230,7 @@ use std::collections::*;
 
 러스트에서 패키지*package*는 보통 하나의 프로젝트에 해당하는 번들이다. 러스트에서 규모가 크지 않은 프로그램을 작성할 때 패키지로 작성하는 것이 일반적이며, [[ProgrammingLanguage/Rust/Env_Setting#^dbe51c\|개발 환경을 준비하면서]] 만났던 `rustfmt`나 `clippy`도 모두 패키지다. 패키지의 가장 기본적인 구성 요소는 아래와 같다.
 
-+ [[ProgrammingLanguage/Rust/Project_Analysis#^21ad76\|크레이트]]
++ [[ProgrammingLanguage/Rust/Project_Analysis#크레이트\|크레이트]]
 + `Cargo.toml` : 패키지에 대한 정보를 설정할 수 있는 곳이다. 이를테면 이름이나 패키지의 버전, 그리고 패키지가 정상적인 작동을 위해 필요로 하는 외부 패키지/의존성*dependencies*과 같은 정보를 여기서 작성한다.
 + `Cargo.lock` : `Cargo.toml`을 기반으로 생성되는 이 파일은 카고가 자동으로 만들어주기 때문에 신경쓸 필요가 없는 파일이다.
 + `.gitignore` : Git으로 패키지를 갱신할 때 제외할 파일들을 적는 곳이다.
@@ -260,7 +260,43 @@ graph TD
 
 ### `Cargo.toml`
 
-`Cargo.toml`에 무엇이 적혀있는지 자세하게 뜯어볼 때가 됐다. 이 파일은 절로 구성되며, `[package]`절이 패키지에 대한 정보를 적는 곳이고 작업공간에 대한 정보를 적는 곳은 `[workspace]`절이다. 이때 `Cargo.toml`은 여전히 각 패키지마다 존재하지만, 여기에 더해 작업공간 최상단에 전체 작업공간을 아우르는 `Cargo.toml`이 있고 `Cargo.lock`은 하나만 존재한다는 것을 알아야 한다.
+`Cargo.toml`에 무엇이 적혀있는지 자세하게 뜯어볼 때가 됐다. 이 파일은 중괄호`[]`로 둘러싸인 이름을 가지는 여러 개의 섹션으로 구성되어 있다.
+#### `[package]`
+
+이 섹션은 프로젝트에 대한 메타데이터를 적는 곳이다. 여기에는 프로젝트를 배포할 때 사용할 이름, 프로젝트에 적용될 라이선스, 프로젝트에 대한 설명 등이 들어간다.
+
+```toml
+# Cargo.toml
+
+[package]
+name = "guessing_game_tutorial"
+license = "MIT OR Apache-2.0"
+version = "0.1.0"
+edition = "2021"
+description = "A fun game where you guess what number the computer has chosen"
+```
+
+#### `[profile.*]`
+
+##### 릴리즈 프로필
+
+러스트에서는 `Cargo.toml`에서 프로젝트를 어떻게 컴파일할지 미리 정할 수 있는데, 이것을 릴리스 프로필*release profile*이라고 부른다. 프로필에 들어가는 선택사항 중에는 컴파일러가 코드를 최적화하는 정도*level of optimization*나 [[ProgrammingLanguage/Rust/Error_Handling#^37a557\|패닉]] 발생에 대응하는 전략*panic strategy* 등이 포함된다. 각 프로필은 서로에게 영향을 끼치지 않으며, 기본으로 제공되는 프로필은 `dev`, `release`, `test`, `bench`로 총 4개다. 일반적으로 개발 과정에서 사용하는 기본 프로필은 `dev` 프로필이며, 배포를 위한 기본 프로필은 `release`다.
+
+각 프로필은 기본 설정이 있는데, 현재 프로젝트에서 이 설정을 바꾸고 싶다면 `Cargo.toml` 파일에 `[profile.*]` 섹션을 명시하면 된다. 섹션 이름에서 `profile` 뒤에 오는 것이 바로 설정을 바꾸고자 하는 프로필의 이름이다. 프로필에서 바꾸고자 하는 각 설정에는 이름이 있고, 이 이름에 원하는 옵션에 해당하는 값을 아래와 같이 넣어주면 프로필의 설정값을 덮어씌울 수 있다.
+
+```toml
+# opt-level은 컴파일러가 코드에 적용할 최적화 수준에 대한 설정이다.
+
+[profile.dev]
+opt-level = 1
+
+[profile.release]
+opt-level = 2
+```
+
+#### `[workspace]`
+
+작업공간에 대한 정보를 적는 곳은 `[workspace]`절이다. 이때 `Cargo.toml`은 여전히 각 패키지마다 존재하지만, 여기에 더해 작업공간 최상단에 전체 작업공간을 아우르는 `Cargo.toml`이 있고 `Cargo.lock`은 하나만 존재한다는 것을 알아야 한다.
 
 ```toml
 # Cargo.toml
@@ -273,7 +309,11 @@ members = [
 ]
 ```
 
-최상단에 위치한 `Cargo.toml`에는 이렇게 작업공간을 구성하는 패키지에 대한 정보를 `[workspace]`절 아래에 있는 `members` 란에 적어주며, 내부에 있는 바이너리 크레이트가 내부에 있는 다른 라이브러리를 사용하는 경우 이렇게 명시적으로 내부 의존성을 추가한다. `[dependencies]` 절에는 작업공간에서 사용하는 외부 패키지에 대한 정보를 작성하며, 현재 있는 `Cargo.toml` 파일의 디렉토리를 기준으로 안쪽에 있으면 내부, 바깥쪽에 있으면 외부다.
+최상단에 위치한 `Cargo.toml`에는 이렇게 작업공간을 구성하는 패키지에 대한 정보를 `[workspace]`절 아래에 있는 `members` 란에 적어주며, 내부에 있는 바이너리 크레이트가 내부에 있는 다른 라이브러리를 사용하는 경우 이렇게 명시적으로 내부 의존성을 추가한다. 
+
+#### `[dependencies]`
+
+이 섹션에 작업공간에서 사용하는 외부 패키지에 대한 정보를 작성하며, 현재 있는 `Cargo.toml` 파일의 디렉토리를 기준으로 안쪽에 있으면 내부, 바깥쪽에 있으면 외부다.
 
 ```toml
 # adder/Cargo.toml
@@ -289,4 +329,5 @@ add_one = { path = "../add_one" }
 ## 참고 자료
 
 + [The Rust Programming Language(한국어판), 7. 커져 가는 프로젝트를 패키지, 크레이트, 모듈로 관리하기](https://doc.rust-kr.org/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html)
-+ [The Rust Programming Language(한국어판), 14.3. 카고 작업공간](https://doc.rust-kr.org/ch14-03-cargo-workspaces.html)
++ [The Rust Programming Language(한국어판), 14. 카고와 Crates.io 더 알아보기](https://doc.rust-kr.org/ch14-00-more-about-cargo.html)
++ [The Cargo Book, 3.5. Profiles](https://doc.rust-lang.org/cargo/reference/profiles.html)

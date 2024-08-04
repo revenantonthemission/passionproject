@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어","gardenEntry","gardenEntry"],"dg-home":true,"permalink":"/Passion Project/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-04T12:20:36.915+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어","gardenEntry"],"dg-home":true,"permalink":"/Passion Project/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-04T12:24:26.737+09:00"}
 ---
 
 
@@ -10,7 +10,7 @@
 
 ---
 
-# Projects
+# Projects.
 
 ## Food.duck()
 
@@ -30,7 +30,7 @@
 
 ---
 
-# Blogs
+# Blogs.
 
 모든 글은 지속적으로 갱신됩니다.
 
