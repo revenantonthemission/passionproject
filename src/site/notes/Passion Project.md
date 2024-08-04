@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"dg-home":true,"permalink":"/Passion Project/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-02T19:15:58.367+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어","gardenEntry"],"dg-home":true,"permalink":"/Passion Project/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-04T12:20:36.915+09:00"}
 ---
 
 
 
-# Welcome to Passion Project.
+# Passion Project.
 
 >   A **passion project** is a personal project that someone undertakes out of a strong interest or curiosity in a particular topic, idea, or skill.  It is usually a self-directed project that is not tied to any specific academic or professional requirement.  **Passion projects** can take many forms, including creative endeavors, community initiatives, research projects, or personal challenges.
 
