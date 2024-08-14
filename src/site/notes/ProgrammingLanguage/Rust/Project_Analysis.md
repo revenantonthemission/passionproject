@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Project_Analysis/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-04T16:16:15.616+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Project_Analysis/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-08T14:57:47.824+09:00"}
 ---
 
 
@@ -260,7 +260,7 @@ graph TD
 
 ### `Cargo.toml`
 
-`Cargo.toml`에 무엇이 적혀있는지 자세하게 뜯어볼 때가 됐다. 이 파일은 중괄호`[]`로 둘러싸인 이름을 가지는 여러 개의 섹션으로 구성되어 있다.
+`Cargo.toml`에 무엇이 적혀있는지 자세하게 뜯어볼 때가 됐다. 이 파일은 대괄호`[]`로 둘러싸인 이름을 가지는 여러 개의 섹션으로 구성되어 있다.
 #### `[package]`
 
 이 섹션은 프로젝트에 대한 메타데이터를 적는 곳이다. 여기에는 프로젝트를 배포할 때 사용할 이름, 프로젝트에 적용될 라이선스, 프로젝트에 대한 설명 등이 들어간다.

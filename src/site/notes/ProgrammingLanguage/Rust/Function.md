@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Function/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-04T16:22:23.343+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Function/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-05T14:56:03.926+09:00"}
 ---
 
 
@@ -87,7 +87,7 @@ fn main() {
 
 ## 클로저
 
-메서드는 일반 함수와 형태 상 많은 공통점을 가지고 있지만, 러스트는 [[ProgrammingLanguage/Rust/Closure\|클로저]]*closure*라는 전혀 다른 형태의 함수도 사용하고 있다. 클로저란, 변수에 저장하거나 다른 함수에 인수로 전달할 수 있는 익명 함수다.
+메서드는 일반 함수와 형태 상 많은 공통점을 가지고 있지만, 러스트는 [[ProgrammingLanguage/Rust/Closure\|클로저]]*closure*라는 전혀 다른 형태의 함수도 사용하고 있다. 클로저란 변수에 저장하거나 다른 함수에 인수로 전달할 수 있는 함수다.
 
 ## 함수 포인터
 
