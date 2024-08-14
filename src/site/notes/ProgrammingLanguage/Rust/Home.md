@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Home/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-02T18:58:53.413+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Home/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-14T17:26:13.153+09:00"}
 ---
 
 
@@ -20,7 +20,7 @@
 + [[ProgrammingLanguage/Rust/Enumerations\|열거형]]
 + [[ProgrammingLanguage/Rust/Control_Statement\|프로그램의 흐름을 통제하기]]
 + [[ProgrammingLanguage/Rust/Error_Handling\|오류를 처리하는 방법]]
-+ [[ProgrammingLanguage/Rust/Ownership\|소유권 (예정)]]
++ [[ProgrammingLanguage/Rust/Ownership\|소유권]]
 + [[ProgrammingLanguage/Rust/Trait\|트레이트 (예정)]]
 + [[ProgrammingLanguage/Rust/Test\|테스트 (예정)]]
 + [[ProgrammingLanguage/Rust/Generic\|제네릭 (예정)]]
