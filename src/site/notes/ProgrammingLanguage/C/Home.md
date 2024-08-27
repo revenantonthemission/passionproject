@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["C","프로그래밍언어"],"permalink":"/ProgrammingLanguage/C/Home/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-05T13:58:26.899+09:00"}
+{"dg-publish":true,"tags":["C","프로그래밍언어"],"permalink":"/ProgrammingLanguage/C/Home/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-27T12:47:26.618+09:00"}
 ---
 
  
@@ -14,9 +14,9 @@
 
 + [[ProgrammingLanguage/C/Phases_of_Translation\|C 프로그램을 만드는 과정]]
 + [[ProgrammingLanguage/C/Preprocessing\|전처리]]
-+ [[ProgrammingLanguage/C/Data_Type\|자료형]]
-+ [[ProgrammingLanguage/C/Preprocessing_Directive\|전처리기 지사자]]
-+ [[ProgrammingLanguage/C/Build_System\|빌드 시스템 (예정)]]
++ [[ProgrammingLanguage/C/Data Type\|자료형]]
++ [[ProgrammingLanguage/C/Preprocessing Directive\|전처리기 지사자]]
++ [[ProgrammingLanguage/C/Build System\|빌드 시스템 (예정)]]
 + [[ProgrammingLanguage/C/Generic\|제네릭 매크로 (예정)]]
 + [[ProgrammingLanguage/C/Function\|함수 (예정)]]
 + [[ProgrammingLanguage/C/Pointer\|포인터 (예정)]]

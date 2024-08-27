@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["내멋대로맛보기"],"permalink":"/BookReview/Home/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-02T18:51:01.363+09:00"}
+{"dg-publish":true,"tags":["내멋대로맛보기"],"permalink":"/BookReview/Home/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-27T12:46:41.134+09:00"}
 ---
 
 
@@ -13,8 +13,8 @@
 
 ## 목록
 
-+ [[BookReview/Art_of_Loving\|『사랑의 기술』 맛보기]]
-+ [[BookReview/On_Bullshit\|『개소리에 대하여』 맛보기]]
++ [[BookReview/Art of Loving\|『사랑의 기술』 맛보기]]
++ [[BookReview/On Bullshit\|『개소리에 대하여』 맛보기]]
 
 
 ---

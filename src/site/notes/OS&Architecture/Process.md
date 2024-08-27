@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"tags":["OS","컴퓨터아키텍처"],"permalink":"/OS&Architecture/Process/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-02T18:54:35.677+09:00"}
+{"dg-publish":true,"tags":["OS","컴퓨터아키텍처"],"permalink":"/OS&Architecture/Process/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-27T13:11:02.556+09:00"}
 ---
 
 
 
 # Process
 
-> 오늘날 우리는 컴퓨터로 여러가지 일을 동시에 합니다. 지금도 웹브라우저로 필요한 정보를 찾는 동시에 화면을 반으로 나누어 한쪽에 초고를 띄워놓고 나머지 반쪽 화면을 통해 이 글을 적고 있습니다. 어떻게 이런 일이 가능한 걸까요? 그 비밀은 프로세스*Process* 라는 개념에 있습니다. 이번 글에서는 프로세스에 대해 탐구합니다.
+> 오늘날 우리는 컴퓨터로 여러가지 일을 동시에 합니다. 지금도 웹브라우저로 필요한 정보를 찾는 동시에 화면을 반으로 나누어 한쪽에 초고를 띄워놓고 나머지 반쪽 화면을 통해 이 글을 적고 있습니다. 어떻게 이런 일이 가능한 걸까요? 그 비밀은 프로세스*Process* 라는 개념에 있습니다. 이번 글에서는 프로세스의 내부보다는 프로세스 그 자체에 대한 내용을 중점적으로 살펴봅니다.
 
 ---
 
@@ -20,11 +20,11 @@
 [^2]: 자세한 내용은 [이 링크](https://stackoverflow.com/questions/3073948/job-task-and-process-whats-the-difference)를 통해 확인할 수 있다. 오늘날 Job과 Task는 구분없이 사용되기도 하며 그 정의가 모호하다.
 [^3]: Kamran, A. (2022)에 의하면, 커널 수준에서 프로세스나 스레드를 다룰 때 작업*job* 이라는 용어를 프로세스나 스레드 대신 사용하기도 한다.
 
-## Program to Process
+## 프로그램에서 프로세스로
 
 그렇다면 프로그램은 어떻게 프로세스가 됐을까? 프로세스가 프로그램으로부터 생성되는 과정을 자세히 들여다보자.
 
-### Process Creation
+### 프로세스 생성하기
 
 우선 프로세스가 실행되기 위해서는 하드웨어에 접근할 수 있어야 한다. 그런데 이 하드웨어는 운영체제가 통제권을 쥐고 있어서 하드웨어에 접근하기 위해서는 운영체제의 허락이 있어야 한다. 그렇기 때문에 프로세스는 커널, 특히 모놀리식 커널*Monolithic Kernel* [^4]에서 생성된다. 사용자의 프로세스가 새 프로세스나 새 스레드를 생성하면, 시스템 호출 인터페이스가 요청을 받아서 커널로 전달하고, 커널에서는 이 요청에 대해 새 작업을 생성한다. 이 작업은 스케쥴러*Scheduler* 라는 모듈의 대기열에 배치되며 때가 되면 CPU 등 컴퓨터의 자원을 사용할 수 있게 된다.
 
@@ -58,15 +58,20 @@
     - 자식이 부모와 동일한 데이터를 가진다.
     - 자식 프로세스가 새로운 데이터를 가진다.
 
-## 프로세스의 구조
+실제로 프로세스를 생성하는 과정은 분량 상의 문제로 여기서 다루지 않고 [[OS&Architecture/External Practice\|다른 글]]에서 자세히 다루게 될 것이다.
 
-### Process Layout
+### 프로세스의 구조
+
+이렇게 만들어진 프로세스는 프로그램의 동적 인스턴스이며, 그 상태가 시시각각 변화하는 역동적인 과정이다. 그렇지만 당연히 고정된 골격이 있고, 이제 그 골격을 알아볼 차례다.
+
+#### 내부 구조
 
 운영체제의 관점에서, 일반적인 프로세스의 내부 구조는 다음과 같다.[^6]
 
 ![메모리 내부에 존재하는 프로세스의 레이아웃 예시](/img/user/OS&Architecture/ProcessLayout.png)
 
 프로세스에는 크게 네 개의 구역이 존재하는데, 각각 다음과 같다:
+
 - Code(Text) Section
     - 프로세스의 코드가 실행 가능한 상태로 저장되어 있다.
     - 크기가 고정되어 있으며, 실행 도중에 그 크기가 변하지 않는다.
@@ -80,13 +85,17 @@
     - 실행 중에 동적으로 할당된 메모리가 저장되어 있다.
     - 실행 중에 그 크기가 변한다.
 
+프로세스 내부를 직접 만져보고 자세하게 파헤치는 과정은 분량 문제로 여기서 다루지 않고 [[OS&Architecture/Internal Practice\|다른 글]]에서 자세히 다루게 될 것이다.
+
 [^6]: 이 레이아웃은 운영체제가 프로세스를 인식하는 형태이며, 이 형태를 가상 주소 공간*Virtual Address Space* 이라 부르기도 한다.
 
-### Process Control Block(PCB)
+#### Process Control Block
+
+운영체제는 프로세스를 주기적으로 바꿔주면서 CPU가 최대한 쉬지 않고 일하게 만들어야 하기 때문에, 프로세스의 내부 구조와는 별개로 프로세스를 하나의 물체로 다룰 필요가 있다.
 
 ![PCB의 레이아웃](/img/user/OS&Architecture/PCBLayout.png)
 
-운영체제는 프로세스를 추상적으로 취급하는데, 이때 하나의 프로세스를 Process Control Block(PCB)이라는 하나의 객체로 취급된다.
+그래서 운영체제는 프로세스를 하나의 물체처럼 추상적으로 취급하는데, 이때 하나의 프로세스를 Process Control Block(이하 PCB)이라는 하나의 객체로 취급된다.
 PCB는 프로세스마다 가지고 있는, 프로세스를 통제하기 위한 모든 정보들의 집합으로, Task Control Block라 부르기도 한다. 여기에는 다음의 정보가 포함되어 있다.
 
 - Process State
@@ -98,35 +107,29 @@ PCB는 프로세스마다 가지고 있는, 프로세스를 통제하기 위한 
 - Accounting Information
 - I/O Status Information
 
-### Process on Memory
+PCB에 대한 자세한 내용은 분량 상의 문제로 [[OS&Architecture/PCB\|다른 글]]에서 자세히 다루게 될 것이다.
+
+#### 메모리 위의 프로세스
 
 ![가상 메모리와 물리 메모리](/img/user/OS&Architecture/MemoryPaging.png)
 
 앞서 프로세스의 레이아웃을 살펴보았다. 그러나 실제로 프로세스가 메인 메모리에 저장되어 있는 모습을 이해하기 위해서는 소프트웨어의 관점에서 레이아웃을 볼 때와는 다른 관점으로 접근할 필요가 있다. 실제 프로세스는 메인 메모리 내 여기저기에 흩어져 있으며, 운영체제는 메모리 가상화*Memory Virtualization* 를 통해 실제로는 흩어져 있는 프로세스를 하나의 통합된 주소 공간으로 파악한다.
 
-## 프로세스 다루기
+하드웨어의 관점에서 보는 프로세스는 분량 상의 문제로 다른 글에서 자세히 다루게 될 것이다.
 
-> 운영체제가 프로세스를 다루는 방법으로는 스케쥴링을 통한 재배치, 프로세스 간의 소통 방법인 IPC 등이 있는데, 여기서는 그 방법과 프로세스를 다루는 과정에서 발생하게 되는 상황들을 다룹니다.
+## 프로세스 활용하기
 
-### Inter-process Communication(IPC)
+현실에서는 프로세스를 수십 개 다루는 것 정도 쯤이야 기본이다. 그래서 그 수십 개의 프로세스를 조화롭게 사용하기 위한 여러가지 기술이 있다. 그 중 대표적인 것이 바로 [[OS&Architecture/Scheduler\|스케줄러]]와 [[OS&Architecture/IPC\|프로세스 간 소통(Inter-Process Communication, IPC)]]인데, 분량 상 여기서 다루지는 않을 것이다.
 
-오늘날 운영체제 위에서 수많은 프로세스가 작동하고 있다. 효율적인 작업을 위해서는 프로세서 간의 소통이 필요할 때도 있다. 이를테면 프로세스끼리 데이터를 주고 받거나, 한 프로세스가 다른 프로세스의 서브루틴*subroutine* 이 되는 상황이 있다. 이렇게 프로세스끼리 서로 영향을 주고 받기 위해서는 프로세스 간 소통 시스템이 있어야 하는데, 이것이 바로 Inter-process Communication(IPC)이다. 프로세스 간 소통을 하기 위해 오늘날 운영체제에서는 공유 메모리에 프로세스들이 직접 접근하는 방법을 사용하거나, 한 프로세스가 메시지 큐*Message Queue* 의 입구에 메시지를 넣고 다른 프로세스가 큐의 출구에서 메시지를 뽑아오는 방법을 사용한다.
-
-### Scheduling
-
-오늘날 대부분의 운영체제는 멀티태스킹*Multitasking* 을 지원하며, 이는 곧 여러 개의 프로세스를 동시에 실행시키고 있다는 것을 의미한다. 그렇기 때문에 여러 개의 프로세스를 효율적으로 처리하기 위해 멀티태스킹을 지원하는 모든 운영체제는 커널*Kernel* 에는 프로세스의 실행 순서나 실행 시간을 조절해주는 프로그램인 스케쥴러*Scheduler*가 존재한다.
-
-### Process in Practice
-
-프로세스를 실제로 다루는 주요 운영체제들은 사용자가 여러 개의 프로세스를 다룰 수 있도록 API(Application Programming Interface)를 제공한다(ex. Windows - Win32 API, Linux - POSIX API).
-
-## Process Termination
+## 프로세스 종료하기
 
 프로세스가 모든 일을 마치고 종료될 때, 부모 프로세스는 상태 값을 받을 수 있다. 또한 자식 프로세스에게 할당됐던 자원들이 운영체제에 의해 해제된다. 시스템 호출*System Call* 이나 코드에 의해 자식 프로세스가 강제로 종료될 수 있는데, 이때 운영체제에 따라 부모 프로세스가 종료되면 자식 프로세스가 모두 멈추거나*Cascading Termination* , 모든 프로세스의 부모인 최초의 프로세스를 부모로 다시 정하기도 한다.
 
 이 과정에서 실제 프로세스는 종료했지만 부모 프로세스가 그 상태를 확인하지 못했을 때(ex. POSIX API를 사용하는 환경에서 `wait()` 함수를 호출하기 전에 자식 프로세스가 먼저 종료됨) 이 프로세스를 좀비 프로세스*Zombie Process*라고 부른다. 실제로는 종료된 프로세스지만, 이들을 관찰하는 부모 프로세스의 입장에서는 아직 종료된 프로세스가 아니다.
 
 반대로 부모 프로세스가 종료를 위해 시스템 호출을 사용하지 못하고 먼저 종료된 경우, 자식 프로세스는 고아 프로세스*Orphan Process*가 되어 홀로 남겨진다. 종료 후 상태에 대한 정보를 넘길 부모 프로세스가 없는 상황을 해결하기 위해 POSIX 환경에서는 `init` 프로세스를 이들의 새로운 부모 프로세스로 지정한다.
+
+실제로 프로세스를 종료시키는 과정은 분량 상의 문제로 여기서 다루지 않고 [[OS&Architecture/External Practice\|다른 글]]에서 자세히 다루게 될 것이다.
 
 ---
 
@@ -138,10 +141,10 @@ PCB는 프로세스마다 가지고 있는, 프로세스를 통제하기 위한 
 + Silberschatz, A., Galvin, P. B., & Gagne, G. (2018). _Operating system concepts_ (10th ed.). Wiley.
 + Arpaci-Dusseau, R. H., & Arpaci-Dusseau, A. C. (2014). _Operating Systems: Three Easy Pieces_ (Version 0.8). Arpaci-Dusseau Books, Inc., http://www.ostep.org
 
-### 더보기 (추후 변경될 수 있습니다.)
+### 더보기
 
-+ [[OS&Architecture/Process_on_Memory\|Process on Memory (예정)]]: 실제 메모리에 존재하는 프로세스의 메모리 구조에 대해 더 깊이 다룹니다.
-+ [[OS&Architecture/PCB\|Process Context Block (예정)]]
-+ [[OS&Architecture/IPC\|Inter-process Communication (예정)]]: IPC에 대해 더 깊이 다룹니다.
-+ [[OS&Architecture/Scheduler\|Scheduler (예정)]]: 스케쥴러에 대해 더 깊이 다룹니다.
-+ [[OS&Architecture/Process_in_Practice\|Process in Practice (예정)]]: 실제 프로세스를 다루는 구체적인 상황들을 다룹니다.
++ [[OS&Architecture/Internal Practice\|프로세스 내부 실습(예정)]]
++ [[OS&Architecture/External Practice\|프로세스 외부 실습(예정)]]
++ [[OS&Architecture/PCB\|Process Context Block(예정)]]
++ [[OS&Architecture/Scheduler\|스케줄러(예정)]]
++ [[OS&Architecture/IPC\|프로세스 간 소통(예정)]]

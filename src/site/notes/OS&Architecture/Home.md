@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["OS","컴퓨터아키텍처"],"permalink":"/OS&Architecture/Home/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-02T18:54:15.144+09:00"}
+{"dg-publish":true,"tags":["OS","컴퓨터아키텍처"],"permalink":"/OS&Architecture/Home/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-27T13:10:08.828+09:00"}
 ---
 
 
@@ -16,10 +16,16 @@
 
 ## 목록
 
-+ 컴퓨터의 구조(예정)
 + [[OS&Architecture/Process\|Process]]
++ [[OS&Architecture/Internal Practice\|프로세스 내부 탐사(예정)]]
++ [[OS&Architecture/External Practice\|프로세스 외부 탐사(예정)]]
++ [[OS&Architecture/IPC\|프로세스 간 소통(예정)]]
++ [[OS&Architecture/PCB\|Process Control Block(예정)]]
 + [[OS&Architecture/Thread\|Thread(예정)]]
-+ [[OS&Architecture/Interrupt\|Interrupt(예정)]]
++ [[OS&Architecture/ELF\|ELF(예정)]]
++ [[OS&Architecture/Kernel\|커널(예정)]]
++ [[OS&Architecture/Scheduler\|스케줄러(예정)]]
++ [[OS&Architecture/Race Condition\|경합 조건(예정)]]
 
 ---
 추후 업데이트됩니다.

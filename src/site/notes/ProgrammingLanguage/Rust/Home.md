@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Home/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-14T17:26:13.153+09:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Home/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-27T12:47:41.521+09:00"}
 ---
 
 
@@ -12,14 +12,14 @@
 
 ## 목록
 
-+ [[ProgrammingLanguage/Rust/Env_Setting\|사전 준비]]
-+ [[ProgrammingLanguage/Rust/Project_Analysis\|패키지, 크레이트, 모듈, 작업공간]]
++ [[ProgrammingLanguage/Rust/Env Setting\|사전 준비]]
++ [[ProgrammingLanguage/Rust/Project Analysis\|패키지, 크레이트, 모듈, 작업공간]]
 + [[ProgrammingLanguage/Rust/Function\|함수]]
-+ [[ProgrammingLanguage/Rust/Data_Type\|러스트의 자료형]]
++ [[ProgrammingLanguage/Rust/Data Type\|러스트의 자료형]]
 + [[ProgrammingLanguage/Rust/Struct\|구조체]]
 + [[ProgrammingLanguage/Rust/Enumerations\|열거형]]
-+ [[ProgrammingLanguage/Rust/Control_Statement\|프로그램의 흐름을 통제하기]]
-+ [[ProgrammingLanguage/Rust/Error_Handling\|오류를 처리하는 방법]]
++ [[ProgrammingLanguage/Rust/Control Statement\|프로그램의 흐름을 통제하기]]
++ [[ProgrammingLanguage/Rust/Error Handling\|오류를 처리하는 방법]]
 + [[ProgrammingLanguage/Rust/Ownership\|소유권]]
 + [[ProgrammingLanguage/Rust/Trait\|트레이트 (예정)]]
 + [[ProgrammingLanguage/Rust/Test\|테스트 (예정)]]
