@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["내멋대로맛보기"],"permalink":"/BookReview/Home/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-27T12:46:41.134+09:00"}
+{"dg-publish":true,"tags":["내멋대로맛보기"],"permalink":"/BookReview/Home/","dgPassFrontmatter":true,"created":"2024-08-01T00:32:10.000+08:00","updated":"2024-08-27T11:46:41.134+08:00"}
 ---
 
 

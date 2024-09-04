@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["에리히프롬","사랑의기술","내멋대로맛보기"],"permalink":"/BookReview/Art of Loving/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-02T18:51:08.007+09:00"}
+{"dg-publish":true,"tags":["에리히프롬","사랑의기술","내멋대로맛보기"],"permalink":"/BookReview/Art of Loving/","dgPassFrontmatter":true,"created":"2024-08-01T00:32:10.000+08:00","updated":"2024-08-02T17:51:08.007+08:00"}
 ---
 
 

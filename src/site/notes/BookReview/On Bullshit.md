@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["개소리에대하여","내멋대로맛보기"],"permalink":"/BookReview/On Bullshit/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-02T18:51:11.748+09:00"}
+{"dg-publish":true,"tags":["개소리에대하여","내멋대로맛보기"],"permalink":"/BookReview/On Bullshit/","dgPassFrontmatter":true,"created":"2024-08-01T00:32:10.000+08:00","updated":"2024-08-02T17:51:11.748+08:00"}
 ---
 
 

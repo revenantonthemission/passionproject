@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["C","프로그래밍언어"],"permalink":"/ProgrammingLanguage/C/Data Type/","dgPassFrontmatter":true,"created":"2024-08-01T01:32:10.000+09:00","updated":"2024-08-02T18:56:41.476+09:00"}
+{"dg-publish":true,"tags":["C","프로그래밍언어"],"permalink":"/ProgrammingLanguage/C/Data Type/","dgPassFrontmatter":true,"created":"2024-08-01T00:32:10.000+08:00","updated":"2024-08-02T17:56:41.476+08:00"}
 ---
 
 
