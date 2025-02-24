@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Ownership/","dgPassFrontmatter":true,"created":"2024-08-04T15:18:44.068+08:00","updated":"2024-08-27T11:47:26.635+08:00"}
+{"dg-publish":true,"tags":["Rust","프로그래밍언어"],"permalink":"/ProgrammingLanguage/Rust/Ownership/","dgPassFrontmatter":true,"created":"2024-08-04T16:18:44.068+09:00","updated":"2024-08-27T12:47:26.635+09:00"}
 ---
 
 # 소유권
